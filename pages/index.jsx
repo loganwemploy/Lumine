@@ -1,18 +1,46 @@
-import Head from 'next/head'
-import ItemThumbnails from '../components/ItemThumbnails'
+import Head from "next/head";
+import ProductDetail from '../components/ProductDetail'
+// import ShoppingCartFullPage from "../components/ShoppingCartFullPage";
+// import GridViewAlt from '../components/GridViewAlt'
+// import ItemThumbnails from '../components/ItemThumbnails'
 // import Catalog from '../components/Catalog'
-// import ProductDetail from '../components/ProductDetail'
+// import RecommendedProducts from '../components/RecommendedProducts'
+// import OrderInfo from '../components/OrderInfo'
 
 export default function Home() {
   return (
-   <>
-<ItemThumbnails />
+    <>
+      <h1>Previewing</h1>
+      <hr />
+      <br />
+      <br />
 
-{/* <ProductDetail /> */}
+      {/* -unhighlight the component and its corresponding import located at top of page*/}
 
-{/* <Catalog /> */}
+
+      {/* ### ProductDetail Component containing a mock up of the Product Detail Page. ### */}
+      <ProductDetail />
+
+      {/* ### Catalog Component containing a mockup of the Catalog-
+  Grid-(alternate versions) vs. List ### */}
+      {/* <Catalog /> */}
+
+      {/* ### GridViewAlt Component containing an alternate style of grid view products ###*/}
+      {/* <GridViewAlt /> */}
+
+      {/* ### ProductDetail Component containing a mock up of the Recommended Product Cards. ### */}
+      {/* <RecommendedProducts /> */}
+
+      {/* ### ShoppingCartFullPage Component containing a mock up of the FullPage ShoppingCart WIP ###*/}
+      {/* <ShoppingCartFullPage /> */}
+      
+      {/* ### ItemThumbnails Component containing a single row of img elements - selected thumbnail should be highlighted ### */}
+      {/* <ItemThumbnails /> */}
+     
+      {/* ### OrderInfo Component containing a mock up WIP of the orders page. ### */}
+      {/* <OrderInfo /> */}
 
 
     </>
-  )
+  );
 }

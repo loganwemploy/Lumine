@@ -1,13 +1,20 @@
 import React, { useState } from "react";
 import GridListToggle from "./GridListToggle";
 import { Row, Col, Button, Card } from "react-bootstrap";
+import GridViewAlt from "./GridViewAlt";
 
 const Catalog = () => {
   const [isGridView, setIsGridView] = useState(false);
   const listView = <GridListToggle />;
+  const gridViewAlt = <GridViewAlt />;
   const gridView = (
     <Row className="row">
-      <Col lg={4} md={6} sm={10} className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
+      <Col
+        lg={4}
+        md={6}
+        sm={10}
+        className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
+      >
         <Card className="card">
           {" "}
           <img
@@ -34,15 +41,23 @@ const Catalog = () => {
                 </button>{" "}
               </div>
             </div>{" "}
-          <img style={{maxHeight:'30px'}}
-            className="card-img-top"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
-          />
-            <button className="btn btn-primary w-100 rounded my-2">Add to cart</button>
+            <img
+              style={{ maxHeight: "30px" }}
+              className="card-img-top"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
+            />
+            <button className="btn btn-primary w-100 rounded my-2">
+              Add to cart
+            </button>
           </Card.Body>
         </Card>
       </Col>
-      <Col lg={4} md={6} sm={10} className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
+      <Col
+        lg={4}
+        md={6}
+        sm={10}
+        className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
+      >
         <Card className="card">
           {" "}
           <img
@@ -69,15 +84,23 @@ const Catalog = () => {
                 </button>{" "}
               </div>
             </div>{" "}
-            <img style={{maxHeight:'30px'}}
-            className="card-img-top"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
-          />
-            <button className="btn btn-primary w-100 rounded my-2">Add to cart</button>
+            <img
+              style={{ maxHeight: "30px" }}
+              className="card-img-top"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
+            />
+            <button className="btn btn-primary w-100 rounded my-2">
+              Add to cart
+            </button>
           </Card.Body>
         </Card>
       </Col>
-      <Col lg={4} md={6} sm={10}  className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
+      <Col
+        lg={4}
+        md={6}
+        sm={10}
+        className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
+      >
         <Card className="card">
           {" "}
           <img
@@ -104,15 +127,23 @@ const Catalog = () => {
                 </button>{" "}
               </div>
             </div>{" "}
-            <img style={{maxHeight:'30px'}}
-            className="card-img-top"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
-          />
-            <button className="btn btn-primary w-100 rounded my-2">Add to cart</button>
+            <img
+              style={{ maxHeight: "30px" }}
+              className="card-img-top"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
+            />
+            <button className="btn btn-primary w-100 rounded my-2">
+              Add to cart
+            </button>
           </Card.Body>
         </Card>
       </Col>
-      <Col lg={4} md={6} sm={10}className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
+      <Col
+        lg={4}
+        md={6}
+        sm={10}
+        className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
+      >
         <Card className="card">
           {" "}
           <img
@@ -139,15 +170,23 @@ const Catalog = () => {
                 </button>{" "}
               </div>
             </div>{" "}
-            <img style={{maxHeight:'30px'}}
-            className="card-img-top"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
-          />
-            <button className="btn btn-primary w-100 rounded my-2">Add to cart</button>
+            <img
+              style={{ maxHeight: "30px" }}
+              className="card-img-top"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
+            />
+            <button className="btn btn-primary w-100 rounded my-2">
+              Add to cart
+            </button>
           </Card.Body>
         </Card>
       </Col>
-      <Col lg={4} md={6} sm={10} className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
+      <Col
+        lg={4}
+        md={6}
+        sm={10}
+        className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
+      >
         <Card className="card">
           {" "}
           <img
@@ -174,15 +213,23 @@ const Catalog = () => {
                 </button>{" "}
               </div>
             </div>{" "}
-            <img style={{maxHeight:'30px'}}
-            className="card-img-top"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
-          />
-            <button className="btn btn-primary w-100 rounded my-2">Add to cart</button>
+            <img
+              style={{ maxHeight: "30px" }}
+              className="card-img-top"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
+            />
+            <button className="btn btn-primary w-100 rounded my-2">
+              Add to cart
+            </button>
           </Card.Body>
         </Card>
       </Col>
-      <Col lg={4} md={6} sm={10} className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
+      <Col
+        lg={4}
+        md={6}
+        sm={10}
+        className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
+      >
         <Card className="card d-relative">
           {" "}
           <img
@@ -209,20 +256,19 @@ const Catalog = () => {
                 </button>{" "}
               </div>
             </div>{" "}
-            <img style={{maxHeight:'30px'}}
-            className="card-img-top"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
-          />
-            <button className="btn btn-primary w-100 rounded my-2">Add to cart</button>
+            <img
+              style={{ maxHeight: "30px" }}
+              className="card-img-top"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbooksofisis.files.wordpress.com%2F2016%2F10%2Fstar_rating_4_of_5.png&f=1&nofb=1"
+            />
+            <button className="btn btn-primary w-100 rounded my-2">
+              Add to cart
+            </button>
           </Card.Body>
         </Card>
       </Col>
     </Row>
   );
-
-
-
-
 
   return (
     <div>
@@ -445,14 +491,17 @@ const Catalog = () => {
               right: "2.75em",
             }}
           >
-            <strong>Display</strong>
-            <Button className="btn-group">
+            <strong>Display &nbsp;</strong>
+            <Button
+              className="btn-group"
+              style={{ backgroundColor: "#efefef", border: "none" }}
+            >
               <button
                 onClick={() => {
                   setIsGridView(false);
                 }}
                 id="list"
-                className="btn btn-primary btn-sm"
+                className="btn btn-sm"
               >
                 <span className="glyphicon glyphicon-th-list"></span>List
               </button>{" "}
@@ -473,7 +522,7 @@ const Catalog = () => {
               width: "104%",
               height: "10vh",
               margin: "0 0 0 -1em",
-              borderRadius: "7px 7px 1px 1px"
+              borderRadius: "7px 7px 1px 1px",
             }}
           ></div>
           <div
@@ -484,7 +533,7 @@ const Catalog = () => {
               margin: "0 0 0 -1em",
             }}
           ></div>
-          {isGridView ? gridView : listView}
+          {isGridView ? gridViewAlt : listView}
         </div>
       </section>
       <style jsx>{`
