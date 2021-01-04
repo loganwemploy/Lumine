@@ -1,11 +1,13 @@
 import Head from "next/head";
-import ProductDetail from '../components/ProductDetail'
+// import ProductDetail from '../components/ProductDetail'
+// import Reviews from "../components/Reviews";
 // import ShoppingCartFullPage from "../components/ShoppingCartFullPage";
 // import GridViewAlt from '../components/GridViewAlt'
 // import ItemThumbnails from '../components/ItemThumbnails'
 // import Catalog from '../components/Catalog'
 // import RecommendedProducts from '../components/RecommendedProducts'
 // import OrderInfo from '../components/OrderInfo'
+
 
 export default function Home() {
   return (
@@ -39,6 +41,9 @@ export default function Home() {
      
       {/* ### OrderInfo Component containing a mock up WIP of the orders page. ### */}
       {/* <OrderInfo /> */}
+
+      {/* ### Reviews Component containing a mock up WIP of the users comments of a product. ### */}
+      {/* <Reviews /> */}
 
 
     </>
