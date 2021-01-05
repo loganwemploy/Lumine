@@ -13,7 +13,7 @@ const ProductDetail = () => {
   }, [quantity]);
 
   return (
-    <>
+    <div className="all">
       {/* <Col style={{ margin: "auto" }}> */}
       <Row>
         <Col sm={12} lg={12}>
@@ -440,6 +440,10 @@ const ProductDetail = () => {
 
       <style jsx>
         {`
+          .all {
+            padding: 2em 3em;
+            margin: auto;
+          }
           .preview {
             display: -webkit-box;
             display: -webkit-flex;
@@ -671,7 +675,7 @@ const ProductDetail = () => {
           }
         `}
       </style>
-    </>
+    </div>
   );
 };
 

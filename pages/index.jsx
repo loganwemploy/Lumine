@@ -1,4 +1,7 @@
 import Head from "next/head";
+import ReviewsAltv2 from "../components/ReviewsAltv2";
+
+// import ReviewsAlt from "../components/ReviewsAlt";
 // import ProductDetail from '../components/ProductDetail'
 // import Reviews from "../components/Reviews";
 // import ShoppingCartFullPage from "../components/ShoppingCartFullPage";
@@ -7,7 +10,9 @@ import Head from "next/head";
 // import Catalog from '../components/Catalog'
 // import RecommendedProducts from '../components/RecommendedProducts'
 // import OrderInfo from '../components/OrderInfo'
-
+// import ShoppingCartAlt from '../components/ShoppingCartAlt'
+// import RecommendedProductAlt from '../components/RecommendedProductAlt'
+// import ThankYou from "../components/ThankYou";
 
 export default function Home() {
   return (
@@ -19,9 +24,8 @@ export default function Home() {
 
       {/* -unhighlight the component and its corresponding import located at top of page*/}
 
-
       {/* ### ProductDetail Component containing a mock up of the Product Detail Page. ### */}
-      <ProductDetail />
+      {/* <ProductDetail /> */}
 
       {/* ### Catalog Component containing a mockup of the Catalog-
   Grid-(alternate versions) vs. List ### */}
@@ -32,20 +36,25 @@ export default function Home() {
 
       {/* ### ProductDetail Component containing a mock up of the Recommended Product Cards. ### */}
       {/* <RecommendedProducts /> */}
+      {/* <RecommendedProductAlt />    */}
 
       {/* ### ShoppingCartFullPage Component containing a mock up of the FullPage ShoppingCart WIP ###*/}
       {/* <ShoppingCartFullPage /> */}
-      
+      {/* <ShoppingCartAlt /> */}
+
       {/* ### ItemThumbnails Component containing a single row of img elements - selected thumbnail should be highlighted ### */}
       {/* <ItemThumbnails /> */}
-     
+
       {/* ### OrderInfo Component containing a mock up WIP of the orders page. ### */}
       {/* <OrderInfo /> */}
 
-      {/* ### Reviews Component containing a mock up WIP of the users comments of a product. ### */}
+      {/* ### Reviews Component containing a mock up WIP of the users comments of a product or form to leave reviews. ### */}
       {/* <Reviews /> */}
+      {/* <ReviewsAlt /> */}
+      <ReviewsAltv2 />
 
-
+      {/* ### ThankYou Component containing a thankyou message for the users confirmation that an action was successful. ### */}
+      {/* <ThankYou /> */}
     </>
   );
 }
