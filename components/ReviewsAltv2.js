@@ -97,12 +97,18 @@ const ReviewsAltv2 = () => {
         .reviewList {
           padding: 0;
           list-style: none;
-          max-height: 200px;
+          max-height: 25em;
           overflow: auto;
         }
         .reviewList li {
           margin: 0;
+          padding: 20px;
           margin-top: 10px;
+          background-color: inherit;
+          height: 100%;
+        }
+        .reviewList li:nth-child(even) {
+          background-color: #efefef;
         }
         .reviewList li > div {
           display: table-cell;
