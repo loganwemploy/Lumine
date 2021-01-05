@@ -16,7 +16,7 @@ const QuickLinks = () => {
           <Row className="row">
             <Col lg={12} className="col-lg-12 text-center">
               <h2>Quick Links</h2>
-              <hr className="star-primary" />
+              <hr />
             </Col>
           </Row>
           <Row className="row">
@@ -93,16 +93,7 @@ const QuickLinks = () => {
           text-align: center;
         }
 
-        hr.star-light:after,
-        hr.star-primary:after {
-          content: "\f197";
-          display: inline-block;
-          position: relative;
-          top: -0.8em;
-          padding: 0 0.25em;
-          font-family: FontAwesome;
-          font-size: 2em;
-        }
+    
 
         hr.star-light {
           border-color: #212121;

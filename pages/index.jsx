@@ -1,6 +1,7 @@
 import Head from "next/head";
-import QuickLinks from "../components/QuickLinks";
-import ReviewsAltv2 from "../components/ReviewsAltv2";
+// import ProductDetailAltv2 from "../components/ProductDetailAltv2";
+// import QuickLinks from "../components/QuickLinks";
+// import ReviewsAltv2 from "../components/ReviewsAltv2";
 
 // import ReviewsAlt from "../components/ReviewsAlt";
 // import ProductDetail from '../components/ProductDetail'
@@ -27,6 +28,7 @@ export default function Home() {
 
       {/* ### ProductDetail Component containing a mock up of the Product Detail Page. ### */}
       {/* <ProductDetail /> */}
+      {/* <ProductDetailAltv2 /> */}
 
       {/* ### Catalog Component containing a mockup of the Catalog-
   Grid-(alternate versions) vs. List ### */}
@@ -35,7 +37,7 @@ export default function Home() {
       {/* ### GridViewAlt Component containing an alternate style of grid view products ###*/}
       {/* <GridViewAlt /> */}
 
-      {/* ### ProductDetail Component containing a mock up of the Recommended Product Cards. ### */}
+      {/* ### RecommededProducts Component containing a mock up of the Recommended Product Cards. ### */}
       {/* <RecommendedProducts /> */}
       {/* <RecommendedProductAlt />    */}
 
@@ -52,7 +54,7 @@ export default function Home() {
       {/* ### Reviews Component containing a mock up WIP of the users comments of a product or form to leave reviews. ### */}
       {/* <Reviews /> */}
       {/* <ReviewsAlt /> */}
-      <ReviewsAltv2 />
+      {/* <ReviewsAltv2 /> */}
 
       {/* ### Quick Links Component containing a mock up 3 buttons for quick navigation. ### */}
       {/* <QuickLinks /> */}
