@@ -1,4 +1,5 @@
 import Head from "next/head";
+import QuickLinks from "../components/QuickLinks";
 import ReviewsAltv2 from "../components/ReviewsAltv2";
 
 // import ReviewsAlt from "../components/ReviewsAlt";
@@ -52,6 +53,9 @@ export default function Home() {
       {/* <Reviews /> */}
       {/* <ReviewsAlt /> */}
       <ReviewsAltv2 />
+
+      {/* ### Quick Links Component containing a mock up 3 buttons for quick navigation. ### */}
+      {/* <QuickLinks /> */}
 
       {/* ### ThankYou Component containing a thankyou message for the users confirmation that an action was successful. ### */}
       {/* <ThankYou /> */}
