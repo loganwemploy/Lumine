@@ -1,7 +1,12 @@
 import Head from "next/head";
+import Hero from "../components/Hero";
+// import ProductDetailAltv2 from "../components/ProductDetailAltv2";
 // import ProductDetailAltv2 from "../components/ProductDetailAltv2";
 // import QuickLinks from "../components/QuickLinks";
 // import ReviewsAltv2 from "../components/ReviewsAltv2";
+// import SideMenu from "../components/SideMenu";
+// import SubHero from "../components/SubHero";
+// import ThankYou from "../components/ThankYou";
 
 // import ReviewsAlt from "../components/ReviewsAlt";
 // import ProductDetail from '../components/ProductDetail'
@@ -15,17 +20,42 @@ import Head from "next/head";
 // import ShoppingCartAlt from '../components/ShoppingCartAlt'
 // import RecommendedProductAlt from '../components/RecommendedProductAlt'
 // import ThankYou from "../components/ThankYou";
-
+import thankYouForOrder from './combos/index.js'
+import homeHeroSubHero from '../pages/combos/homeHeroSubHero'
+// import Login from "../components/Login";
+// import Alt from "../components/Alt";
+// import AdCopy from "../components/AdCopy";
+// import AstroCards from "../components/AstroCards";
 export default function Home() {
+
+
+ 
+ 
   return (
-    <>
+    <div className="body">
       <h1>Previewing</h1>
       <hr />
       <br />
       <br />
+      {/* <AstroCards /> */}
+      {/* <AdCopy /> */}
+      {/* <Alt /> */}
+  {/* {thankYouForOrder} */}
+ 
+  {homeHeroSubHero}
 
+ 
+{/* <div className="navz">
+      <Hero />
+</div>
+<div className="bodyz">
+<SubHero />
+</div>
+<div className="foot">
+<ProductDetailAltv2 />
+</div> */}
       {/* -unhighlight the component and its corresponding import located at top of page*/}
-
+     
       {/* ### ProductDetail Component containing a mock up of the Product Detail Page. ### */}
       {/* <ProductDetail /> */}
       {/* <ProductDetailAltv2 /> */}
@@ -37,6 +67,7 @@ export default function Home() {
       {/* ### GridViewAlt Component containing an alternate style of grid view products ###*/}
       {/* <GridViewAlt /> */}
 
+  {/* <Login /> */}
       {/* ### RecommededProducts Component containing a mock up of the Recommended Product Cards. ### */}
       {/* <RecommendedProducts /> */}
       {/* <RecommendedProductAlt />    */}
@@ -61,6 +92,16 @@ export default function Home() {
 
       {/* ### ThankYou Component containing a thankyou message for the users confirmation that an action was successful. ### */}
       {/* <ThankYou /> */}
-    </>
+      <style jsx>{`
+        .body {
+          width:100%;
+          margin:0;
+          padding:0;
+          box-sizing: border-box;
+          max-width:100vw;
+        }
+     
+      `}</style>
+    </div>
   );
 }
