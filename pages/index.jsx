@@ -20,8 +20,8 @@ import Hero from "../components/Hero";
 // import ShoppingCartAlt from '../components/ShoppingCartAlt'
 // import RecommendedProductAlt from '../components/RecommendedProductAlt'
 // import ThankYou from "../components/ThankYou";
-import thankYouForOrder from './combos/index.js'
-import homeHeroSubHero from '../pages/combos/homeHeroSubHero'
+import thankYouForOrder from '../lib/combos/index.js'
+import homeHeroSubHero from '../lib/combos/homeHeroSubHero'
 // import Login from "../components/Login";
 // import Alt from "../components/Alt";
 // import AdCopy from "../components/AdCopy";

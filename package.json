@@ -1,7 +1,7 @@
 {
   "name": "with-react-next",
   "version": "0.1.0",
-  "author": "",
+  "author": "git",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
