@@ -1,7 +1,7 @@
 {
-  "name": "with-react-bootstrap",
+  "name": "with-react-next",
   "version": "0.1.0",
-  "author": "Wenzhi Li",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
