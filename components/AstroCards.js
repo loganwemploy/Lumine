@@ -28,7 +28,7 @@ const AstroCards = () => {
       </fieldset>
       <span className="book-voters">1.987 voters</span>
      </div>
-     <div className="book-see">See The Book</div>
+     <div className="book-see">See The Candle</div>
     </div>
    </div>
    <div className="book-cell" style={{width:'39em'}}>
@@ -36,9 +36,9 @@ const AstroCards = () => {
      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
     </div>
     <div className="book-content">
-     <div className="book-title">Ten Thousand Skies Above You</div>
-     <div className="book-author">by Claudia Gray</div>
-     <div className="book-sum">The hunt for each splinter of Paul's soul sends Marguerite racing through a war-torn San Francisco.</div>
+     <div className="book-title">Eucalyptus Mint</div>
+     <div className="book-author">Classic Collection - $14.99</div>
+     <div className="book-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year.</div>
      <div className="rate">
       <fieldset className="rating blue">
        <input type="checkbox" id="star6" name="rating" value="5" />
@@ -54,7 +54,7 @@ const AstroCards = () => {
       </fieldset>
       <span className="book-voters">1.987 voters</span>
      </div>
-     <div className="book-see book-blue">See The Book</div>
+     <div className="book-see book-blue">See The Candle</div>
     </div>
    </div>
    <div className="book-cell" style={{width:'39em'}}>
@@ -62,9 +62,9 @@ const AstroCards = () => {
      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
     </div>
     <div className="book-content">
-     <div className="book-title">A Tale For The Time Being</div>
-     <div className="book-author">by Ruth Ozeki</div>
-     <div className="book-sum">In Tokyo, sixteen-year-old Nao has decided there’s only one escape from her aching loneliness and her classmates’ bullying.</div>
+     <div className="book-title">Lavender Bliss</div>
+     <div className="book-author">Classic Collection - $14.99</div>
+     <div className="book-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year.</div>
      <div className="rate">
       <fieldset className="rating purple">
        <input type="checkbox" id="star11" name="rating" value="5" />
@@ -80,7 +80,7 @@ const AstroCards = () => {
       </fieldset>
       <span className="book-voters">1.987 voters</span>
      </div>
-     <div className="book-see book-pink">See The Book</div>
+     <div className="book-see book-pink">See The Candle</div>
     </div>
    </div>
    <div className="book-cell" style={{width:'39em'}}>
@@ -88,7 +88,7 @@ const AstroCards = () => {
      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
     </div>
     <div className="book-content">
-     <div className="book-title">The Great Gatsby</div>
+     <div className="book-title">Th</div>
      <div className="book-author">by F.Scott Fitzgerald</div>
      <div className="book-sum">The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career.</div>
      <div className="rate">
@@ -106,7 +106,7 @@ const AstroCards = () => {
       </fieldset>
       <span className="book-voters">1.987 voters</span>
      </div>
-     <div className="book-see book-yellow">See The Book</div>
+     <div className="book-see book-yellow">See The Candle</div>
     </div>
    </div>
    <div className="book-cell" style={{width:'39em'}}>
@@ -505,7 +505,7 @@ const AstroCards = () => {
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         height: 100%;
-        max-height: 10.4em;
+        max-height: 11.9em;
       }
       
       .book-see {
@@ -760,7 +760,7 @@ const AstroCards = () => {
       .rate {
         display: inline-block;
         white-space: nowrap;
-        margin-top: 0.68em;
+        margin-top: 0.36em;
       }
       
       .book-rate > input:checked ~ label,

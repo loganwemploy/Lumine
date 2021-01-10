@@ -1,7 +1,10 @@
+import  { useState } from 'react';
 import Head from "next/head";
-import Hero from "../components/Hero";
-// import ProductDetailAltv2 from "../components/ProductDetailAltv2";
-// import ProductDetailAltv2 from "../components/ProductDetailAltv2";
+// import Hero from "../components/Hero";
+import BreadCrumbs from "../components/BreadCrumbs";
+
+
+import ProductDetailAltv2 from "../components/ProductDetailAltv2";
 // import QuickLinks from "../components/QuickLinks";
 // import ReviewsAltv2 from "../components/ReviewsAltv2";
 // import SideMenu from "../components/SideMenu";
@@ -14,7 +17,7 @@ import Hero from "../components/Hero";
 // import ShoppingCartFullPage from "../components/ShoppingCartFullPage";
 // import GridViewAlt from '../components/GridViewAlt'
 // import ItemThumbnails from '../components/ItemThumbnails'
-// import Catalog from '../components/Catalog'
+import Catalog from '../components/Catalog'
 // import RecommendedProducts from '../components/RecommendedProducts'
 // import OrderInfo from '../components/OrderInfo'
 // import ShoppingCartAlt from '../components/ShoppingCartAlt'
@@ -22,14 +25,22 @@ import Hero from "../components/Hero";
 // import ThankYou from "../components/ThankYou";
 import thankYouForOrder from '../lib/combos/index.js'
 import homeHeroSubHero from '../lib/combos/homeHeroSubHero'
+import productDetailWithBreadCrumbs from '../lib/combos/productDetailWithBreadCrumbs'
+import Gooey from '../components/Gooey';
+import Countdown from '../components/Countdown';
+import SubSubSectionv2 from '../components/SubSubSectionv2';
+import OverlayModal from '../components/OverlayModal';
+import PLP from '../components/PLP';
+
+
+
 // import Login from "../components/Login";
 // import Alt from "../components/Alt";
 // import AdCopy from "../components/AdCopy";
 // import AstroCards from "../components/AstroCards";
 export default function Home() {
 
-
- 
+ const [isProductPage, setIsProductPage] = useState(false)
  
   return (
     <div className="body">
@@ -37,12 +48,28 @@ export default function Home() {
       <hr />
       <br />
       <br />
+{/* <OverlayModal /> */}
+      {/* <Catalog /> */}
+      {/* {productDetailWithBreadCrumbs} */}
+      {/* <Gooey /> */}
+     {homeHeroSubHero}
+      <SubSubSectionv2 />
+   
+     {/* <Countdown /> */}
+       {/* <Gooey /> */}
+ 
+      {/* <Catalog /> */}
       {/* <AstroCards /> */}
       {/* <AdCopy /> */}
       {/* <Alt /> */}
   {/* {thankYouForOrder} */}
- 
-  {homeHeroSubHero}
+ {/* {isProductPage ? productDetailWithBreadCrumbs : homeHeroSubHero} */}
+  
+  {/* <Gooey /> */}
+  {/* <button style={{position:'absolute',top:'150vh',left:'23vw',zIndex:'999999999'}} onClick={()=>{setIsProductPage(!isProductPage)}}>toggle pages</button> */}
+
+
+
 
  
 {/* <div className="navz">

@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
+import BreadCrumbs from "./BreadCrumbs";
 
 const ProductDetailAltv2 = () => {
   const [isChecked, setIsChecked] = useState(true);
   return (
     <>
+         {/* <BreadCrumbs /> */}
       <div className="section-fluid-main all">
         <div className="section">
           <div className="info-wrap mob-margin">
@@ -151,7 +153,7 @@ const ProductDetailAltv2 = () => {
           color: #fff;
           background-color: #1f2029;
           min-height: 100vh;
-          margin: -9em 0 0 0;
+          margin: -25.75em 0 0 0;
           padding: 0;
           overflow-y: hidden;
         }
@@ -319,11 +321,12 @@ const ProductDetailAltv2 = () => {
           height: 100%;
           display: block;
           z-index: 1;
-          background-image: linear-gradient(196deg, #f1a9a9, #e66767);
+          background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcreativity103.com%2Fcollections%2FPaper%2Fpacking_paper_surface.jpg&f=1&nofb=1√ß');
           transition: all 250ms linear;
           transition-delay: 300ms;
         }
         .back-color.tshirt-2 {
+          background-image: linear-gradient(196deg, #f1a9a9, #e66767);
           background-image: linear-gradient(196deg, #4c4c4c, #262626);
           opacity: 0;
         }

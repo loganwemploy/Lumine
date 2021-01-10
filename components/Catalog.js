@@ -16,14 +16,14 @@ const Catalog = () => {
         className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
       >
         <Card className="card">
-          {" "}
+          
           <img
             className="card-img-top"
             src="https://via.placeholder.com/650/333333"
           />
           <Card.Body className="card-body">
             <h5>
-              <b>Item Title</b>{" "}
+              <b>Item Title</b>
             </h5>
             <div className="rounded bg-white discount" id="orange">
               10% off
@@ -31,16 +31,16 @@ const Catalog = () => {
             <div className="d-flex flex-row my-2">
               <div className="text-muted">$2.10</div>
               <div className="ml-auto">
-                {" "}
+                
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-plus" id="orange"></span>
-                </button>{" "}
-                <span className="px-sm-1">1 item</span>{" "}
+                </button>
+                <span className="px-sm-1">1 item</span>
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-minus" id="orange"></span>
-                </button>{" "}
+                </button>
               </div>
-            </div>{" "}
+            </div>
             <img
               style={{ maxHeight: "30px" }}
               className="card-img-top"
@@ -59,14 +59,14 @@ const Catalog = () => {
         className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
       >
         <Card className="card">
-          {" "}
+          
           <img
             className="card-img-top"
             src="https://via.placeholder.com/650/333333"
           />
           <Card.Body className="card-body">
             <h5>
-              <b>Item Title 2</b>{" "}
+              <b>Item Title 2</b>
             </h5>
             <div className="rounded bg-white discount" id="orange">
               10% off
@@ -74,16 +74,16 @@ const Catalog = () => {
             <div className="d-flex flex-row my-2">
               <div className="text-muted">$1.35</div>
               <div className="ml-auto">
-                {" "}
+                
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-plus" id="orange"></span>
-                </button>{" "}
-                <span className="px-sm-1">1 item</span>{" "}
+                </button>
+                <span className="px-sm-1">1 item</span>
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-minus" id="orange"></span>
-                </button>{" "}
+                </button>
               </div>
-            </div>{" "}
+            </div>
             <img
               style={{ maxHeight: "30px" }}
               className="card-img-top"
@@ -102,14 +102,14 @@ const Catalog = () => {
         className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
       >
         <Card className="card">
-          {" "}
+          
           <img
             className="card-img-top"
             src="https://via.placeholder.com/650/333333"
           />
           <Card.Body className="card-body">
             <h5>
-              <b>Item Title 3</b>{" "}
+              <b>Item Title 3</b>
             </h5>
             <div className="rounded bg-white discount" id="orange">
               10% off
@@ -117,16 +117,16 @@ const Catalog = () => {
             <div className="d-flex flex-row my-2">
               <div className="text-muted">$2.80</div>
               <div className="ml-auto">
-                {" "}
+                
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-plus" id="orange"></span>
-                </button>{" "}
-                <span className="px-sm-1">1 item</span>{" "}
+                </button>
+                <span className="px-sm-1">1 item</span>
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-minus" id="orange"></span>
-                </button>{" "}
+                </button>
               </div>
-            </div>{" "}
+            </div>
             <img
               style={{ maxHeight: "30px" }}
               className="card-img-top"
@@ -145,14 +145,14 @@ const Catalog = () => {
         className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
       >
         <Card className="card">
-          {" "}
+          
           <img
             className="card-img-top"
             src="https://via.placeholder.com/650/333333"
           />
           <Card.Body className="card-body">
             <h5>
-              <b>Item Title 4</b>{" "}
+              <b>Item Title 4</b>
             </h5>
             <div className="rounded bg-white discount" id="orange">
               10% off
@@ -160,16 +160,16 @@ const Catalog = () => {
             <div className="d-flex flex-row my-2">
               <div className="text-muted">$2.45</div>
               <div className="ml-auto">
-                {" "}
+                
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-plus" id="orange"></span>
-                </button>{" "}
-                <span className="px-sm-1">1 item</span>{" "}
+                </button>
+                <span className="px-sm-1">1 item</span>
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-minus" id="orange"></span>
-                </button>{" "}
+                </button>
               </div>
-            </div>{" "}
+            </div>
             <img
               style={{ maxHeight: "30px" }}
               className="card-img-top"
@@ -188,14 +188,14 @@ const Catalog = () => {
         className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
       >
         <Card className="card">
-          {" "}
+          
           <img
             className="card-img-top"
             src="https://via.placeholder.com/650/333333"
           />
           <Card.Body className="card-body">
             <h5>
-              <b>Item Title 5</b>{" "}
+              <b>Item Title 5</b>
             </h5>
             <div className="rounded bg-white discount" id="orange">
               10% off
@@ -203,16 +203,16 @@ const Catalog = () => {
             <div className="d-flex flex-row my-2">
               <div className="text-muted">$5.35</div>
               <div className="ml-auto">
-                {" "}
+                
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-plus" id="orange"></span>
-                </button>{" "}
-                <span className="px-sm-1">1 item</span>{" "}
+                </button>
+                <span className="px-sm-1">1 item</span>
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-minus" id="orange"></span>
-                </button>{" "}
+                </button>
               </div>
-            </div>{" "}
+            </div>
             <img
               style={{ maxHeight: "30px" }}
               className="card-img-top"
@@ -231,14 +231,14 @@ const Catalog = () => {
         className="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1"
       >
         <Card className="card d-relative">
-          {" "}
+          
           <img
             className="card-img-top"
             src="https://via.placeholder.com/650/333333"
           />
           <Card.Body className="card-body">
             <h5>
-              <b>Item Title 6</b>{" "}
+              <b>Item Title 6</b>
             </h5>
             <div className="rounded bg-white discount" id="orange">
               10% off
@@ -246,16 +246,16 @@ const Catalog = () => {
             <div className="d-flex flex-row my-2">
               <div className="text-muted price">$3.45</div>
               <div className="ml-auto">
-                {" "}
+                
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-plus" id="orange"></span>
-                </button>{" "}
-                <span>1 item</span>{" "}
+                </button>
+                <span>1 item</span>
                 <button className="border rounded bg-white sign">
                   <span className="fa fa-minus" id="orange"></span>
-                </button>{" "}
+                </button>
               </div>
-            </div>{" "}
+            </div>
             <img
               style={{ maxHeight: "30px" }}
               className="card-img-top"
@@ -273,7 +273,7 @@ const Catalog = () => {
   return (
     <div>
       <div className="filter">
-        {" "}
+        
         <button
           className="btn btn-default"
           type="button"
@@ -287,7 +287,7 @@ const Catalog = () => {
       </div>
       <div id="mobile-filter">
         <p className="pl-sm-0 pl-2">
-          {" "}
+          
           Home | <b>All Items</b>
         </p>
         <div className="border-bottom pb-2 ml-2">
@@ -300,19 +300,19 @@ const Catalog = () => {
           </div>
           <form>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="category1" />{" "}
-              <label for="category1">Category 1</label>{" "}
+              
+              <input type="checkbox" id="category1" />
+              <label for="category1">Category 1</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="category2" />{" "}
-              <label for="category2">Catagory 2</label>{" "}
+              
+              <input type="checkbox" id="category2" />
+              <label for="category2">Catagory 2</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="category3" />{" "}
-              <label for="category3">Category 3</label>{" "}
+              
+              <input type="checkbox" id="category3" />
+              <label for="category3">Category 3</label>
             </div>
           </form>
         </div>
@@ -323,29 +323,29 @@ const Catalog = () => {
           </div>
           <form>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="categoryA" />{" "}
-              <label for="categoryA">Category A</label>{" "}
+              
+              <input type="checkbox" id="categoryA" />
+              <label for="categoryA">Category A</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="categoryB" />{" "}
-              <label for="categoryB">Category B</label>{" "}
+              
+              <input type="checkbox" id="categoryB" />
+              <label for="categoryB">Category B</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="categoryC" />{" "}
-              <label for="categoryC">Category C</label>{" "}
+              
+              <input type="checkbox" id="categoryC" />
+              <label for="categoryC">Category C</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="categoryD" />{" "}
-              <label for="categoryD">Category D</label>{" "}
+              
+              <input type="checkbox" id="categoryD" />
+              <label for="categoryD">Category D</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="categoryE" />{" "}
-              <label for="categoryE">Category E</label>{" "}
+              
+              <input type="checkbox" id="categoryE" />
+              <label for="categoryE">Category E</label>
             </div>
           </form>
         </div>
@@ -356,16 +356,16 @@ const Catalog = () => {
           </div>
           <form>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="25off" />{" "}
-              <label for="25">25% off deals</label>{" "}
+              
+              <input type="checkbox" id="25off" />
+              <label for="25">25% off deals</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="5off" />{" "}
+              
+              <input type="checkbox" id="5off" />
               <label for="5off" id="off">
                 5% off deals
-              </label>{" "}
+              </label>
             </div>
           </form>
         </div>
@@ -373,7 +373,7 @@ const Catalog = () => {
       {/* <!-- Sidebar filter section --> */}
       <section id="sidebar">
         <p>
-          {" "}
+          
           Home | <b>All Items</b>
         </p>
         <div className="border-bottom pb-2 ml-2">
@@ -386,19 +386,19 @@ const Catalog = () => {
           </div>
           <form>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="category1" />{" "}
-              <label for="category1">Category 1</label>{" "}
+              
+              <input type="checkbox" id="category1" />
+              <label for="category1">Category 1</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="category2" />{" "}
-              <label for="category2">Category 2</label>{" "}
+              
+              <input type="checkbox" id="category2" />
+              <label for="category2">Category 2</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="category3" />{" "}
-              <label for="category3">category 3</label>{" "}
+              
+              <input type="checkbox" id="category3" />
+              <label for="category3">category 3</label>
             </div>
           </form>
         </div>
@@ -409,29 +409,29 @@ const Catalog = () => {
           </div>
           <form>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="categoryA" />{" "}
-              <label for="categoryA">Category A</label>{" "}
+              
+              <input type="checkbox" id="categoryA" />
+              <label for="categoryA">Category A</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="categoryB" />{" "}
-              <label for="categoryB">Category B</label>{" "}
+              
+              <input type="checkbox" id="categoryB" />
+              <label for="categoryB">Category B</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="categoryC" />{" "}
-              <label for="categoryC">Category C</label>{" "}
+              
+              <input type="checkbox" id="categoryC" />
+              <label for="categoryC">Category C</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="categoryD" />{" "}
-              <label for="categoryD">Category D</label>{" "}
+              
+              <input type="checkbox" id="categoryD" />
+              <label for="categoryD">Category D</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="catogoryE" />{" "}
-              <label for="catogoryE">Catagory E</label>{" "}
+              
+              <input type="checkbox" id="catogoryE" />
+              <label for="catogoryE">Catagory E</label>
             </div>
           </form>
         </div>
@@ -442,16 +442,16 @@ const Catalog = () => {
           </div>
           <form>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="25off" />{" "}
-              <label for="25">25% off deals</label>{" "}
+              
+              <input type="checkbox" id="25off" />
+              <label for="25">25% off deals</label>
             </div>
             <div className="form-group">
-              {" "}
-              <input type="checkbox" id="5off" />{" "}
+              
+              <input type="checkbox" id="5off" />
               <label for="5off" id="off">
                 5% off deals
-              </label>{" "}
+              </label>
             </div>
           </form>
         </div>
@@ -465,8 +465,8 @@ const Catalog = () => {
             </div>
             <div className="ml-auto mr-lg-4">
               <div id="sorting" className="border rounded p-1 m-1">
-                {" "}
-                <span className="text-muted">Sort by</span>{" "}
+                
+                <span className="text-muted">Sort by</span>
                 <select name="sort" id="sort">
                   <option value="popularity">
                     <b>Popularity</b>
@@ -477,7 +477,7 @@ const Catalog = () => {
                   <option value="rating">
                     <b>Rating</b>
                   </option>
-                </select>{" "}
+                </select>
               </div>
             </div>
           </div>
@@ -504,7 +504,7 @@ const Catalog = () => {
                 className="btn btn-sm"
               >
                 <span className="glyphicon glyphicon-th-list"></span>List
-              </button>{" "}
+              </button>
               <button
                 id="grid"
                 className="btn btn-success btn-sm"

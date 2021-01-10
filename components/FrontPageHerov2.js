@@ -80,7 +80,7 @@ header .logo
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.92;
+  opacity: 0.91;
 }
 .overlay
 {
@@ -212,6 +212,124 @@ header .logo
     font-size: 2em;
   }
 }
+
+
+
+.under-container {
+  width:100vw;
+  max-width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+
+@-webkit-keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, .75, 1);
+    transform: scale3d(1.25, .75, 1)
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, .85, 1);
+    transform: scale3d(1.15, .85, 1)
+  }
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1)
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+@keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, .75, 1);
+    -ms-transform: scale3d(1.25, .75, 1);
+    transform: scale3d(1.25, .75, 1)
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    -ms-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, .85, 1);
+    -ms-transform: scale3d(1.15, .85, 1);
+    transform: scale3d(1.15, .85, 1)
+  }
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    -ms-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1)
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    -ms-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand
+}
+
+.mouse {
+  margin: -5em 0 0 0;
+  display:flex;
+  width:27px;
+  height:50px;
+  border:2px solid #fff;
+  border-radius:30px;
+}
+
+.molette {
+  margin:12px auto auto auto;
+  width:5px;
+  height:5px;
+  background-color:#fff;
+  border: 1px solid #fff;
+  border-radius: 90px;
+  animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+  0%{opacity:0; margin:10px auto auto auto;}
+  10%{opacity:1;}
+  50%{margin:10px auto auto auto;}
+  90%{opacity:1;}
+  100%{opacity:0; margin:18px auto auto auto;}
+}
+
+.mousetext{
+  color:#fff;
+  font-weight: 500;
+  padding: 5px 7px 5px 7px;
+}
+
 `;
 
 const FrontPageHerov2 = () => {
@@ -229,26 +347,29 @@ const FrontPageHerov2 = () => {
         <section className="showcase">
     <header> 
     
-      <h5 style={{margin:'1em 0 0 -2.75em'}}>Hi, Welcome Sabrina</h5>
+      <h5 style={{margin:'1em 0 0 0.12em'}}>Hi, Welcome Sabrina</h5>
       <div className="toggle"></div>
     </header> 
     {/* <video src="https://dl3.pushbulletusercontent.com/dOVziYjxRCagDI1hZAJ2fbjnmUP2f3hC/production%20ID_4127839.mp4" muted loop autoplay></video>  */}
 
     {/* <video id="background-video" loop autoPlay> */}
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1217%2F3930%2Fproducts%2Fgs-110_2907b0fe-76e9-4f2d-a9f3-c410b887d47b_grande.jpg%3Fv%3D1487801152&f=1&nofb=1"  />
+                {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.0-9/135818886_112515884070164_2938439365681536199_o.jpg?_nc_cat=101&ccb=2&_nc_sid=a26aad&_nc_ohc=rLV-8ot9mK4AX9XYYIn&_nc_ht=scontent.ford4-1.fna&oh=5e862cad99833334e31b8d259ef43392&oe=6020E733"  /> */}
                 {/* <source src="https://media4.giphy.com/media/19GCNFw9dn4TaN9cas/200w.webp?cid=ecf05e474qmmap5bwprle3ej1a7dqgwlsy34sjh8tsuxok7d&rid=200w.webp" type="video/ogg" />
                 Your browser does not support the video tag. */}
             {/* </video> */}
     
-    <div className="overlay"></div>
     <div className="text" style={{filter:'contrast(168%) drop-shadow(1px 2px 5px rgba(0,0,0,0.22))'}}>
       <h2>Lumi</h2> 
       <h3>Candle Boutique</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
+      <p style={{color: '#cfcfcf'}}>Lumi Candle Handcrafted with all natural soy wax and essential oils. Naturally our wax is derived from soy grown in the USA and we use vegan cotton wicks. 🌿Handcrafted with all natural soy wax and essential oils.</p>
       <a href="#">Shop Candles</a>
+      <div className="under-container" style={{height:"10vh",position:'absolute',top:'50vh',left:'50%',transform:'translate(-50%,0)'}}>
+    <div className="mouse">
+      <div className="molette"></div>
+    </div>
+    <div className="mousetext">scroll down</div>
+  </div>
     </div>
     <ul className="social">
       <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"/></a></li>

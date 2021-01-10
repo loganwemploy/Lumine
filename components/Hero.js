@@ -2,10 +2,14 @@ import React from 'react'
 import AstroCards from './AstroCards'
 import FrontPageHero from './FrontPageHero'
 import FrontPageHerov2 from './FrontPageHerov2'
+import Head from 'next/head'
 
 const Hero = () => {
     return (
         <>
+        <Head>
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined|Material+Icons" rel="stylesheet" />
+            </Head>
            <div className="body hero-anime">	
 
 <div className="navigation-wrap bg-light start-header start-style">
@@ -14,7 +18,9 @@ const Hero = () => {
             <div className="col-12">
                 <nav className="navbar navbar-expand-md navbar-light">
                 
-                    <a className="navbar" href="" target="_blank"><img style={{width:'80px',borderRadius:'50%',filter:'drop-shadow(2px 3px 2px rgba(0,0,0,0.25))'}} src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.0-9/132046027_107771104544642_6249432347020636718_n.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_ohc=Qj32Tb0c0SEAX_ALX0f&_nc_oc=AQnK1yS67icH2XmJa88r9wm-9nViJ79eoyRSfyoAo7c3wWnr7JUF3ivWY-lxTgiIB8w&_nc_ht=scontent.ford4-1.fna&oh=d30f0b53b9a87371f0cc56f01525c650&oe=601D2C7B" alt=""/></a>	
+                    <a className="navbar" href="" target="_blank">
+                        <img style={{width:'80px',borderRadius:'50%',filter:'drop-shadow(2px 3px 2px rgba(0,0,0,0.25))'}} src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.0-9/132046027_107771104544642_6249432347020636718_n.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_ohc=Qj32Tb0c0SEAX_ALX0f&_nc_oc=AQnK1yS67icH2XmJa88r9wm-9nViJ79eoyRSfyoAo7c3wWnr7JUF3ivWY-lxTgiIB8w&_nc_ht=scontent.ford4-1.fna&oh=d30f0b53b9a87371f0cc56f01525c650&oe=601D2C7B" alt=""/>
+                        </a>	
                     
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -52,6 +58,10 @@ const Hero = () => {
                             <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                 <a className="nav-link" href="#">Contact</a>
                             </li>
+                        
+                              <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                  <a style={{transform:'translate3d(0,-0.5em,0)'}} href="#" className="link-button"><i  style={{padding: '5px 7px 5px 7px'}} className="material-icons-outlined" >shopping_cart</i></a>
+                              </li>
                         </ul>
                     </div>
                     

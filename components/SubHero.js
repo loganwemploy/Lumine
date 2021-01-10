@@ -1,9 +1,10 @@
 import React from 'react'
+import { Row } from 'react-bootstrap'
 
 const SubHero = () => {
     return (
         <div className="body">
-          <div className="shadow-title parallax-top-shadow">work</div>
+          <div className="shadow-title parallax-top-shadow">&nbsp; new</div>
   {/* <div className="section-parallax parallax-00" style={{backgroundImage: "url('http://www.ivang-design.com/svg-load/parallax/parallax-0.png')"}}></div>
   <div className="section-parallax parallax-01" style={{backgroundImage: "url('http://www.ivang-design.com/svg-load/parallax/parallax-01.png')"}}></div> */}
 
@@ -12,8 +13,12 @@ const SubHero = () => {
     <div className="container">
       <div className="row">
         <div className="col-12 text-center parallax-fade-top">
-          <p>we do magic</p>	
-          <h1>chase your<br/>passion</h1>
+          <p>Lumi Candle Boutique</p>	
+          <h1 style={{lineHeight:'1em'}}>Candle <br/><span style={{fontSize:'30px'}}>of the</span><br/> Month</h1>
+        </div>
+        <div className="row">
+          <div style={{margin: 'auto',textAlign:'center',background:'red',width: '68vw'}} className="col-12"><img src="https://placehold.it/200x200.jpg" alt=""/></div>
+          <div style={{margin: 'auto',textAlign:'center',background:'red',width: '68vw'}} className="col-12">descript</div>
         </div>
       </div>	
     </div>

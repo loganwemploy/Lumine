@@ -121,7 +121,6 @@ const GridListToggle = () => {
         </div>
       </Row>
       <style jsx>
-        {" "}
         {`
           a.list-group-item {
             height: auto;
