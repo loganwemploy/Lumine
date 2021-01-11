@@ -234,7 +234,7 @@ const PLP = () => {
 		</div>
 		<nav className="header-navigation">
 			<a href="#">About</a>
-			<a href="#" className="link-button">Your Cart<i className="material-icons-outlined">shopping_cart</i></a>
+			<a href="#" className="link-button">Cart<i className="material-icons-outlined">shopping_cart</i></a>
 		</nav>
 	</div>
 </header> 

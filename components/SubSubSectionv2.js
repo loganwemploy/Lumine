@@ -13,6 +13,7 @@ const StyledSubSubSectionv2  = styled.div`
   font-weight: 400;
   line-height: 26px;
   color: #000;
+  margin-top: -67vh;
 
 
 .rela-block {
@@ -422,7 +423,9 @@ h2 {
 }
 .words-section .content-container {
   display: flex;
+  flex-direction: column;
   position: absolute;
+  justify-content: space-around;
   margin: 0;
   top: 50%;
   left: 450px;
@@ -432,16 +435,47 @@ h2 {
   max-width: 900px;
 }
 .words-section.tea {
-  background: url("https://s-media-cache-ak0.pinimg.com/564x/d0/33/98/d03398a1a49061d02a55bdb1924baa56.jpg") left no-repeat;
+  display: flex;
+
+  /* background: url("https://lh3.googleusercontent.com/hMaBVHlLGfSmqUpkaJ3kVBuYj1QIm7-eV_hQzB15SYhXxxw291ZYzU_-5fgZamTGnP2mV7qDcmSAxOGd8X-FMNBGuhTfkTNI9Ejvwfy5=s192") left no-repeat; */
   background-color: #e7e7e7;
+  margin: auto;
+  
 }
 .words-section.leaves {
   background: url("https://img0.etsystatic.com/010/0/5254040/il_570xN.440476162_heqm.jpg") left no-repeat;
   background-size: 450px;
   background-color: #fafcf9;
+  display: none;
 }
 .words-section.right {
   background-position: right;
+}
+.words-section > .images img{
+  width: 100%;
+  height: 33.33%;
+}
+
+.words-section > .images img:nth-child(1){
+  width: 100%;
+  height: 33.33%;
+  opacity: 0;
+}
+.words-section > .images img:nth-child(2){
+  width: 100%;
+  height: 33.33%;
+  transform: translate3d(5em,0,0);
+}
+.words-section > .images img:nth-child(3){
+  width: 100%;
+  height: 33.33%;
+  opacity: 0;
+}
+.words-section > .images {
+  /* background:red;  */
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
 }
 .words-section.right .content-container {
   display: flex;
@@ -518,19 +552,29 @@ const SubSubSectionv2 = () => {
 
 
 <div className="rela-block tab"> 
-    <div className="abs-center">Weve got you covered with the freshest updog an the smoothest goodfam.<br/> <br/>Something about Gourmet Sammiches and Coffee!</div>
+    
 </div>
 
 <div className="rela-block words-section tea">
-    <div className="content-container">
-        <h2>Amazing Tastes</h2>
-        <p className="light">Sriracha readymade 8-bit, offal selfies yuccie beard trust fund craft beer art party tacos. Cliche food truck kickstarter, crucifix tofu kinfolk mlkshk artisan. Readymade post-ironic freegan letterpress PBR&amp;B 8-bit.</p>
+  <div className="images">
+    <img src="https://placehold.it/200x200.jpg" alt=""/>
+    <img style={{borderRadius:'48.5%'}} src="https://lh3.googleusercontent.com/hMaBVHlLGfSmqUpkaJ3kVBuYj1QIm7-eV_hQzB15SYhXxxw291ZYzU_-5fgZamTGnP2mV7qDcmSAxOGd8X-FMNBGuhTfkTNI9Ejvwfy5=s192" alt=""/>
+    <img src="https://placehold.it/200x200.jpg" alt=""/>
+    
+    </div>
+    <div className="content-container" >
+        <h2>Lumi Sales Point 1</h2>
+        <p className="light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ullam ipsum eligendi ex distinctio cum quasi laudantium, voluptatem laboriosam delectus impedit doloribus in eos voluptate nulla consectetur saepe illum iste velit corrupti neque sed. Aperiam obcaecati dolorem unde vero sequi?.</p>
     </div>
 </div>
 <div className="rela-block words-section leaves right">
     <div className="content-container">
-        <h2>Wholesome Ingredients</h2>
-        <p className="light">Flannel health goth bushwick deep v. Kogi butcher pabst retro, street art small batch craft beer typewriter. Pinterest semiotics selvage organic whatever, farm-to-table direct trade intelligentsia health goth normcore biodiesel street art. Before they sold out narwhal bicycle rights hella, messenger bag banh mi tacos pickled tote bag ugh tofu.</p>
+    <div className="abs-center" style={{display:'flex'}}>
+      <div>Release Details: The Yeezy BOOST 350 V2 ‘Natural'</div>
+      <div style={{display:'flex',flexDirection:'column'}}><p>The Yeezy BOOST 350 V2 lineup continues to grow. We recently had the ‘Carbon’ iteration, and now release details have been locked in for this ‘Natural’ joint. Revealed by Yeezy Mafia earlier this year, the shoe was originally called ‘Abez’, which translated to ‘Tin’ in Hebrew. It’s now undergone a name change, and will be referred to as ‘Natural’.</p>
+
+</div>
+    </div>
     </div>
 </div>
 <div className="rela-block large-section">

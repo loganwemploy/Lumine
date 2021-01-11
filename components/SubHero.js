@@ -11,14 +11,16 @@ const SubHero = () => {
 <div className="section full-height">
   <div className="section-title-wrap">
     <div className="container">
-      <div className="row">
+      <div className="row" style={{marginTop:'24em'}}>
         <div className="col-12 text-center parallax-fade-top">
           <p>Lumi Candle Boutique</p>	
-          <h1 style={{lineHeight:'1em'}}>Candle <br/><span style={{fontSize:'30px'}}>of the</span><br/> Month</h1>
+          <h1 style={{lineHeight:'1em',letterSpacing:'0.15em'}}>Candle <br/><span style={{fontSize:'30px'}}>of the</span><br/> Month</h1>
         </div>
         <div className="row">
-          <div style={{margin: 'auto',textAlign:'center',background:'red',width: '68vw'}} className="col-12"><img src="https://placehold.it/200x200.jpg" alt=""/></div>
-          <div style={{margin: 'auto',textAlign:'center',background:'red',width: '68vw'}} className="col-12">descript</div>
+          <div style={{margin: '5em auto 0 auto',textAlign:'center',background:'white',width: '68vw',height:'80vh',background:"url('https://placehold.it/200x200.jpg')",backgroundSize:'100% 90%'}} className="col-12">
+            {/* <img src="https://placehold.it/200x200.jpg" alt="" style={{objectFit:'cover',height:'100%',width:'100%',}}/> */}
+            </div>
+          <div style={{margin: 'auto',textAlign:'center',background:'red',width: '68vw',}} className="col-12">descript</div>
         </div>
       </div>	
     </div>
@@ -98,7 +100,8 @@ const SubHero = () => {
             width: 100%;
             display: block;
             overflow-x: hidden;
-            background-color: #1f2029;
+            background-color: #09092b;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23cecece' fill-opacity='0.03'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
           color: #c4c3ca;
             font-family: 'Muli', sans-serif;
         }

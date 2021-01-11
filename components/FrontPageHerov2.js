@@ -363,7 +363,7 @@ const FrontPageHerov2 = () => {
       <h2>Lumi</h2> 
       <h3>Candle Boutique</h3>
       <p style={{color: '#cfcfcf'}}>Lumi Candle Handcrafted with all natural soy wax and essential oils. Naturally our wax is derived from soy grown in the USA and we use vegan cotton wicks. 🌿Handcrafted with all natural soy wax and essential oils.</p>
-      <a href="#">Shop Candles</a>
+      <a href="#" style={{borderRadius:'1.32em'}}>Shop Candles</a>
       <div className="under-container" style={{height:"10vh",position:'absolute',top:'50vh',left:'50%',transform:'translate(-50%,0)'}}>
     <div className="mouse">
       <div className="molette"></div>
