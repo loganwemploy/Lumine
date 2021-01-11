@@ -345,8 +345,9 @@ const FrontPageHerov2 = () => {
     return (
         <StyledFrontPageHerov2>
         <section className="showcase">
+          
     <header> 
-    
+    <div style={{width: '100%',height: '10vh',background:'transparent'}}></div>
       <h5 style={{margin:'1em 0 0 0.12em'}}>Hi, Welcome Sabrina</h5>
       <div className="toggle"></div>
     </header> 
