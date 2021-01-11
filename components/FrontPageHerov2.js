@@ -360,7 +360,7 @@ const FrontPageHerov2 = () => {
                 Your browser does not support the video tag. */}
             {/* </video> */}
     
-    <div className="text" style={{filter:'contrast(168%) drop-shadow(1px 2px 5px rgba(0,0,0,0.22))'}}>
+    <div className="text" style={{filter:'contrast(168%) drop-shadow(1px 2px 5px rgba(0,0,0,0.22))',marginTop:'-6em'}}>
       <h2>Lumi</h2> 
       <h3>Candle Boutique</h3>
       <p style={{color: '#cfcfcf'}}>Lumi Candle Handcrafted with all natural soy wax and essential oils. Naturally our wax is derived from soy grown in the USA and we use vegan cotton wicks. 🌿Handcrafted with all natural soy wax and essential oils.</p>
