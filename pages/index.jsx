@@ -21,7 +21,7 @@ import Catalog from '../components/Catalog'
 // import RecommendedProducts from '../components/RecommendedProducts'
 // import OrderInfo from '../components/OrderInfo'
 // import ShoppingCartAlt from '../components/ShoppingCartAlt'
-// import RecommendedProductAlt from '../components/RecommendedProductAlt'
+import RecommendedProductAlt from '../components/RecommendedProductAlt'
 // import ThankYou from "../components/ThankYou";
 import thankYouForOrder from '../lib/combos/index.js'
 import homeHeroSubHero from '../lib/combos/homeHeroSubHero'
@@ -36,6 +36,8 @@ import SuggestProduct from '../components/SuggestProduct';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import SubHero from '../components/SubHero';
+import QuickLinks from '../components/QuickLinks';
+import Coupon from '../components/Coupon';
 
 
 

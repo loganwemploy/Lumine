@@ -153,6 +153,10 @@ const QuickLinks = () => {
         .contact-btn .fa {
           padding-right: 5px;
         }
+
+        #QuickLinks {
+          margin-top: -6em;
+        }
       `}</style>
     </>
   );

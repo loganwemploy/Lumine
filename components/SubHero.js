@@ -8,76 +8,9 @@ const SubHero = () => {
   {/* <div className="section-parallax parallax-00" style={{backgroundImage: "url('http://www.ivang-design.com/svg-load/parallax/parallax-0.png')"}}></div>
   <div className="section-parallax parallax-01" style={{backgroundImage: "url('http://www.ivang-design.com/svg-load/parallax/parallax-01.png')"}}></div> */}
 
-<div className="section full-height">
-  <div className="section-title-wrap">
-    <div className="container">
-      <div className="row" style={{marginTop:'24em'}}>
-        <div className="col-12 text-center parallax-fade-top">
-          <p style={{marginLeft:'3em'}}>Lumi Candle Boutique</p>	
-          <h1 style={{lineHeight:'1em',letterSpacing:'0.15em',paddingLeft:'1em'}}>Candle <br/><span style={{fontSize:'30px',paddingLeft:'1em'}}>of the</span><br/> Month</h1>
-        </div>
-        <div className="row">
-          <div style={{position:'relative',left:'50%',top:'10%',textAlign:'center',background:'white',width: '300px',height:'380px',backgroundPosition:'center',background:"url('https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg')",backgroundRepeat:'no-repeat',backgroundSize:'cover',maxHeight:'100%'}} className="col-12">
-            {/* <img src="https://placehold.it/200x200.jpg" alt="" style={{objectFit:'cover',height:'100%',width:'100%',}}/> */}
-            </div>
-          {/* <div style={{margin: 'auto',textAlign:'center',background:'#efefef',width: '32vw',color: '#222',borderRadius:'0.75em',border:'3px solid brown'}} className="col-3"><h2>Champagne Rose</h2></div> */}
-        </div>
-      </div>	
-    </div>
-  </div>
-</div>
 
-<div className="section full-height z-bigger">
-  {/* <ul className="case-study-wrapper">
-    <li className="case-study-name">                            	
-      <a href="#" className="hover-target">Classic</a>
-    </li>
-    <li className="case-study-name">                                         	
-      <a href="#" className="hover-target">Floral</a>
-    </li>
-    <li className="case-study-name">                                        	
-      <a href="#" className="hover-target">Winter</a>
-    </li>
-    <li className="case-study-name">                                         	
-      <a href="#" className="hover-target">Limited-Edition</a>
-    </li>
-  </ul> */}
-  <ul className="case-study-images">
-    <li>
-      <div className="img-hero-background">
-        <img src="https://placehold.it/200x200.jpg" alt=""/>
-      </div>  
-      <div className="hero-number-back">01</div> 
-      <div className="hero-number">01</div> 
-      <div className="hero-number-fixed">Lumi Candle Boutique</div> 
-      <div className="case-study-title">graphic design, interaction</div> 
-    </li>
-    <li>
-      <div className="img-hero-background">
-        {/* <img src="g" alt=""/> */}
-      </div> 
-      <div className="hero-number-back">02</div> 
-      <div className="hero-number">02</div>  
-      <div className="case-study-title">advertising, art direction</div> 
-    </li>
-    <li>
-      <div className="img-hero-background">
-        {/* <img src="http://www.-design.com/svg-load/parallax/nature.jpg" alt=""/> */}
-      </div>
-      <div className="hero-number-back">03</div>  
-      <div className="hero-number">03</div> 
-      <div className="case-study-title">photography, retouching</div> 
-    </li>
-    <li>
-      <div className="img-hero-background">
-        {/* <img src="http://www.-design.com/svg-load/parallax/fire.jpg" alt=""/> */}
-      </div> 
-      <div className="hero-number-back">04</div> 
-      <div className="hero-number">04</div> 
-      <div className="case-study-title">photography, advertising</div> 
-    </li>
-  </ul>	
-</div>
+
+
 
 
 

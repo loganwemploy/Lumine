@@ -114,9 +114,9 @@ const AstroCards = () => {
      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
     </div>
     <div className="book-content">
-     <div className="book-title">After You</div>
-     <div className="book-author">by Jojo Moyes</div>
-     <div className="book-sum">Louisa Clark is no longer just an ordinary girl living an ordinary life. After the transformative six months spent.</div>
+     <div className="book-title">On Sale</div>
+     <div className="book-author">Candy Cane  <sup>$</sup>14.99</div>
+     <div className="book-sum">Before We selll out get your last chance for our candy cane candle. </div>
      <div className="rate">
       <fieldset className="rating dark-purp">
        <input type="checkbox" id="star21" name="rating" value="5" />
@@ -844,6 +844,18 @@ const AstroCards = () => {
         .book-cell {
           width: 80%;
         }
+        .book-photo {
+          width: 17.5em;
+          min-height: 5em;
+          max-height: 140px;
+          height: 140px;
+          flex-shrink: 0;
+          bottom: -35px;
+          left: 35px;
+          border-radius: 2px;
+          box-shadow: -2px 6px 19px 0px #7f818e;
+          transition: 0.3s ease;
+        }
       }
       @media (max-width: 575px) {
         .book-cell {
@@ -872,6 +884,7 @@ const AstroCards = () => {
       
         .book-photo {
           width: 130px;
+          height: 200px;
         }
       
         .main-wrapper {
