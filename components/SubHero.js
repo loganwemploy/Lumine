@@ -17,7 +17,7 @@ const SubHero = () => {
           <h1 style={{lineHeight:'1em',letterSpacing:'0.15em'}}>Candle <br/><span style={{fontSize:'30px'}}>of the</span><br/> Month</h1>
         </div>
         <div className="row">
-          <div style={{margin: '5em auto 0 auto',textAlign:'center',background:'white',width: '68vw',height:'80vh',backgroundPosition:'center',background:"url('https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg')",backgroundRepeat:'no-repeat',backgroundSize:'45% 80%'}} className="col-12">
+          <div style={{margin: '5em auto 0 auto',textAlign:'center',background:'white',width: '68vw',height:'80vh',backgroundPosition:'center',background:"url('https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg')",backgroundRepeat:'no-repeat',backgroundSize:'42% 80%'}} className="col-12">
             {/* <img src="https://placehold.it/200x200.jpg" alt="" style={{objectFit:'cover',height:'100%',width:'100%',}}/> */}
             </div>
           <div style={{margin: 'auto',textAlign:'center',background:'#efefef',width: '32vw',color: '#222',borderRadius:'0.75em',border:'3px solid brown'}} className="col-3"><h2>Champagne Rose</h2></div>
@@ -49,7 +49,7 @@ const SubHero = () => {
       </div>  
       <div className="hero-number-back">01</div> 
       <div className="hero-number">01</div> 
-      <div className="hero-number-fixed">04</div> 
+      <div className="hero-number-fixed">Lumi Candle Boutique</div> 
       <div className="case-study-title">graphic design, interaction</div> 
     </li>
     <li>

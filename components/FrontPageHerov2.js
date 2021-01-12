@@ -31,6 +31,7 @@ header .logo
 .toggle
 {
   position: relative;
+  display: block
   width: 60px;
   height: 60px;
   background: url('https://i.ibb.co/HrfVRcx/menu.png');
@@ -46,6 +47,13 @@ header .logo
   background-size: 25px;
   background-position: center;
   cursor: pointer;
+}
+@media screen and (min-width: 757px){
+.toggle
+{
+  opacity: 0
+}
+
 }
 .showcase
 {

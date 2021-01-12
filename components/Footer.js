@@ -219,36 +219,36 @@ const Footer = () => {
         <StyledFooter>
             
 
-<footer class="global-footer" role="contentinfo">
-  <ul class="footer-nav">
-    <li class="footer-nav-item"><span class="footer-nav-item__title">The Company</span></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">About Us</a></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">The Team</a></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">In The News</a></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">Our App</a></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">Newsletter</a></li>
+<footer className="global-footer" role="contentinfo">
+  <ul className="footer-nav">
+    <li className="footer-nav-item"><span className="footer-nav-item__title">The Company</span></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">About Us</a></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">The Team</a></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">In The News</a></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Our App</a></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Newsletter</a></li>
   </ul>
-  <ul class="footer-nav">
-    <li class="footer-nav-item"><span class="footer-nav-item__title">Contact Us</span></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">Get in Touch</a></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">Advertise</a></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">Careers</a></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">Become a contributor</a></li>
+  <ul className="footer-nav">
+    <li className="footer-nav-item"><span className="footer-nav-item__title">Contact Us</span></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Get in Touch</a></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Advertise</a></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Careers</a></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Become a contributor</a></li>
   </ul>
-  <ul class="footer-nav">
-    <li class="footer-nav-item"><span class="footer-nav-item__title">Legal</span></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">Privacy Policy</a></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">Terms of Use</a></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">Cookie Policy</a></li>
-    <li class="footer-nav-item"><a href="" title="" class="footer-nav-item__link">Open Source Licenses</a></li>
+  <ul className="footer-nav">
+    <li className="footer-nav-item"><span className="footer-nav-item__title">Legal</span></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Privacy Policy</a></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Terms of Use</a></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Cookie Policy</a></li>
+    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Open Source Licenses</a></li>
   </ul>
-  <ul class="footer-nav">
-    <li class="footer-nav-item"><span class="footer-nav-item__title">Follow Us</span></li>
+  <ul className="footer-nav">
+    <li className="footer-nav-item"><span className="footer-nav-item__title">Follow Us</span></li>
    
   </ul>
-  <div class="copyright">
+  <div className="copyright">
  
-    <a href="" title="" class="nav-link"><svg class="" viewBox="0 0 135 40" width="135" height="40"></svg></a>
+    <a href="" title="" className="nav-link"><svg className="" viewBox="0 0 135 40" width="135" height="40"></svg></a>
     &copy; <span id="js-time">2019</span> The Culture Trip Ltd. All Rights Reserved.
   </div>
 </footer>

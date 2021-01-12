@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components';
 
 const StyledSlider = styled.div`
+margin-top: -27em;
+
 :root {
   /* $HERO COLOURS */
   /* Basis for Main inteactive UI components. Also use Acid Green for 

@@ -552,7 +552,7 @@ const SubSubSectionv2 = () => {
 
 
 
-<div className="rela-block tab" style={{transform:'translate3d(0,-3em,0)',height:"45vh"}}> 
+<div className="rela-block tab" style={{transform:'translate3d(0,-3em,0)',height:"45vh",backgroundColor:'transparent',border:'none',boxShadow:'none'}}> 
     <Slider />
 </div>
 

@@ -55,21 +55,20 @@ export default function Home() {
       {/* <Catalog /> */}
       {/* {productDetailWithBreadCrumbs} */}
       {/* <Gooey /> */}
-     {/* {homeHeroSubHero}
-      <SubSubSectionv2 /> */}
+      <div style={{marginTop:'-152vh'}}>
+     {homeHeroSubHero}
+      <SubSubSectionv2 />
+      </div>
       {/* <SuggestProduct /> */}
    {/* <Slider /> */}
      {/* <Countdown /> */}
-     <div style={{display:'flex',flexDirection:'column',height:'auto', marginTop:'42vh',width:'100%',maxWidth:'100vw',boxSizing:'border-box',}}>
+     {/* <div style={{display:'flex',flexDirection:'column',height:'auto', marginTop:'-150vh',width:'100%',maxWidth:'100vw',boxSizing:'border-box',}}>
        <div style={{position:'relative'}}>
        <Gooey />
        </div>
-       <div style={{position:'relative',top:'22em'}}>
+      
 
- <Footer />
-       </div>
-
-     </div>
+     </div> */}
       {/* <Catalog /> */}
       {/* <AstroCards /> */}
       {/* <AdCopy /> */}
