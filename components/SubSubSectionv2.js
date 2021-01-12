@@ -15,6 +15,9 @@ const StyledSubSubSectionv2  = styled.div`
   line-height: 26px;
   color: #000;
   margin-top: -67vh;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
 
 
 .rela-block {
@@ -549,8 +552,7 @@ const SubSubSectionv2 = () => {
     </ul>
 </div>
 
-
-
+<div style={{height:'75vh',width:'100%',maxWidth:'100vw',overflowX:'hidden'}}></div>
 {/* 
 <div className="rela-block tab" style={{transform:'translate3d(0,-3em,0)',height:"45vh",backgroundColor:'transparent',border:'none',boxShadow:'none'}}> 
     <Slider />

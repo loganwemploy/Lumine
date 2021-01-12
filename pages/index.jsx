@@ -38,6 +38,7 @@ import Hero from '../components/Hero';
 import SubHero from '../components/SubHero';
 import QuickLinks from '../components/QuickLinks';
 import Coupon from '../components/Coupon';
+import BubbleCategories from '../components/BubbleCategories';
 
 
 
@@ -58,6 +59,7 @@ export default function Home() {
       {/* <Gooey /> */}
       <Hero />
       <SubHero />
+      <BubbleCategories />
       <SubSubSectionv2 />
       <Footer />
       {/* </div> */}
