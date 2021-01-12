@@ -717,7 +717,7 @@ const SubSubSection = () => {
 
 <div className="grid-pad">
   <div id="footer" className="col-1-1">
-    <span>Todos los derechos reservados &copy; - 2018 | Creado con <a href="https://atriodesk.com">AtrioDesk</a></span>
+   
     <ul className="social-links">
       <li><a href="#"><i className="fa fa-twitter"></i></a></li>
       <li><a href="#"><i className="fa fa-facebook"></i></a></li>

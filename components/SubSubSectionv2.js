@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import styled from 'styled-components';
 import PLP from './PLP';
+import Slider from './Slider';
 
 const StyledSubSubSectionv2  = styled.div`
  
@@ -524,17 +525,17 @@ const SubSubSectionv2 = () => {
         <StyledSubSubSectionv2>
             {/* <!-- FONTS --> */}
             <Head>
-<link href='https://fonts.googleapis.com/css?family=Raleway:200,300,400' rel='stylesheet' type='text/css' />
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css' />
+{/* <link href='https://fonts.googleapis.com/css?family=Raleway:200,300,400' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css' /> */}
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css' />
-<link href='https://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css' />
+{/* <link href='https://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css' /> */}
 
     </Head>
 
 {/* <!-- PAGE STUFF --> */}
 <div className="menu-container">
     <div className="close">close</div>
-    <div className="abs-center tab menu-tab">The Menu stuff will go here</div>
+    <div className="abs-center tab menu-tab" style={{opacity:'0'}}>The Menu stuff will go here</div>
 </div>
 
 <div className="side-nav">
@@ -551,8 +552,8 @@ const SubSubSectionv2 = () => {
 
 
 
-<div className="rela-block tab"> 
-    
+<div className="rela-block tab" style={{transform:'translate3d(0,-3em,0)',height:"45vh"}}> 
+    <Slider />
 </div>
 
 <div className="rela-block words-section tea">

@@ -37,23 +37,9 @@ const Hero = () => {
                                     <a className="dropdown-item" href="#">Another action</a>
                                 </div>
                             </li>
+                           
                             <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                <a className="nav-link" href="#">Portfolio</a>
-                            </li>
-                            <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                <a className="nav-link" href="#">Agency</a>
-                            </li>
-                            <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
-                                <div className="dropdown-menu">
-                                    <a className="dropdown-item" href="#">Action</a>
-                                    <a className="dropdown-item" href="#">Another action</a>
-                                    <a className="dropdown-item" href="#">Something else here</a>
-                                    <a className="dropdown-item" href="#">Another action</a>
-                                </div>
-                            </li>
-                            <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                <a className="nav-link" href="#">Journal</a>
+                                <a className="nav-link" href="#">About Us</a>
                             </li>
                             <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                 <a className="nav-link" href="#">Contact</a>

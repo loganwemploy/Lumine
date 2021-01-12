@@ -216,7 +216,7 @@ const Gooey = () => {
         <img src="https://d30womf5coomej.cloudfront.net/ua/defaultuser.png" alt="Profile Image" className="rela-inline profile-img" />
         <p className="rela-inline">Name </p>
       </div>
-      <OverlayModal />
+      {/* <OverlayModal /> */}
    <DynamicCheckBoxes/>
     </div>
     <div className="main-container">

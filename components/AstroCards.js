@@ -10,7 +10,7 @@ const AstroCards = () => {
      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo" />
     </div>
     <div className="book-content">
-     <div className="book-title">Champagne Rose</div>
+     <div className="book-title">Classics-</div>
      <div className="book-author">Classic Collection - <sup>$</sup>14.99</div>
      <div className="book-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year. A Bubbly, warm,, Champagne Rose. </div>
      <div className="rate">
@@ -36,8 +36,8 @@ const AstroCards = () => {
      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
     </div>
     <div className="book-content">
-     <div className="book-title">Eucalyptus Mint</div>
-     <div className="book-author">Classic Collection - $14.99</div>
+     <div className="book-title">Florals-</div>
+     <div className="book-author">Floral Collection <sup>$</sup>14.99</div>
      <div className="book-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year.</div>
      <div className="rate">
       <fieldset className="rating blue">
@@ -62,8 +62,8 @@ const AstroCards = () => {
      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
     </div>
     <div className="book-content">
-     <div className="book-title">Lavender Bliss</div>
-     <div className="book-author">Classic Collection - $14.99</div>
+     <div className="book-title">Winter</div>
+     <div className="book-author">Winter Collection <sup>$</sup>14.99</div>
      <div className="book-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year.</div>
      <div className="rate">
       <fieldset className="rating purple">
@@ -88,8 +88,8 @@ const AstroCards = () => {
      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
     </div>
     <div className="book-content">
-     <div className="book-title">Th</div>
-     <div className="book-author">by F.Scott Fitzgerald</div>
+     <div className="book-title">Featured</div>
+     <div className="book-author">Candle of the Month <sup>$</sup>14.99</div>
      <div className="book-sum">The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career.</div>
      <div className="rate">
       <fieldset className="rating yellow">
@@ -299,9 +299,10 @@ const AstroCards = () => {
       }
       .book-cell:nth-child(2) {
        
-        background-image: linear-gradient(196deg, #acecec, #94e0eb);
+        background-image: linear-gradient(196deg, #94e0eb, #44e0eb);
       }
       .book-cell:nth-child(3) {
+        background-image: linear-gradient(196deg, #acecec, #edb9d6);
         background-color: #edb9d6;
       }
       .book-cell:nth-child(4) {

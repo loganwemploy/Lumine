@@ -4,7 +4,7 @@ import { Row } from 'react-bootstrap'
 const SubHero = () => {
     return (
         <div className="body">
-          <div className="shadow-title parallax-top-shadow">&nbsp; new</div>
+          <div className="shadow-title parallax-top-shadow">&nbsp; JAN</div>
   {/* <div className="section-parallax parallax-00" style={{backgroundImage: "url('http://www.ivang-design.com/svg-load/parallax/parallax-0.png')"}}></div>
   <div className="section-parallax parallax-01" style={{backgroundImage: "url('http://www.ivang-design.com/svg-load/parallax/parallax-01.png')"}}></div> */}
 
@@ -17,10 +17,10 @@ const SubHero = () => {
           <h1 style={{lineHeight:'1em',letterSpacing:'0.15em'}}>Candle <br/><span style={{fontSize:'30px'}}>of the</span><br/> Month</h1>
         </div>
         <div className="row">
-          <div style={{margin: '5em auto 0 auto',textAlign:'center',background:'white',width: '68vw',height:'80vh',background:"url('https://placehold.it/200x200.jpg')",backgroundSize:'100% 90%'}} className="col-12">
+          <div style={{margin: '5em auto 0 auto',textAlign:'center',background:'white',width: '68vw',height:'80vh',backgroundPosition:'center',background:"url('https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg')",backgroundRepeat:'no-repeat',backgroundSize:'45% 80%'}} className="col-12">
             {/* <img src="https://placehold.it/200x200.jpg" alt="" style={{objectFit:'cover',height:'100%',width:'100%',}}/> */}
             </div>
-          <div style={{margin: 'auto',textAlign:'center',background:'red',width: '68vw',}} className="col-12">descript</div>
+          <div style={{margin: 'auto',textAlign:'center',background:'#efefef',width: '32vw',color: '#222',borderRadius:'0.75em',border:'3px solid brown'}} className="col-3"><h2>Champagne Rose</h2></div>
         </div>
       </div>	
     </div>
@@ -30,22 +30,22 @@ const SubHero = () => {
 <div className="section full-height z-bigger">
   <ul className="case-study-wrapper">
     <li className="case-study-name">                            	
-      <a href="#" className="hover-target">light</a>
+      <a href="#" className="hover-target">Classic</a>
     </li>
     <li className="case-study-name">                                         	
-      <a href="#" className="hover-target">flare</a>
+      <a href="#" className="hover-target">Floral</a>
     </li>
     <li className="case-study-name">                                        	
-      <a href="#" className="hover-target">nature</a>
+      <a href="#" className="hover-target">Winter</a>
     </li>
     <li className="case-study-name">                                         	
-      <a href="#" className="hover-target">fire</a>
+      <a href="#" className="hover-target">Limited-Edition</a>
     </li>
   </ul>
   <ul className="case-study-images">
     <li>
       <div className="img-hero-background">
-        {/* <img src="http://www.ivang-design.com/svg-load/parallax/light.jpg" alt=""/> */}
+        <img src="http://www.ivang-design.com/svg-load/parallax/light.jpg" alt=""/>
       </div>  
       <div className="hero-number-back">01</div> 
       <div className="hero-number">01</div> 
@@ -273,40 +273,44 @@ const SubHero = () => {
             top: 50%;
             left: 50%;
             z-index: 10;
-            width: auto;
-            margin: 0;
-            padding: 8px 15px;
+            width: 68%;
+            margin: 0 auto;
+            padding: 8px 35px;
             -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             list-style: none;
           background-color: rgba(31,32,41,.8);
           border-radius: 10px;
           box-shadow: 0 0 30px rgba(0,0,0,.8);
+          text-align: center;
         }
         .case-study-wrapper .case-study-name {
             margin: 5px;
+            text-align: center;
             display: inline-block;
         }
         .case-study-wrapper .case-study-name a {
-            position: relative;
-            list-style: none;
-            margin: 0 auto;
-            display: block;
-            text-align: center;
-            padding: 0;
-            font-size: 14px;
-            font-weight: 800;
-            line-height: 1;
-            letter-spacing: 2px;
-            color: #8e8d9a;
-            opacity: 0.5;
-            text-decoration: none;
+          position: relative;
+          list-style: none;
+          margin: 0 auto;
+          display: block;
+          text-align: center;
+          padding: 0 35px;
+          font-size: 14px;
+          font-weight: 800;
+          line-height: 1;
+          letter-spacing: 2px;
+          color: #8e8d9a;
+          opacity: 0.5;
+          text-decoration: none;
           text-transform: uppercase;
-            -webkit-transition: all 300ms linear;
-            transition: all 300ms linear; 
+          -webkit-transition: all 300ms linear;
+          transition: all 400ms linear; 
         }	
         .case-study-wrapper .case-study-name a:hover {
+            transform: translate3d(0,-3px,0);
             text-decoration: none;
+            filter: invert(1);
         }	
         .case-study-wrapper .case-study-name.active a {
             opacity: 1;

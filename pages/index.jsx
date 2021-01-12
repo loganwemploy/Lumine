@@ -31,6 +31,8 @@ import Countdown from '../components/Countdown';
 import SubSubSectionv2 from '../components/SubSubSectionv2';
 import OverlayModal from '../components/OverlayModal';
 import PLP from '../components/PLP';
+import Slider from '../components/Slider';
+import SuggestProduct from '../components/SuggestProduct';
 
 
 
@@ -41,6 +43,7 @@ import PLP from '../components/PLP';
 export default function Home() {
 
  const [isProductPage, setIsProductPage] = useState(false)
+ const [isCart, setIsCart] = useState(true)
  
   return (
     <div className="body">
@@ -52,11 +55,18 @@ export default function Home() {
       {/* <Catalog /> */}
       {/* {productDetailWithBreadCrumbs} */}
       {/* <Gooey /> */}
-     {homeHeroSubHero}
-      <SubSubSectionv2 />
-   
+      <button style={{position:'absolute',top:'0',right:'0',zIndex:'99999999'}} onClick={()=>{
+        setIsCart(!isCart)
+      }}>carttt</button>
+    {isCart ? <>homeHeroSubHero
+      <SubSubSectionv2 /> </>: <Gooey />}
+      {/* <SuggestProduct /> */}
+    {/* {isCart ? <>homeHeroSubHero
+      <SubSubSectionv2 /> </>: null} */}
+   {/* <Slider /> */}
      {/* <Countdown /> */}
-       {/* <Gooey /> */}
+
+     
  
       {/* <Catalog /> */}
       {/* <AstroCards /> */}
