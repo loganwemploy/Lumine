@@ -13,7 +13,7 @@ const SubHero = () => {
     <div className="container">
       <div className="row" style={{marginTop:'24em'}}>
         <div className="col-12 text-center parallax-fade-top">
-          <p style={{marginLeft:'5em'}}>Lumi Candle Boutique</p>	
+          <p style={{marginLeft:'3em'}}>Lumi Candle Boutique</p>	
           <h1 style={{lineHeight:'1em',letterSpacing:'0.15em',paddingLeft:'1em'}}>Candle <br/><span style={{fontSize:'30px',paddingLeft:'1em'}}>of the</span><br/> Month</h1>
         </div>
         <div className="row">
