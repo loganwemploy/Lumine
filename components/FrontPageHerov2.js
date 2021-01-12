@@ -31,7 +31,7 @@ header .logo
 .toggle
 {
   position: relative;
-  display: block
+  display: block;
   width: 60px;
   height: 60px;
   background: url('https://i.ibb.co/HrfVRcx/menu.png');
