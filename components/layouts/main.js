@@ -6,7 +6,9 @@ const MainLayout = ({ children }) => (
     <Header />
 
     <div className="content-wrapper">{children}</div>
-<Footer />
+  <br/>
+    
+    
     <style jsx global>{`
       *,
       *::before,

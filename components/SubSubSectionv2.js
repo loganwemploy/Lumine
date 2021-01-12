@@ -551,10 +551,10 @@ const SubSubSectionv2 = () => {
 
 
 
-
+{/* 
 <div className="rela-block tab" style={{transform:'translate3d(0,-3em,0)',height:"45vh",backgroundColor:'transparent',border:'none',boxShadow:'none'}}> 
     <Slider />
-</div>
+</div> */}
 
 <div className="rela-block words-section tea">
   <div className="images">

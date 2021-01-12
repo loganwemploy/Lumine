@@ -57,6 +57,7 @@ export default function Home() {
       <Hero />
       <SubHero />
       <SubSubSectionv2 />
+      <Footer />
       {/* </div> */}
       {/* <SuggestProduct /> */}
    {/* <Slider /> */}
@@ -138,7 +139,7 @@ export default function Home() {
           max-width:100vw;
           position: absolute;
           top:0;
-          
+
         }
      
       `}</style>

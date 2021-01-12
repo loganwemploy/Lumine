@@ -13,14 +13,14 @@ const SubHero = () => {
     <div className="container">
       <div className="row" style={{marginTop:'24em'}}>
         <div className="col-12 text-center parallax-fade-top">
-          <p>Lumi Candle Boutique</p>	
-          <h1 style={{lineHeight:'1em',letterSpacing:'0.15em'}}>Candle <br/><span style={{fontSize:'30px'}}>of the</span><br/> Month</h1>
+          <p style={{marginLeft:'5em'}}>Lumi Candle Boutique</p>	
+          <h1 style={{lineHeight:'1em',letterSpacing:'0.15em',paddingLeft:'1em'}}>Candle <br/><span style={{fontSize:'30px',paddingLeft:'1em'}}>of the</span><br/> Month</h1>
         </div>
         <div className="row">
-          <div style={{margin: '5em auto 0 auto',textAlign:'center',background:'white',width: '68vw',height:'80vh',backgroundPosition:'center',background:"url('https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg')",backgroundRepeat:'no-repeat',backgroundSize:'42% 80%'}} className="col-12">
+          <div style={{position:'relative',left:'50%',top:'10%',textAlign:'center',background:'white',width: '300px',height:'380px',backgroundPosition:'center',background:"url('https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg')",backgroundRepeat:'no-repeat',backgroundSize:'cover',maxHeight:'100%'}} className="col-12">
             {/* <img src="https://placehold.it/200x200.jpg" alt="" style={{objectFit:'cover',height:'100%',width:'100%',}}/> */}
             </div>
-          <div style={{margin: 'auto',textAlign:'center',background:'#efefef',width: '32vw',color: '#222',borderRadius:'0.75em',border:'3px solid brown'}} className="col-3"><h2>Champagne Rose</h2></div>
+          {/* <div style={{margin: 'auto',textAlign:'center',background:'#efefef',width: '32vw',color: '#222',borderRadius:'0.75em',border:'3px solid brown'}} className="col-3"><h2>Champagne Rose</h2></div> */}
         </div>
       </div>	
     </div>
@@ -28,7 +28,7 @@ const SubHero = () => {
 </div>
 
 <div className="section full-height z-bigger">
-  <ul className="case-study-wrapper">
+  {/* <ul className="case-study-wrapper">
     <li className="case-study-name">                            	
       <a href="#" className="hover-target">Classic</a>
     </li>
@@ -41,11 +41,11 @@ const SubHero = () => {
     <li className="case-study-name">                                         	
       <a href="#" className="hover-target">Limited-Edition</a>
     </li>
-  </ul>
+  </ul> */}
   <ul className="case-study-images">
     <li>
       <div className="img-hero-background">
-        <img src="http://www.ivang-design.com/svg-load/parallax/light.jpg" alt=""/>
+        <img src="https://placehold.it/200x200.jpg" alt=""/>
       </div>  
       <div className="hero-number-back">01</div> 
       <div className="hero-number">01</div> 
@@ -54,7 +54,7 @@ const SubHero = () => {
     </li>
     <li>
       <div className="img-hero-background">
-        <img src="http://www.ivang-design.com/svg-load/parallax/flare.jpg" alt=""/>
+        {/* <img src="g" alt=""/> */}
       </div> 
       <div className="hero-number-back">02</div> 
       <div className="hero-number">02</div>  
@@ -62,7 +62,7 @@ const SubHero = () => {
     </li>
     <li>
       <div className="img-hero-background">
-        <img src="http://www.ivang-design.com/svg-load/parallax/nature.jpg" alt=""/>
+        {/* <img src="http://www.-design.com/svg-load/parallax/nature.jpg" alt=""/> */}
       </div>
       <div className="hero-number-back">03</div>  
       <div className="hero-number">03</div> 
@@ -70,7 +70,7 @@ const SubHero = () => {
     </li>
     <li>
       <div className="img-hero-background">
-        <img src="http://www.ivang-design.com/svg-load/parallax/fire.jpg" alt=""/>
+        {/* <img src="http://www.-design.com/svg-load/parallax/fire.jpg" alt=""/> */}
       </div> 
       <div className="hero-number-back">04</div> 
       <div className="hero-number">04</div> 

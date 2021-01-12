@@ -2,7 +2,9 @@ import React from 'react'
 import styled from 'styled-components';
 const StyledFooter = styled.div`
   /* Mini reset */
-
+ position: absolute;
+ z-index: 99999999;
+bottom: 0;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
