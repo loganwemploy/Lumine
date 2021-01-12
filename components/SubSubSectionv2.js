@@ -442,7 +442,7 @@ h2 {
   display: flex;
 
   /* background: url("https://lh3.googleusercontent.com/hMaBVHlLGfSmqUpkaJ3kVBuYj1QIm7-eV_hQzB15SYhXxxw291ZYzU_-5fgZamTGnP2mV7qDcmSAxOGd8X-FMNBGuhTfkTNI9Ejvwfy5=s192") left no-repeat; */
-  background-color: #e7e7e7;
+  background-color: transparent;
   margin: auto;
   
 }
@@ -520,7 +520,22 @@ h2 {
   margin: 10px auto 20px;
   background-color: rgba(0,0,0,0.4);
 }
+.heart {
+  width:67vw;
+  margin:0.5em auto 0 1.1em;
+  opacity:0.32;
+  position:relative;
+}
 
+
+@media screen and (max-width: 654px){
+  .heart {
+    width:100vw;
+    margin: 0;
+    opacity:0.99;
+
+  }
+}
 `;
 
 const SubSubSectionv2 = () => {
@@ -565,6 +580,7 @@ const SubSubSectionv2 = () => {
     <img src="https://placehold.it/200x200.jpg" alt=""/>
     
     </div>
+    <img className="heart" src="https://dl3.pushbulletusercontent.com/l3XgbAlDYIuVoWbEOKOKpcCq8AdDuykb/Xnip2021-01-12_15-28-21.jpg" alt=""/>
     <div className="content-container" >
         <h2>Lumi Sales Point 1</h2>
         <p className="light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ullam ipsum eligendi ex distinctio cum quasi laudantium, voluptatem laboriosam delectus impedit doloribus in eos voluptate nulla consectetur saepe illum iste velit corrupti neque sed. Aperiam obcaecati dolorem unde vero sequi?.</p>

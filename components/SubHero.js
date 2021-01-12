@@ -4,7 +4,7 @@ import { Row } from 'react-bootstrap'
 const SubHero = () => {
     return (
         <div className="body">
-          <div className="shadow-title parallax-top-shadow">&nbsp; JAN</div>
+          {/* <div className="shadow-title parallax-top-shadow">&nbsp; JAN</div> */}
   {/* <div className="section-parallax parallax-00" style={{backgroundImage: "url('http://www.ivang-design.com/svg-load/parallax/parallax-0.png')"}}></div>
   <div className="section-parallax parallax-01" style={{backgroundImage: "url('http://www.ivang-design.com/svg-load/parallax/parallax-01.png')"}}></div> */}
 

@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components';
 
 const StyledSlider = styled.div`
-margin-top: -27em;
 
 :root {
   /* $HERO COLOURS */
@@ -82,7 +81,7 @@ margin-top: -27em;
   position: relative;
   border-radius: 8px;
 /*   box-shadow: 0 0 0 1px var(--woodsmoke); */
-  box-shadow: 0 2px 10px rgba(18,20,22,0.12);
+  /* box-shadow: 0 2px 10px rgba(18,20,22,0.12); */
   transition: var(--transition);
 }
 .card:hover,
@@ -93,7 +92,7 @@ margin-top: -27em;
 .card:hover,
 .card:active,
 .card:focus {
-  box-shadow: 0 6px 20px rgba(18, 20, 22, 0.12);
+  /* box-shadow: 0 6px 20px rgba(18, 20, 22, 0.12); */
   transform: rotateX(3deg) translate3d(0,-2px,6px) }}
 @media (prefers-color-scheme: dark) {
 .card { background: #1C1C1C; box-shadow: none }}
@@ -278,7 +277,7 @@ margin-top: -27em;
 @media (prefers-color-scheme: dark) {
 .btn--primary { color: var(--woodsmoke); background-color: var(--white); }}
 .btn--primary:hover { color: var(--woodsmoke); background: var(--acid-green) }
-.btn--primary:active,.btn--primary:focus { color: var(--woodsmoke); background: var(--acid-green); box-shadow: 0 0 0 2px var(--woodsmoke); }
+.btn--primary:active,.btn--primary:focus { color: var(--woodsmoke); background: var(--acid-green); }
 `;
 const Slider = () => {
     return (

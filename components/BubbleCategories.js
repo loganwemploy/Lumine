@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
+import HeartPic from './HeartPic';
 const StyledBubbleCategories = styled.div`
+padding: 2em;
   :root {
   /* $HERO COLOURS */
   /* Basis for Main inteactive UI components. Also use Acid Green for 
@@ -184,31 +186,31 @@ html { box-sizing: border-box; }
   list-style: none;
   perspective: 800px; }
 
-.cities-scroller-item {
+.candles-scroller-item {
   display: flex;
   flex-direction: column;
   width: 80px;
   height: auto;
   flex: none;
 }
-.cities-scroller-item:hover .cities-scroller-item-img,
-.cities-scroller-item:active .cities-scroller-item-img,
-.cities-scroller-item:focus .cities-scroller-item-img {
+.candles-scroller-item:hover .candles-scroller-item-img,
+.candles-scroller-item:active .candles-scroller-item-img,
+.candles-scroller-item:focus .candles-scroller-item-img {
   cursor:pointer; box-shadow: 0 0 0 2px var(--woodsmoke) }
 @media (prefers-color-scheme: dark) {
-.cities-scroller-item:hover .cities-scroller-item-img,
-.cities-scroller-item:active .cities-scroller-item-img,
-.cities-scroller-item:focus .cities-scroller-item-img {
+.candles-scroller-item:hover .candles-scroller-item-img,
+.candles-scroller-item:active .candles-scroller-item-img,
+.candles-scroller-item:focus .candles-scroller-item-img {
   cursor:pointer; box-shadow: 0 0 0 2px var(--white) }}
 
-.cities-scroller-item-img {
+.candles-scroller-item-img {
   display: block;
   width:  76px;
   height: 76px;
   margin-bottom: 8px;
   border-radius: 50%;
 }
-.cities-scroller-label {
+.candles-scroller-label {
   display: block;
   width: 100%;
   font-size: 12px;
@@ -514,31 +516,32 @@ const BubbleCategories = () => {
     return (
         <StyledBubbleCategories>
             <section>
+                {/* <div style={{position:'absolute',top:'0',marginTop:'123vh',background:'red',height:'250px',zIndex:'9999999999999'}}><HeartPic /></div> */}
       <div className="FeedTitleContainer">
-        <h2 className="FeedSubtitle">Explore Cities Differently</h2>
+        <h2 className="FeedSubtitle">Explore candles Differently</h2>
         <span className="FeedDescription">Travel inspired with cool tips and surprising stories</span>
       </div>
       
       <ul className="scroll-view overflowing scroller">
-        <li className="cities-scroller-item">
-          <img width="76" height="76" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="cities-scroller-item-img" style={{color:"#003A80",backgroundImage:"url('https://source.unsplash.com/76x76/?paris,france')"}}/>
-          <span className="cities-scroller-label">Paris</span>
+        <li className="candles-scroller-item">
+          <img width="76" height="76" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="candles-scroller-item-img" style={{color:"#003A80",backgroundImage:"url('https://source.unsplash.com/76x76/?paris,france')"}}/>
+          <span className="candles-scroller-label">Paris</span>
         </li>
-        <li className="cities-scroller-item">
-          <img width="76" height="76" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="cities-scroller-item-img" style={{color:'#C8E3D9',backgroundImage:"url('https://source.unsplash.com/76x76/?london,uk')"}}/>
-          <span className="cities-scroller-label">London</span>
+        <li className="candles-scroller-item">
+          <img width="76" height="76" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="candles-scroller-item-img" style={{color:'#C8E3D9',backgroundImage:"url('https://source.unsplash.com/76x76/?london,uk')"}}/>
+          <span className="candles-scroller-label">London</span>
         </li>
-        <li className="cities-scroller-item">
-          <img width="76" height="76" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="cities-scroller-item-img" style={{color:"#FF0040",backgroundImage:"url('https://source.unsplash.com/76x76/?barcalona,spain')"}}/>
-          <span className="cities-scroller-label">Barcelona</span>
+        <li className="candles-scroller-item">
+          <img width="76" height="76" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="candles-scroller-item-img" style={{color:"#FF0040",backgroundImage:"url('https://source.unsplash.com/76x76/?barcalona,spain')"}}/>
+          <span className="candles-scroller-label">Barcelona</span>
         </li>
-        <li className="cities-scroller-item">
-          <img width="76" height="76" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="cities-scroller-item-img" style={{color:'#3819FF',backgroundImage:"url('https://source.unsplash.com/76x76/?amsterdam,holland')"}}/>
-          <span className="cities-scroller-label">Amsterdam</span>
+        <li className="candles-scroller-item">
+          <img width="76" height="76" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="candles-scroller-item-img" style={{color:'#3819FF',backgroundImage:"url('https://source.unsplash.com/76x76/?amsterdam,holland')"}}/>
+          <span className="candles-scroller-label">Amsterdam</span>
         </li>
-        <li className="cities-scroller-item">
-          <img width="76" height="76" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="cities-scroller-item-img" style={{color:"#121416",backgroundImage:"url('https://source.unsplash.com/76x76/?tokyo,japan')"}}/>
-          <span className="cities-scroller-label">Tokyo</span>
+        <li className="candles-scroller-item">
+          <img width="76" height="76" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="candles-scroller-item-img" style={{color:"#121416",backgroundImage:"url('https://source.unsplash.com/76x76/?tokyo,japan')"}}/>
+          <span className="candles-scroller-label">Tokyo</span>
         </li>
       </ul>
     </section>
