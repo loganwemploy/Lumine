@@ -33,6 +33,7 @@ import OverlayModal from '../components/OverlayModal';
 import PLP from '../components/PLP';
 import Slider from '../components/Slider';
 import SuggestProduct from '../components/SuggestProduct';
+import Footer from '../components/Footer';
 
 
 
@@ -59,8 +60,16 @@ export default function Home() {
       {/* <SuggestProduct /> */}
    {/* <Slider /> */}
      {/* <Countdown /> */}
+     <div style={{display:'flex',flexDirection:'column',height:'auto', marginTop:'42vh',width:'100%',maxWidth:'100vw',boxSizing:'border-box',}}>
+       <div style={{position:'relative'}}>
        <Gooey />
- 
+       </div>
+       <div style={{position:'relative',top:'22em'}}>
+
+ <Footer />
+       </div>
+
+     </div>
       {/* <Catalog /> */}
       {/* <AstroCards /> */}
       {/* <AdCopy /> */}

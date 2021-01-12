@@ -196,6 +196,12 @@ body {
   border-left: 1px solid #eaecf1;
 }
 
+@media screen and (max-width: 674px){
+  .side-bar {
+    display: none;
+  }
+}
+
 `;
 
 const Gooey = () => {

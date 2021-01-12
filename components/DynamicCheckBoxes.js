@@ -130,6 +130,7 @@ img {
 }
 
 .left-search-box {
+    margin: -1.31em 0 0 0;
     padding: 10px;
     background-color: #eee;
     margin-bottom: 10px;
@@ -138,6 +139,7 @@ img {
     border-radius: 3px;
     min-width: 260px;
     max-width: 260px;
+    
 
 }
 .left-search-box.search-box-static {
@@ -146,7 +148,7 @@ img {
 }
 .left-search-box.search-box-dynamic {
     min-height: 405px;
-    max-height: 405px;
+  height: 30em;
 }
 
 .sidebar {
@@ -199,6 +201,8 @@ img {
 .row.bottom-pagination {
    border: none !important;
 }
+
+
 `;
 
 const DynamicCheckBoxes = () => {
@@ -207,47 +211,27 @@ const DynamicCheckBoxes = () => {
             <div className="container" style={{width:'100%',padding:'0'}}>
             <div className="row" style={{margin:'0 0 0 -0.5em'}}>
         <div className="col-lg-3 col-md-3 col-sm-3 sidebar" style={{width:'100%',padding:'0'}}>
-        <div className="left-search-box search-box-static input-group-sm mx-auto">
+        <div className="left-search-box search-box-static input-group-sm mx-auto" style={{position:'absolute',zIndex:'99999'}}>
           <h6>Search</h6>
             <select className="form-control"> 
-               <option>All Services</option>
-                    <option value="d597">Fluids</option> 
-                    <option value="d600">Tires</option> 
-                    <option value="d30w">Car Buying</option>
-                    <option value="32">Car Wash</option>
-                    <option value="d33">Brakes</option>
-                    <option value="d97">Diagnostics</option>
-                    <option value="d598">Filters</option> 
-                    <option value="d599">Lights</option> 
-                 
-                
-                      <option value="d2520">Wiper System</option>
-                      <option value="d2299">Windows</option> 
-                      <option value="d2283">Switches</option> 
-                      <option value="d2345">Suspension & Steering</option> 
-                      <option value="d2594">Sensors</option> 
-                      <option value="d2245">Mirrors</option> 
-                      <option value="d601">Ignition</option>  
-                      <option value="d2245">Hoses</option> 
-                      <option value="d601">Heating & AC</option>  
-                      <option value="d2245">Fuel System</option> 
-                      <option value="d601">Exhaust System</option>  
-                      <option value="d601">Engine</option>  
-                      <option value="d2245">Doors</option> 
-                      <option value="d601">Clutch & Transmission</option>
-                      <option value="d232">Belts</option>
-                      <option value="d23">Battery</option>
-                
+               <option>All Categories</option>
+                    <option value="d597">Classic Collection</option> 
+                    <option value="d600">Floral Collection</option> 
+                    <option value="d30w">Winter Collection</option>
+                    <option value="32">Limited Edition Collection</option>
+                    <option value="d33">Candle of the Month</option>
             </select>
            <select className="form-control"> 
-               <option>All Services</option>
-                    <option value="d597">Oil Change</option> 
-                    <option value="d600">Transmission Fluid Service</option> 
-                    <option value="d30w">Brake System Flush</option>
-                    <option value="d33">Clutch Fluid Replacement</option>
-                    <option value="d97">Cooling System Flush</option>
-                    <option value="d598">Power Steering Fluid Service</option> 
-                    <option value="d599">Recharge Diesel Emissions Fluid</option> 
+               <option>All Candles</option>
+                    <option value="d597">Limoncello</option> 
+                    <option value="d600">Vanilla Sugar Cookie</option> 
+                    <option value="d30w">Eucalyptus Mint</option>
+                    <option value="d33">Cinnamon Dolce</option>
+                    <option value="d97">Champagne Rose</option>
+                    <option value="d598">Cherry Blossom</option> 
+                    <option value="d599">Lavender Bliss</option> 
+                    <option value="d599">White Gardenia</option> 
+                    <option value="d599">Candy Cane</option> 
             </select>
            <button type="button" className="btn btn-outline-success btn-sm">Search</button>
         </div>
@@ -262,25 +246,25 @@ const DynamicCheckBoxes = () => {
   
   </div>
           <h6>Candle Categories</h6>
-          <div className="candle-checkboxes">
-            <div>
-                <label style={{display:'flex',gap:'0.1em',width:'12em',justifyContent:'flex-start',marginLeft:'-1em '}} >
+          <div className="candle-checkboxes" style={{marginTop:'32%'}}>
+            <div style={{display:'flex',flexDirection:'column',justifyContent:'flex-end'}}>
+                <label style={{display:'flex',gap:'0.1em',width:'12em',justifyContent:'flex-start',margin:'1em 0 0 -1em'}} >
                    <input type="checkbox" />
-                     <span style={{fontSize:'12px',minWidth:'10vw'}}>Synthetic Oil Change</span>
+                     <span style={{fontSize:'12px',minWidth:'10vw'}}>Limoncello</span>
                        <span>(7)</span> 
                 </label>
            </div>
-            <div>
-                <label style={{display:'flex',gap:'0.1em',width:'12em',justifyContent:'flex-start',marginLeft:'-1em '}}>
+            <div style={{display:'flex',flexDirection:'column',alignContent:'flex-start'}}>
+                <label style={{display:'flex',gap:'0.1em',width:'12em',justifyContent:'flex-start',marginLeft:'-1em'}}>
                    <input type="checkbox" />
-                     <span style={{fontSize:'12px',minWidth:'10vw'}}>Regular Oil Change</span>
+                     <span style={{fontSize:'12px',minWidth:'10vw'}}>CherryBlossom</span>
                        <span>(14)</span> 
                 </label>
             </div>
                         <div>
                 <label style={{display:'flex',gap:'0.1em',width:'12em',justifyContent:'flex-start',marginLeft:'-1em '}} >
                    <input type="checkbox" />
-                     <span style={{fontSize:'12px',minWidth:'10vw'}}>Transmission Oil change</span>
+                     <span style={{fontSize:'12px',minWidth:'10vw'}}>Van sugarcookie</span>
                        <span>(7)</span> 
                 </label>
            </div>
@@ -319,7 +303,7 @@ const DynamicCheckBoxes = () => {
                 </label>
             </div>
   </div>
-          <button type="button" className="btn btn-outline-success btn-sm">Update</button>
+          <button type="button" className="btn btn-outline-success btn-sm" style={{position:'absolute', zIndex:'9999999',left:'13.1em'}}>Update</button>
         </div>
     </div>
          <div className="col-lg-9 col-md-7 col-sm-12 posts">
