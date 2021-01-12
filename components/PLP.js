@@ -511,7 +511,7 @@ const PLP = () => {
   {/*  */}
 	</div>
 </header> 
-  <div style={{width:'100%'}}>
+  {/* <div style={{width:'100%'}}>
   <div className="section full-height z-bigger">
   <ul className="case-study-wrapper">
     <li className="case-study-name">                            	
@@ -528,7 +528,7 @@ const PLP = () => {
     </li>
   </ul>
   </div>
-  </div>
+  </div> */}
 <main>
 	<div className="responsive-container">
 		<div className="grid">

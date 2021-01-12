@@ -34,6 +34,8 @@ import PLP from '../components/PLP';
 import Slider from '../components/Slider';
 import SuggestProduct from '../components/SuggestProduct';
 import Footer from '../components/Footer';
+import Hero from '../components/Hero';
+import SubHero from '../components/SubHero';
 
 
 
@@ -47,18 +49,15 @@ export default function Home() {
  
   return (
     <div className="body">
-      <h1>Previewing</h1>
-      <hr />
-      <br />
-      <br />
+      
 {/* <OverlayModal /> */}
       {/* <Catalog /> */}
       {/* {productDetailWithBreadCrumbs} */}
       {/* <Gooey /> */}
-      <div style={{marginTop:'-152vh'}}>
-     {homeHeroSubHero}
+      <Hero />
+      <SubHero />
       <SubSubSectionv2 />
-      </div>
+      {/* </div> */}
       {/* <SuggestProduct /> */}
    {/* <Slider /> */}
      {/* <Countdown /> */}
@@ -137,6 +136,9 @@ export default function Home() {
           padding:0;
           box-sizing: border-box;
           max-width:100vw;
+          position: absolute;
+          top:0;
+          
         }
      
       `}</style>
