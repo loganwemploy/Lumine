@@ -32,6 +32,7 @@ header .logo
 {
   position: relative;
   display: block;
+  opacity:1;
   width: 60px;
   height: 60px;
   background: url('https://i.ibb.co/HrfVRcx/menu.png');
@@ -51,7 +52,7 @@ header .logo
 @media screen and (min-width: 757px){
 .toggle
 {
-  opacity: 0
+  opacity: 0;
 }
 
 }
