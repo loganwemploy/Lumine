@@ -379,7 +379,10 @@ const FrontPageHerov2 = () => {
       <div className="molette"></div>
     </div>
     <div className="mousetext">scroll down</div> */}
-  </div>
+    {/* <div className="mousetext" style={{position:'absolute',right:'0',zIndex:'99999999'}}> */}
+    <img style={{position:'absolute',left:'77.5vw',width:'3em',height:'3em',background:'#eee',transform:'translate3d(0,0,0)',filter:'invert(1)',padding:'5px 7px 5px 7px'}} src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-512.png" alt=""/>
+    </div>
+  {/* </div> */}
     </div>
     <ul className="social">
       <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"/></a></li>
