@@ -363,7 +363,7 @@ const FrontPageHerov2 = () => {
     {/* <video src="https://dl3.pushbulletusercontent.com/dOVziYjxRCagDI1hZAJ2fbjnmUP2f3hC/production%20ID_4127839.mp4" muted loop autoplay></video>  */}
 
     {/* <video id="background-video" loop autoPlay> */}
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1217%2F3930%2Fproducts%2Fgs-110_2907b0fe-76e9-4f2d-a9f3-c410b887d47b_grande.jpg%3Fv%3D1487801152&f=1&nofb=1"  />
+                <img src="https://image.freepik.com/free-photo/hearts-with-candles-inside_23-2147596652.jpg"  />
                 {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.0-9/135818886_112515884070164_2938439365681536199_o.jpg?_nc_cat=101&ccb=2&_nc_sid=a26aad&_nc_ohc=rLV-8ot9mK4AX9XYYIn&_nc_ht=scontent.ford4-1.fna&oh=5e862cad99833334e31b8d259ef43392&oe=6020E733"  /> */}
                 {/* <source src="https://media4.giphy.com/media/19GCNFw9dn4TaN9cas/200w.webp?cid=ecf05e474qmmap5bwprle3ej1a7dqgwlsy34sjh8tsuxok7d&rid=200w.webp" type="video/ogg" />
                 Your browser does not support the video tag. */}

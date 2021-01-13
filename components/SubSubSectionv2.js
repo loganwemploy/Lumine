@@ -523,7 +523,7 @@ h2 {
 .heart {
   width:67vw;
   margin:0.5em auto 0 1.1em;
-  opacity:0.32;
+  opacity:0.12;
   position:relative;
 }
 
@@ -531,6 +531,7 @@ h2 {
 @media screen and (max-width: 654px){
   .heart {
     width:100vw;
+    height: 140px;
     margin: 0;
     opacity:0.99;
 
@@ -576,24 +577,21 @@ const SubSubSectionv2 = () => {
 <div className="rela-block words-section tea">
   <div className="images">
     <img src="https://placehold.it/200x200.jpg" alt=""/>
-    <img style={{borderRadius:'48.5%'}} src="https://lh3.googleusercontent.com/hMaBVHlLGfSmqUpkaJ3kVBuYj1QIm7-eV_hQzB15SYhXxxw291ZYzU_-5fgZamTGnP2mV7qDcmSAxOGd8X-FMNBGuhTfkTNI9Ejvwfy5=s192" alt=""/>
-    <img src="https://placehold.it/200x200.jpg" alt=""/>
+    {/* <img style={{borderRadius:'50%',maxWidth:'180px'}} src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.0-9/132046027_107771104544642_6249432347020636718_n.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_ohc=GWa-wmNkZXgAX9bTVCf&_nc_oc=AQlgdTH_zYffXBLBy_1dzOSHRqr-CMcaKvQN2IiqrBeXjeFMM5aGLrl9mJEHgoetIfE&_nc_ht=scontent.ford4-1.fna&oh=33b900b318488804519ce508ad359b44&oe=6025157B" alt=""/> */}
+    {/* <img src="https://placehold.it/200x200.jpg" alt=""/> */}
     
     </div>
     <img className="heart" src="https://dl3.pushbulletusercontent.com/l3XgbAlDYIuVoWbEOKOKpcCq8AdDuykb/Xnip2021-01-12_15-28-21.jpg" alt=""/>
-    <div className="content-container" >
-        <h2>Lumi Sales Point 1</h2>
-        <p className="light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ullam ipsum eligendi ex distinctio cum quasi laudantium, voluptatem laboriosam delectus impedit doloribus in eos voluptate nulla consectetur saepe illum iste velit corrupti neque sed. Aperiam obcaecati dolorem unde vero sequi?.</p>
+    <div className="content-container" style={{width: '100vw',position:'relative',left:'-15em'}} >
+        <h2 style={{background:'black',color:'white',maxWidth:'67vw',padding: '5px 7px 5px 7px'}}>About Lumi Candles</h2>
+        <p className="light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. ro sequi?.</p>
     </div>
 </div>
 <div className="rela-block words-section leaves right">
     <div className="content-container">
     <div className="abs-center" style={{display:'flex'}}>
-      <div>Release Details: The Yeezy BOOST 350 V2 ‘Natural'</div>
-      <div style={{display:'flex',flexDirection:'column'}}><p>The Yeezy BOOST 350 V2 lineup continues to grow. We recently had the ‘Carbon’ iteration, and now release details have been locked in for this ‘Natural’ joint. Revealed by Yeezy Mafia earlier this year, the shoe was originally called ‘Abez’, which translated to ‘Tin’ in Hebrew. It’s now undergone a name change, and will be referred to as ‘Natural’.</p>
-
+     
 </div>
-    </div>
     </div>
 </div>
 <div className="rela-block large-section">

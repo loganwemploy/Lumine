@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import HeartPic from './HeartPic';
 const StyledBubbleCategories = styled.div`
-padding: 2em;
+padding: 1em 2em;
   :root {
   /* $HERO COLOURS */
   /* Basis for Main inteactive UI components. Also use Acid Green for 
