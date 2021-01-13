@@ -2,6 +2,8 @@ import Footer from '../Footer';
 import Header from '../Header';
 
 const MainLayout = ({ children }) => (
+    <>
+     
   <div className="main-container">
     <Header />
 
@@ -21,6 +23,7 @@ const MainLayout = ({ children }) => (
    
     `}</style>
   </div>
+  </>
 );
 
 export default MainLayout;

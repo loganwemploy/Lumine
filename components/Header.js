@@ -11,8 +11,10 @@ const Header = () => {
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined|Material+Icons" rel="stylesheet" />
             </Head>
            <div className="body hero-anime">	
+          
 
-<div className="navigation-wrap bg-light start-header start-style">
+<div className="navigation-wrap bg-light start-header start-style" style={{width: '100%',maxWidth:'100vw'}}>
+            <div id="topbar" style={{position:'absolute',top:'0',width:'100vw',height:'30px',backgroundColor:'papayawhip',textAlign:'center'}}><h6 style={{padding:'0.32em 0 0 0'}}>70% off Candy Cane Candles. See the Deal >></h6></div>
     <div className="container">
         <div className="row">
             <div className="col-12">
@@ -78,7 +80,8 @@ const Header = () => {
         background-color: #fff;
         overflow-x: hidden;
         transition: all 200ms linear;
-        height: 200vh;
+
+        width: 100%;
     }
     ::selection {
         color: #fff;

@@ -522,10 +522,13 @@ const BubbleCategories = () => {
             <section>
                 {/* <div style={{position:'absolute',top:'0',marginTop:'123vh',background:'red',height:'250px',zIndex:'9999999999999'}}><HeartPic /></div> */}
       <div className="FeedTitleContainer">
+          <br/>
         <h2 className="FeedSubtitle">Explore candles Differently</h2>
+        <br/>
         <span className="FeedDescription">Travel inspired with cool tips and surprising stories</span>
+        
       </div>
-      
+      <br/>
       <ul className="scroll-view overflowing scroller">
         <li className="candles-scroller-item">
           <img width="76" height="76" src="https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e15/c108.295.501.501a/s150x150/136156754_749114445707836_3445262598425093892_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rSWfcLtwySgAX9f4lSJ&tp=1&oh=9a99be87b60e5da3713df6c896d059cb&oe=60008011" className="candles-scroller-item-img" style={{color:"#003A80",backgroundImage:"url('https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e15/c108.295.501.501a/s150x150/136156754_749114445707836_3445262598425093892_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rSWfcLtwySgAX9f4lSJ&tp=1&oh=9a99be87b60e5da3713df6c896d059cb&oe=60008011')"}}/>

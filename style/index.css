@@ -1,6 +1,19 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+* {
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 100vw;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .md-container {
   max-width: 800px;
   padding-top: 2rem;

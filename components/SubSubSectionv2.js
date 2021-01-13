@@ -523,7 +523,7 @@ h2 {
 .heart {
   width:67vw;
   margin:0.5em auto 0 1.1em;
-  opacity:0.12;
+  opacity:0.88;
   position:relative;
 }
 
@@ -583,8 +583,8 @@ const SubSubSectionv2 = () => {
     </div>
     <img className="heart" src="https://dl3.pushbulletusercontent.com/l3XgbAlDYIuVoWbEOKOKpcCq8AdDuykb/Xnip2021-01-12_15-28-21.jpg" alt=""/>
     <div className="content-container" style={{width: '100vw',position:'relative',left:'-15em'}} >
-        <h2 style={{background:'black',color:'white',maxWidth:'67vw',padding: '5px 7px 5px 7px'}}>About Lumi Candles</h2>
-        <p className="light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. ro sequi?.</p>
+       
+        <h2 style={{background:'black',color:'white',maxWidth:'67vw',padding: '5px 7px 5px 7px',lineHeight:'1.1em'}}>About Lumi Candles <p style={{fontWeight:'bold',color:'papayawhip'}}>Learn about how Lumi got founded <br/> <span style={{color:'#05f'}}>Read More >></span></p></h2>
     </div>
 </div>
 <div className="rela-block words-section leaves right">
