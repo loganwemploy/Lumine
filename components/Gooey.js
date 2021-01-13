@@ -6,7 +6,7 @@ import OverlayModal from './OverlayModal';
 
 const StyledGooey = styled.div`
 
-
+margin-top: 121vh;
   i {
   font-size: 20px;
   color: #babfc9;

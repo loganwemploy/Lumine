@@ -89,7 +89,7 @@ header .logo
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.91;
+  opacity: 1;
 }
 .overlay
 {
@@ -375,10 +375,10 @@ const FrontPageHerov2 = () => {
       <p style={{color: '#cfcfcf'}}>Lumi Candle Handcrafted with all natural soy wax and essential oils. Naturally our wax is derived from soy grown in the USA and we use vegan cotton wicks. 🌿Handcrafted with all natural soy wax and essential oils.</p>
       <a href="#" style={{borderRadius:'1.32em'}}>Shop Candles</a>
       <div className="under-container" style={{height:"10vh",position:'absolute',top:'50vh',left:'50%',transform:'translate(-50%,0)'}}>
-    <div className="mouse">
+    {/* <div className="mouse">
       <div className="molette"></div>
     </div>
-    <div className="mousetext">scroll down</div>
+    <div className="mousetext">scroll down</div> */}
   </div>
     </div>
     <ul className="social">
