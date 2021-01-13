@@ -52,7 +52,7 @@ export default function Home() {
  
   return (
     <div className="body">
-      <div id="topbar" style={{width:'100%',height:'50px',backgroundColor:'papayawhip'}}></div>
+    
 {/* <OverlayModal /> */}
       {/* <Catalog /> */}
       {/* {productDetailWithBreadCrumbs} */}

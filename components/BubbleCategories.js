@@ -552,7 +552,7 @@ const BubbleCategories = () => {
         </li>
       </ul>
     </section>
-<div style={{display:'flex',gap: '1em'}}>
+<div style={{position:'relative',display:'flex',justifyContent:'flex-start'}}>
    
         <Instagram />
   

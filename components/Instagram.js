@@ -6,6 +6,22 @@ const StyledIinstagram = styled.div`
     margin-top: 3.24em;
     max-width: 100vw;
     box-sizing: border-box;
+
+    .insta-container {
+        width: 100vw;
+    }
+    .instafeed-pic {
+        width: 23vw;
+    }
+    @media screen and (max-width: 650px){
+    .insta-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .instafeed-pic {
+        width: 100%;
+    }
+    }
 `;
 const Instagram = () => {
     const [ instafeeds, setInstafeeds ] = useState([{name:"https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/137605601_889673081769129_5327997327217326540_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=CnyAH3ijanYAX9hTc77&tp=1&oh=4400d9afd335b8562a20051cd6da3c44&oe=6026E146"},{name:"https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/136389857_468535951214621_7753887344089957486_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=JvNq9dWlBCoAX-7kadP&tp=1&oh=3a5b83932ec0a2fa6ae640eadaba0061&oe=6027DAEE"},{name:"https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/135783130_1015911395556841_3333857033709278383_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=_CIo3BtMOcgAX-NEqU2&tp=1&oh=1bd2c2253256c1033f7c013d6dd82926&oe=60274716"}]);
@@ -18,11 +34,11 @@ const Instagram = () => {
   {/* <!--   Header -->
 
   <!--   Main --> */}
-  <div className="row" style={{width:'100vw',display:'flex',gap:'3em',flexWrap:'nowrap'}}>
+  <div className="row insta-container" style={{display:'flex',gap:'1em',flexWrap:'nowrap'}}>
 
 
    {instafeeds.map((instafeed, index)=>(
-    <div key={index} className="col-md-3 col-sm-12">
+    <div key={index} className="col-md-4 col-sm-12 col-xs-12">
   <main className="bg-white">
  
       {/* <!--       Article --> */}
@@ -38,8 +54,8 @@ const Instagram = () => {
           </button>
 
         </header>
-        <main className="grid grid-cols-1 gap-1">
-          <img style={{width:'100%'}} src={instafeed.name} alt="" className="min-h-full"/>
+        <main>
+          <img src={instafeed.name} alt="" className="instafeed-pic"/>
           <div className="px-2 flex justify-between">
             <div className="flex">
               <button className="mr-3 text-red-500">
