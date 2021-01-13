@@ -251,7 +251,7 @@ const Footer = () => {
   <div className="copyright">
  
     <a href="" title="" className="nav-link"><svg className="" viewBox="0 0 135 40" width="135" height="40"></svg></a>
-    &copy; <span id="js-time">2019</span> The Culture Trip Ltd. All Rights Reserved.
+     <span id="js-time">2021</span> Lumi Candle Boutique
   </div>
 </footer>
         </StyledFooter>
