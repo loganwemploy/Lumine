@@ -363,13 +363,10 @@ const FrontPageHerov2 = () => {
     {/* <video src="https://dl3.pushbulletusercontent.com/dOVziYjxRCagDI1hZAJ2fbjnmUP2f3hC/production%20ID_4127839.mp4" muted loop autoplay></video>  */}
 
     {/* <video id="background-video" loop autoPlay> */}
-                <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/138347728_431248184736831_4111865767696139350_n.jpg?_nc_cat=105&ccb=2&_nc_sid=ae9488&_nc_ohc=hdFmDcTAoIkAX_gU2Y2&_nc_ht=scontent.ford4-1.fna&oh=66ba9b0926a7f1dc3f3b496b418fb3a0&oe=602486B3"  />
-                {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/138347728_431248184736831_4111865767696139350_n.jpg?_nc_cat=105&ccb=2&_nc_sid=ae9488&_nc_ohc=hdFmDcTAoIkAX_gU2Y2&_nc_ht=scontent.ford4-1.fna&oh=66ba9b0926a7f1dc3f3b496b418fb3a0&oe=602486B3"  /> */}
-                {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/139321515_1073905969790117_8052634898151877024_n.jpg?_nc_cat=105&ccb=2&_nc_sid=ae9488&_nc_ohc=YQ8C8693pLUAX8usz_x&_nc_ht=scontent.ford4-1.fna&oh=d88b7a51fef13d58dccd39014fc89a4b&oe=6023ADFB"  /> */}
-                {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/139006354_456883611981644_2595716613794024959_n.jpg?_nc_cat=109&ccb=2&_nc_sid=ae9488&_nc_ohc=VqzUKN5dc6gAX-Hhlu2&_nc_ht=scontent.ford4-1.fna&oh=02c0e4130e78817af6ec88fa47577e93&oe=60270575"  /> */}
-                {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/139176270_401509857608008_8356603372440863681_n.jpg?_nc_cat=103&ccb=2&_nc_sid=ae9488&_nc_ohc=p9Be7elBqcYAX_TI94R&_nc_ht=scontent.ford4-1.fna&oh=db6c4082d234f05c0f0b395d5929d247&oe=60241B97"  /> */}
-                {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/138666655_2762369497425099_973462353949410963_n.jpg?_nc_cat=110&ccb=2&_nc_sid=ae9488&_nc_ohc=ORcvzh9qawYAX-Y--uH&_nc_oc=AQmW5F5-_dj7imtxnjScc6ZHyc2SJnWQejtXuyc-PhAWoSuHFE81CNNUamfShMsX108&_nc_ht=scontent.ford4-1.fna&oh=100281cc1f6ba1ccc246d8d74a8e5b53&oe=602449AC"  /> */}
-
+                <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/139161256_401661237611576_4042659441680050870_n.jpg?_nc_cat=107&ccb=2&_nc_sid=ae9488&_nc_ohc=qqLT1UEJFckAX82x7GE&_nc_oc=AQmuHF9rj93xv4sgiXSwuh26joX0gKsmzIa02P7EuT5GZaoAXu1Q9Qsye4zIlYWZez4&_nc_ht=scontent.ford4-1.fna&oh=a4e1420f0511eb9d9250c24972717378&oe=60267F8E"  />
+                {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/123663810_3430637943721289_2567445918402708699_n.jpg?_nc_cat=106&ccb=2&_nc_sid=ae9488&_nc_ohc=FZXG8zCpQ6UAX_YhDWN&_nc_ht=scontent.ford4-1.fna&oh=0d018f77349f3968bad309cd6415d34d&oe=6026559C"  /> */}
+                {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/138843953_247805586718448_8273137570015003973_n.jpg?_nc_cat=102&ccb=2&_nc_sid=ae9488&_nc_ohc=9hKauIaMFeAAX_a3uwd&_nc_ht=scontent.ford4-1.fna&oh=b412f1d2539079a3241a58fd8b1a1415&oe=602774E9"  /> */}
+            
                 {/*  */}
                 {/* <img src="https://image.freepik.com/free-psd/winter-hygge-assortment-with-mug-candle-mock-up_23-2148759479.jpg"  /> */}
                 {/* <img src="https://dl3.pushbulletusercontent.com/reHb5rmmP5proOq5s30Scc7SO5RjAqoo/4640538.jpg"  /> */}
@@ -379,9 +376,9 @@ const FrontPageHerov2 = () => {
             {/* </video> */}
     
     <div className="text" style={{filter:'contrast(168%) drop-shadow(1px 2px 5px rgba(0,0,0,0.22))',marginTop:'-6.4em'}}>
-      <h2>Lumi</h2> 
-      <h3>Candle Boutique</h3>
-      <p style={{color: '#cfcfcf'}}>Lumi Candle Handcrafted with all natural soy wax and essential oils. Naturally our wax is derived from soy grown in the USA and we use vegan cotton wicks. 🌿Handcrafted with all natural soy wax and essential oils.</p>
+      <h2 style={{color:'#efefef'}}>Lumi</h2> 
+      <h3 style={{color:'#efefef'}}>Candle Boutique</h3>
+      <p style={{color: '#efefef',}}>Perfectly handcrafted soy wax candles with essential oil scents for every mood! Local business based in Chicago. Lumi Candles are handcrafted with all natural soy wax and essential oils. Naturally our wax is derived from soy.  grown in the USA and we use vegan cotton wicks. 🌿Handcrafted with all natural soy wax and essential oils. </p>
       <a href="#" style={{borderRadius:'1.32em'}}>Shop Candles</a>
       <div className="under-container" style={{height:"10vh",position:'absolute',top:'50vh',left:'50%',transform:'translate(-50%,0)'}}>
     {/* <div className="mouse">

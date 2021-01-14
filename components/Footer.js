@@ -11,6 +11,7 @@ bottom: 0;
   width: 100%;
   max-width: 100vw;
   overflow-x: hidden;
+  transform: translate3d(0,32vh,0);
 
 
 /* Layout debug */
@@ -219,7 +220,7 @@ html {
 const Footer = () => {
     return (
         <StyledFooter>
-            
+       <div style={{height:'100vh',width:'100%',backgroundColor:'transparent'}}></div>     
 
 <footer className="global-footer" role="contentinfo">
   <ul className="footer-nav">

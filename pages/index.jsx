@@ -63,9 +63,10 @@ export default function Home() {
       <SubHero />
       <BubbleCategories />
       {/*  */}
-      <div className="jumbotron" id="home">
+      <div className="jumbotron" id="home" style={{marginTop:'20vh',color:'#222'}}>
   <h1>Hello!<br/>We are Lumi Candle Boutique.</h1>
-  <p style={{width:'50vw',textAlign:'left'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur, sed voluptatem magnam enim ipsam rem temporibus aperiam labore non sunt optio maxime obcaecati numquam excepturi atque? Fuga dignissimos odit sed? Quia doloribus asperiores fugit ducimus beatae earum, labore error, veritatis vero similique exercitationem molestias iure vel alias natus eum veniam rem, ipsum nisi saepe harum qui officiis. Voluptatibus, repellendus.</p>
+  <p style={{width:'50vw',textAlign:'left',color:'#222'}}>Perfectly handcrafted soy wax candles with essential oil scents for every mood! Local business based in Chicago, 
+  Hey everyone, I've been super excited to share my journey of starting my own small business with you all and can't wait to continue to do so!</p>
   <ul className="list-inline" style={{display:'flex'}}>
     <li><a className="btn btn-default btn-lg" href="https://www.facebook.com/mtrifunovski" title="Me on Facebook" target="_blank"><i className="fa fa-facebook"></i></a></li>
     <li><a className="btn btn-default btn-lg" href="https://twitter.com/" title="Me on Twitter" target="_blank"><i className="fa fa-twitter"></i></a></li>
@@ -73,8 +74,63 @@ export default function Home() {
     <li><a className="btn btn-default btn-lg" href="https://www.freecodecamp.com/matko95" title="Me on FreeCodeCamp" target="_blank"><i className="fa fa-fire"></i></a></li>
   </ul>
 </div>
+
       {/* <SubSubSectionv2 /> */}
-      <div style={{width:"100%",height:'67vh'}}></div>
+      <div style={{width:"100%"}}></div>
+      <div className="site-wrap" >
+  <header className="site-header active cf">
+    <div className="site-header-left">
+      <nav className="site-nav">
+        <ul>
+          <li><a style={{borderRadius:'1.32em'}} href="#">Home</a></li>
+         
+        </ul>
+      </nav>
+    </div>
+    <div className="site-header-right">
+      <h1 className="logo-mb">Logan<br/>Wilson</h1>
+    </div>
+  </header>
+  <section className="site-content-wrap">
+    
+      <div className="project" >
+        <div className="site-content-left" style={{marginTop:'-21vh'}}>
+          <span className="vertical-datestamp">2021</span>
+          <h1>Lumi Candle Boutique</h1>
+          <h2>Handpoured Handcrafted Candles</h2>
+          <ul className="project-meta">
+            <li><strong>Insta:</strong>@lumicandleboutique</li>
+            <li><strong>FBLink:</strong> <a href="#">www.facebook.com/lumicandleboutique</a></li>
+          </ul>
+          <p>Hey everyone, I've been super excited to share my journey of starting my own small business with you all and can't wait to continue to do so!</p>
+          <ul className="project-tags">
+            <li>#small business</li>
+            <li>#support small business</li>
+            <li>#women owned business</li>
+            <li>#latina owned business</li>
+            <li>#chicago business</li>
+            <li>#all natural</li>
+          </ul>
+        </div>
+        <div className="site-content-right">
+          <div className="project-devices">
+            
+          
+            
+          </div>
+        </div>
+      </div>
+    
+    
+    
+    
+  </section>
+  <footer className="site-footer">
+    
+  </footer>
+  
+</div>
+
       <Footer />
       {/* </div> */}
       {/* <SuggestProduct /> */}
@@ -159,6 +215,127 @@ export default function Home() {
           top:0;
 
         }
+
+
+
+
+.site-header { background-color:#5a9abf;border-bottom:solid 5px #444; }
+.site-header-left { float:left;width:40%;background-color:#444;color:#fff;padding:5%; }
+.site-header-right { float:left;width:60%;color:#fff;padding:5%; }
+.logo-mb { 
+  font-family:'Average', 'Georgia';font-size:4em;font-weight:normal;margin:0; 
+  line-height:1;position:absolute;margin-top:-2%;
+}
+.site-content-wrap {  }
+.site-nav { font-size:1.2em;text-transform:uppercase; }
+.site-nav ul { list-style:none;padding:0;margin:0; }
+.site-nav li { display:block;margin-bottom:16%; }
+.site-nav a { 
+  color:#fff;text-decoration:none;padding:2% 10%;border:solid 5px #fff; 
+  text-align:center;font-weight:bold;transition:all 0.3s;
+}
+.site-nav a:hover { color:#444;background-color:#fff; }
+.site-content-left { position:relative;float:left;width:40%;color:#444;padding:5%;border-right:solid 5px #444; }
+.site-content-right { position:relative;float:left;width:60%;color:#444;padding:5%;border-right:solid 5px #444; }
+
+@media screen and (max-width:767px) {
+  .logo-mb { position:relative;font-size:3.5em;text-align:center;padding:10% 5%; }
+  .site-nav {width:100%;background-color:#444;color:#fff;padding:10px 20px;}
+  .site-nav ul { list-style:none;margin:0;padding:0;text-align:center;}
+  .site-nav li {  display:inline;transition: all 1s;border-radius: 1.2em}
+  .site-nav a { 
+    display:block;color:#fff;text-decoration:none;padding:1%;
+    border:solid 5px #fff;text-transform:uppercase;
+    font-weight:bold;
+    font-size:1.4em;width:100%;margin:20px auto;
+    transition: all 0.3s;
+    border-radius: 1.2em;
+  }
+
+  .site-nav a:hover {background-color:#fff;color:#444; }
+  .active .site-nav {cursor:pointer;}
+ 
+  .active .site-nav a { 
+    font-size:0px;padding:0px;width:50px;
+    margin:10px auto;border-width:3px;
+  }
+  .site-header { border-bottom:solid 0px #444; }
+  .site-header-left { width:100%;height:auto;background-color:#444;color:#fff;padding:0; }
+  .site-header-right { display:block;width:100%;color:#fff;padding:5%; }
+  .site-content-left { position:relative;float:left;width:100%;color:#444;padding:5%;border-right:solid 0px #444; }
+  .site-content-right { position:relative;float:left;width:100%;color:#444;padding:5%;border-right:solid 0px #444; }
+  
+}
+
+
+
+
+.project-meta { 
+  list-style:none;padding:0;overflow:hidden;
+  border:solid #444; border-width:5px 5px 0 5px;
+}
+.project-meta li { padding:5%;border-bottom:solid 5px #444;font-weight:100; }
+.project-meta li strong {  }
+.project-tags { list-style:none;padding:0; }
+.project-tags li { 
+  display:inline; float:left;text-transform:uppercase;
+  color:#fff;background-color:#444;padding:3% 7%;margin:0 2% 2% 0;
+  border-radius: 1.32em;
+}
+.project h1 { font-size:2.3em;margin-bottom:0;color:#31373b;line-height:1.2em; }
+.project h2 { margin-top:0.5em;color:#444; }
+.project-meta {  font-size:1.2em; }
+.project-meta strong { text-transform:uppercase; }
+.project p { color:#31373b; }
+.project-tags { font-weight:bold; }
+.vertical-datestamp { 
+  position:absolute;right:-44px;top:60px; padding:6px 16px;
+  background-color:#444;color:#fff;
+  font-size:1.4em;font-weight:bold;
+  -webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);-o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.device-imac { 
+  width:361px;height:291px; 
+  background:url('http://www.mattbeaudry.com/files/device-frame-imac.png') no-repeat center center;
+}
+.device-macbookpro { 
+  width:361px;height:291px; /*width:294px;height:169px; */
+  background:url('http://www.mattbeaudry.com/files/device-frame-macbookpro.png') no-repeat center center;
+}
+
+.device-ipad { 
+  float:left;width:134px;height:176px;margin:3%;
+  background:url('http://www.mattbeaudry.com/files/device-frame-ipad.png') no-repeat center center;
+}
+.device-ipadmini { 
+  float:left;width:93px;height:138px; margin:3%;
+  background:url('http://www.mattbeaudry.com/files/device-frame-ipadmini.png') no-repeat center center;
+}
+.device-iphone { 
+  float:left;width:58px;height:124px; margin:3%;
+  background:url('http://www.mattbeaudry.com/files/device-frame-iphone.png') no-repeat center center;
+}
+.device-imac, .device-macbookpro, .devices-mobile { margin-bottom:5%; }
+
+
+
+
+@media screen and (max-width:768px) {
+  
+
+  .vertical-datestamp { right:-23px; }
+  .device-imac, .device-macbookpro, .devices-mobile { width:100%; }
+  .devices-mobile { padding-left:10%;text-align:center; }
+
+
+
+  
+}
+
+
+
      
       `}</style>
     </div>
