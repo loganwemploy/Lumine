@@ -3,66 +3,66 @@ import React from 'react'
 const AstroCards = () => {
     return (
         <>
-           <div className="book-slide" style={{display:'flex',width:'100vw',overflowY:'scroll',padding:'0',marginLeft:'-1em'}}>
-  <div className="book js-flickity" data-flickity-options='{ "wrapAround": true }' style={{display:'flex'}}>
-   <div className="book-cell" style={{width:'39em'}}>
-    <div className="book-img">
-     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
+           <div className="candle-slide" style={{display:'flex',width:'100vw',overflowY:'scroll',padding:'0',marginLeft:'-1em'}}>
+  <div className="candle js-flickity" data-flickity-options='{ "wrapAround": true }' style={{display:'flex'}}>
+   <div className="candle-cell" style={{width:'39em'}}>
+    <div className="candle-img">
+     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="candle-photo"/>
     </div>
-    <div className="book-content">
-     <div className="book-title">Featured</div>
-     <div className="book-author">Candle of the Month <sup>$</sup>20.99</div>
-     <div className="book-sum">Champagne Rose the candleof the month for January is a dleightful mix of romance and relaxation. Take a bubble bath or hangout in the living room, even bring the candle for a nicely lit dinner.</div>
+    <div className="candle-content">
+     <div className="candle-title">Featured</div>
+     <div className="candle-author">Candle of the Month <sup>$</sup>20.99</div>
+     <div className="candle-sum">Champagne Rose the candleof the month for January is a dleightful mix of romance and relaxation. Take a bubble bath or hangout in the living room, even bring the candle for a nicely lit dinner.</div>
     
-     <div className="book-see book-yellow">See The Candle</div>
+     <div className="candle-see candle-yellow">See The Collection</div>
     </div>
    </div>
-   <div className="book-cell" style={{width:'39em'}}>
-    <div className="book-img">
-     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
+   <div className="candle-cell" style={{width:'39em'}}>
+    <div className="candle-img">
+     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="candle-photo"/>
     </div>
-    <div className="book-content">
-     <div className="book-title">Winter</div>
-     <div className="book-author">Winter Collection <sup>$</sup>20.99</div>
-     <div className="book-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year.</div>
+    <div className="candle-content">
+     <div className="candle-title">Florals</div>
+     <div className="candle-author">Floral Collection <sup>$</sup>20.99</div>
+     <div className="candle-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year.</div>
      
-     <div className="book-see book-pink">See The Candle</div>
+     <div className="candle-see candle-see">See The Collection</div>
     </div>
    </div>
-   <div className="book-cell" style={{width:'39em'}}>
-    <div className="book-img">
-     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo" />
+   <div className="candle-cell" style={{width:'39em'}}>
+    <div className="candle-img">
+     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="candle-photo" />
     </div>
-    <div className="book-content">
-     <div className="book-title">Classics-</div>
-     <div className="book-author">Classic Collection - <sup>$</sup>20.99</div>
-     <div className="book-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year. A Bubbly, warm,, Champagne Rose. </div>
+    <div className="candle-content">
+     <div className="candle-title">Classic</div>
+     <div className="candle-author">Classic Collection - <sup>$</sup>20.99</div>
+     <div className="candle-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year. A Bubbly, warm,, Champagne Rose. </div>
     
-     <div className="book-see">See The Candle</div>
+     <div className="candle-see candle-blue">See The Collection</div>
     </div>
    </div>
-   <div className="book-cell" style={{width:'39em'}}>
-    <div className="book-img">
-     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
+   <div className="candle-cell" style={{width:'39em'}}>
+    <div className="candle-img">
+     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="candle-photo"/>
     </div>
-    <div className="book-content">
-     <div className="book-title">Florals-</div>
-     <div className="book-author">Floral Collection <sup>$</sup>20.99</div>
-     <div className="book-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year.</div>
+    <div className="candle-content">
+     <div className="candle-title">Winter</div>
+     <div className="candle-author">Winter Collection <sup>$</sup>20.99</div>
+     <div className="candle-sum">People of all ages and walks of life have enjoyed relaxation and comfort from Lumi Candle Boutique’s candle for all times of the year.</div>
      
-     <div className="book-see book-blue">See The Candle</div>
+     <div className="candle-see candle-blue">See The Collection</div>
     </div>
    </div>
-   <div className="book-cell" style={{width:'39em'}}>
-    <div className="book-img">
-     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="book-photo"/>
+   <div className="candle-cell" style={{width:'39em'}}>
+    <div className="candle-img">
+     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0641%2F0529%2Fproducts%2F1_11219.jpg%3Fv%3D1571438951&f=1&nofb=1" alt="" className="candle-photo"/>
     </div>
-    <div className="book-content">
-     <div className="book-title">On Sale</div>
-     <div className="book-author">Candy Cane  <sup>$</sup>10.99</div>
-     <div className="book-sum">Before We selll out get your last chance for our candy cane candle. </div>
+    <div className="candle-content">
+     <div className="candle-title">On Sale</div>
+     <div className="candle-author">Candy Cane  <sup>$</sup>10.99</div>
+     <div className="candle-sum">Before We selll out get your last chance for our candy cane candle. </div>
   
-     <div className="book-see book-purple">See The Candle</div>
+     <div className="candle-see candle-purple">See The Collection</div>
     </div>
    </div>
   </div>
@@ -102,12 +102,12 @@ const AstroCards = () => {
         margin: 0;
       }
       
-      .likes, .year-book, .author, .main-menu, .profile-menu, .profile, .browse-category, .browse, .header {
+      .likes, .year-candle, .author, .main-menu, .profile-menu, .profile, .browse-category, .browse, .header {
         display: flex;
         align-items: center;
       }
       
-      .book-store {
+      .candle-store {
         display: flex;
         flex-direction: column;
         max-width: 1400px;
@@ -208,37 +208,37 @@ const AstroCards = () => {
         flex-shrink: 0;
       }
       
-      .book-slide {
+      .candle-slide {
         width: 100%;
       }
       
-      .book {
+      .candle {
         background: #fff;
       }
       
-      .book-cell {
+      .candle-cell {
         position: relative;
         display: flex;
         padding: 25px;
-        min-width: 300px;
+        min-width: 230px;
         height: 23em;
         margin-right: 1px;
       }
-      .book-cell:nth-child(1) {
+      .candle-cell:nth-child(1) {
         background-color: #fdca95;
       }
-      .book-cell:nth-child(2) {
-        background-image: linear-gradient(196deg, #acecec, #edb9d6);
-        background-color: #edb9d6;
+      .candle-cell:nth-child(2) {
+        background-image: linear-gradient(196deg, #f1a9a9, #e66767);
         
       }
-      .book-cell:nth-child(3) {
+      .candle-cell:nth-child(3) {
         background-image: linear-gradient(196deg, #94e0eb, #44e0eb);
       }
-      .book-cell:nth-child(4) {
-        background-image: linear-gradient(196deg, #f1a9a9, #e66767);
+      .candle-cell:nth-child(4) {
+        background-image: linear-gradient(196deg, #acecec, #edb9d6);
+        background-color: #edb9d6;
       }
-      .book-cell:nth-child(5) {
+      .candle-cell:nth-child(5) {
         background-color: #cbb5e2;
       }
       
@@ -268,7 +268,7 @@ const AstroCards = () => {
         overflow: visible;
       }
       
-      .book-photo {
+      .candle-photo {
         width: 17.5em;
         min-height: 20em;
         flex-shrink: 0;
@@ -278,15 +278,15 @@ const AstroCards = () => {
         box-shadow: -2px 6px 19px 0px #7f818e;
         transition: 0.3s ease;
       }
-      .book-photo:hover {
+      .candle-photo:hover {
         transform: scale(1.03);
       }
       
-      .book-img {
+      .candle-img {
         flex-shrink: 0;
       }
       
-      .book-title {
+      .candle-title {
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
@@ -294,12 +294,12 @@ const AstroCards = () => {
         
       }
       
-      .book-title {
+      .candle-title {
         color: #ffffff;
         font-weight: 600;
       }
       
-      .book-author {
+      .candle-author {
         margin-top: 3px;
         font-size: 14px;
         font-weight: bold;
@@ -312,7 +312,7 @@ const AstroCards = () => {
         
       }
       
-      .book-content {
+      .candle-content {
         padding: 0 20px;
         color: #ffffff;
         overflow: hidden;
@@ -419,7 +419,7 @@ const AstroCards = () => {
         color: #905587;
       }
       
-      .book-voters {
+      .candle-voters {
         color: #fff;
         vertical-align: sub;
         font-size: 13px;
@@ -428,7 +428,7 @@ const AstroCards = () => {
         margin-top: 7px;
       }
       
-      .book-sum {
+      .candle-sum {
         padding: 2.32em 0 1em 0;
         font-size: 14px;
         overflow: hidden;
@@ -439,7 +439,7 @@ const AstroCards = () => {
         max-height: 11.9em;
       }
       
-      .book-see {
+      .candle-see {
         margin-top: 18px;
         text-align: center;
         background-color: #fff;
@@ -452,32 +452,32 @@ const AstroCards = () => {
         transition: all ease 0.4s;
         cursor: pointer;
       }
-      .book-see:hover {
+      .candle-see:hover {
         color: #ff6e72;
         transform: translate3d(0,-0.18em,0);
       }
-      .book-see.book-blue {
+      .candle-see.candle-blue {
         color: #a4e0eb;
       }
-      .book-see.book-blue:hover {
+      .candle-see.candle-blue:hover {
         color: #22cdec;
       }
-      .book-see.book-pink {
+      .candle-see.candle-pink {
         color: #edb9d6;
       }
-      .book-see.book-pink:hover {
+      .candle-see.candle-pink:hover {
         color: #ff6dbe;
       }
-      .book-see.book-yellow {
+      .candle-see.candle-yellow {
         color: #fdca95;
       }
-      .book-see.book-yellow:hover {
+      .candle-see.candle-yellow:hover {
         color: #fb9124;
       }
-      .book-see.book-purple {
+      .candle-see.candle-purple {
         color: #cbb5e2;
       }
-      .book-see.book-purple:hover {
+      .candle-see.candle-purple:hover {
         color: #a764ec;
       }
       
@@ -489,7 +489,7 @@ const AstroCards = () => {
         overflow: hidden;
       }
       
-      .books-of {
+      .candles-of {
         width: 320px;
         display: flex;
         flex-direction: column;
@@ -498,7 +498,7 @@ const AstroCards = () => {
         flex-shrink: 0;
       }
       
-      .popular-books {
+      .popular-candles {
         flex-grow: 1;
         padding: 0 30px 50px;
         overflow-y: auto;
@@ -520,27 +520,27 @@ const AstroCards = () => {
         z-index: 2;
       }
       
-      .book-types {
+      .candle-types {
         margin-left: auto;
       }
-      .book-types a {
+      .candle-types a {
         text-decoration: none;
         color: var(--body-color);
         font-size: 14px;
       }
       
-      .book-type + .book-type {
+      .candle-type + .candle-type {
         margin-left: 20px;
       }
       
-      .book-type {
+      .candle-type {
         position: relative;
         transition: 0.2s;
       }
-      .book-type.active, .book-type:hover {
+      .candle-type.active, .candle-type:hover {
         -webkit-text-stroke: 0.3px;
       }
-      .book-type.active:before, .book-type:hover:before {
+      .candle-type.active:before, .candle-type:hover:before {
         content: "";
         position: absolute;
         width: 28px;
@@ -550,16 +550,16 @@ const AstroCards = () => {
         background-color: #67d4ea;
         box-shadow: 0px -1px 5px 0px #67d4ea;
       }
-      .book-type:nth-child(2):before {
+      .candle-type:nth-child(2):before {
         right: 12px;
       }
-      .book-type:nth-child(3):before {
+      .candle-type:nth-child(3):before {
         right: 8px;
       }
-      .book-type:nth-child(4):before {
+      .candle-type:nth-child(4):before {
         right: 6px;
       }
-      .book-type:nth-child(5):before {
+      .candle-type:nth-child(5):before {
         right: 20px;
       }
       
@@ -592,22 +592,22 @@ const AstroCards = () => {
         object-position: center;
       }
       
-      .year-book-img {
+      .year-candle-img {
         width: 45px;
         margin-right: 16px;
       }
-      .year-book-name {
+      .year-candle-name {
         margin-bottom: 15px;
         font-weight: 500;
       }
-      .year-book-author {
+      .year-candle-author {
         font-size: 13px;
       }
-      .year-book + .year-book {
+      .year-candle + .year-candle {
         margin-top: 20px;
       }
       
-      .year-book-content {
+      .year-candle-content {
         display: flex;
         flex-direction: column;
         font-size: 14px;
@@ -624,7 +624,7 @@ const AstroCards = () => {
         margin-left: -35px;
       }
       
-      .book-cards {
+      .candle-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 40px;
@@ -633,7 +633,7 @@ const AstroCards = () => {
         position: relative;
       }
       
-      .book-card {
+      .candle-card {
         margin-top: 20px;
         background-color: #fff;
         height: 270px;
@@ -646,7 +646,7 @@ const AstroCards = () => {
         color: var(--body-color-light);
       }
       
-      .book-card-img {
+      .candle-card-img {
         width: 160px;
         margin-top: -35px;
         border-radius: 2px;
@@ -656,7 +656,7 @@ const AstroCards = () => {
         margin-bottom: 20px;
         transition: 0.3s ease;
       }
-      .book-card-img:hover {
+      .candle-card-img:hover {
         transform: scale(1.04);
       }
       
@@ -668,14 +668,14 @@ const AstroCards = () => {
   
       }
       
-      .book-name {
+      .candle-name {
         font-weight: 500;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
       }
       
-      .book-by {
+      .candle-by {
         font-size: 13px;
         color: var(--body-color-light);
         margin-top: 4px;
@@ -684,7 +684,7 @@ const AstroCards = () => {
         white-space: nowrap;
       }
       
-      .book-rate > label {
+      .candle-rate > label {
         color: #cccccc;
       }
       
@@ -694,16 +694,16 @@ const AstroCards = () => {
         margin-top: 0.36em;
       }
       
-      .book-rate > input:checked ~ label,
-      .book-rate:not(:checked) > label:hover,
-      .book-rate:not(:checked) > label:hover ~ label {
+      .candle-rate > input:checked ~ label,
+      .candle-rate:not(:checked) > label:hover,
+      .candle-rate:not(:checked) > label:hover ~ label {
         color: #ff9700;
       }
       
-      .book-rate > input:checked + label:hover,
-      .book-rate > input:checked ~ label:hover,
-      .book-rate > label:hover ~ input:checked ~ label,
-      .book-rate > input:checked ~ label:hover ~ label {
+      .candle-rate > input:checked + label:hover,
+      .candle-rate > input:checked ~ label:hover,
+      .candle-rate > label:hover ~ input:checked ~ label,
+      .candle-rate > input:checked ~ label:hover ~ label {
         color: #ff9700;
       }
       
@@ -766,15 +766,15 @@ const AstroCards = () => {
       }
       
       @media (max-width: 1103px) {
-        .book-cell {
+        .candle-cell {
           width: 60%;
         }
       }
       @media (max-width: 765px) {
-        .book-cell {
+        .candle-cell {
           width: 80%;
         }
-        .book-photo {
+        .candle-photo {
           width: 17.5em;
           min-height: 5em;
           max-height: 140px;
@@ -788,31 +788,31 @@ const AstroCards = () => {
         }
       }
       @media (max-width: 575px) {
-        .book-cell {
+        .candle-cell {
           width: 100%;
         }
       }
       @media (max-width: 575px) {
-        .book-cell {
+        .candle-cell {
           width: 100%;
         }
       }
       @media (max-width: 458px) {
-        .book-photo {
+        .candle-photo {
           width: 180px;
         }
       
-        .book-voters {
+        .candle-voters {
           display: none;
         }
       }
       @media (max-width: 420px) {
-        .book-see {
+        .candle-see {
           width: 120px;
           font-size: 13px;
         }
       
-        .book-photo {
+        .candle-photo {
           width: 130px;
           height: 200px;
         }
@@ -832,12 +832,12 @@ const AstroCards = () => {
         }
       }
       @media (max-width: 1085px) {
-        .book-rate > label {
+        .candle-rate > label {
           font-size: 0.7em;
         }
       }
       @media (max-width: 1045px) {
-        .books-of {
+        .candles-of {
           display: none;
         }
       }
@@ -850,11 +850,11 @@ const AstroCards = () => {
           margin-right: auto;
         }
       
-        .book-cards {
+        .candle-cards {
           grid-template-columns: 1fr;
         }
       
-        .book-types {
+        .candle-types {
           display: none;
         }
       }
