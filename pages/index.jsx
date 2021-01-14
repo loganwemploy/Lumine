@@ -52,7 +52,9 @@ export default function Home() {
  
   return (
     <div className="body">
-    
+    <Head>
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
+    </Head>
 {/* <OverlayModal /> */}
       {/* <Catalog /> */}
       {/* {productDetailWithBreadCrumbs} */}
@@ -60,7 +62,19 @@ export default function Home() {
       <Hero />
       <SubHero />
       <BubbleCategories />
-      <SubSubSectionv2 />
+      {/*  */}
+      <div className="jumbotron" id="home">
+  <h1>Hello!<br/>We are Lumi Candle Boutique.</h1>
+  <p style={{width:'50vw',textAlign:'left'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur, sed voluptatem magnam enim ipsam rem temporibus aperiam labore non sunt optio maxime obcaecati numquam excepturi atque? Fuga dignissimos odit sed? Quia doloribus asperiores fugit ducimus beatae earum, labore error, veritatis vero similique exercitationem molestias iure vel alias natus eum veniam rem, ipsum nisi saepe harum qui officiis. Voluptatibus, repellendus.</p>
+  <ul className="list-inline" style={{display:'flex'}}>
+    <li><a className="btn btn-default btn-lg" href="https://www.facebook.com/mtrifunovski" title="Me on Facebook" target="_blank"><i className="fa fa-facebook"></i></a></li>
+    <li><a className="btn btn-default btn-lg" href="https://twitter.com/" title="Me on Twitter" target="_blank"><i className="fa fa-twitter"></i></a></li>
+    <li><a className="btn btn-default btn-lg" href="https://github.com/Matko95" title="Me on GitHub" target="_blank"><i className="fa fa-github"></i></a></li>
+    <li><a className="btn btn-default btn-lg" href="https://www.freecodecamp.com/matko95" title="Me on FreeCodeCamp" target="_blank"><i className="fa fa-fire"></i></a></li>
+  </ul>
+</div>
+      {/* <SubSubSectionv2 /> */}
+      <div style={{width:"100%",height:'67vh'}}></div>
       <Footer />
       {/* </div> */}
       {/* <SuggestProduct /> */}
