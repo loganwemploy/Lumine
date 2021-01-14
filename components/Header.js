@@ -17,7 +17,7 @@ const Header = () => {
             <div id="topbar" style={{position:'absolute',top:'0',width:'100vw',height:'30px',backgroundColor:'papayawhip',textAlign:'center'}}><h6 style={{padding:'0.32em 0 0 0'}}>70% off Candy Cane Candles. See the Deal >></h6></div>
     <div className="container">
         <div className="row">
-            <div className="col-12">
+            <div className="col-12 nav-holder">
                 <nav className="navbar navbar-expand-md navbar-light">
                 
                     <a className="navbar" href="" target="_blank">
@@ -596,6 +596,10 @@ const Header = () => {
     }
     .body.dark .logo img {
       filter: brightness(100%);
+    }
+
+    .nav-holder {
+        height: 55px;
     }
 `}</style>
         </>

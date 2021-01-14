@@ -363,7 +363,9 @@ const FrontPageHerov2 = () => {
     {/* <video src="https://dl3.pushbulletusercontent.com/dOVziYjxRCagDI1hZAJ2fbjnmUP2f3hC/production%20ID_4127839.mp4" muted loop autoplay></video>  */}
 
     {/* <video id="background-video" loop autoPlay> */}
-                <img src="https://image.freepik.com/free-photo/hearts-with-candles-inside_23-2147596652.jpg"  />
+                <img src="https://image.freepik.com/free-psd/card-mockup-with-figurine-candle_100436-725.jpg"  />
+                {/* <img src="https://image.freepik.com/free-psd/winter-hygge-assortment-with-mug-candle-mock-up_23-2148759479.jpg"  /> */}
+                {/* <img src="https://dl3.pushbulletusercontent.com/reHb5rmmP5proOq5s30Scc7SO5RjAqoo/4640538.jpg"  /> */}
                 {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.0-9/135818886_112515884070164_2938439365681536199_o.jpg?_nc_cat=101&ccb=2&_nc_sid=a26aad&_nc_ohc=rLV-8ot9mK4AX9XYYIn&_nc_ht=scontent.ford4-1.fna&oh=5e862cad99833334e31b8d259ef43392&oe=6020E733"  /> */}
                 {/* <source src="https://media4.giphy.com/media/19GCNFw9dn4TaN9cas/200w.webp?cid=ecf05e474qmmap5bwprle3ej1a7dqgwlsy34sjh8tsuxok7d&rid=200w.webp" type="video/ogg" />
                 Your browser does not support the video tag. */}
