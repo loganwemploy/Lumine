@@ -13,7 +13,7 @@ const options = {
     smartSpeed: 400,
     items: 1,
     navText: [
-        "<i class='flaticon-left'></i>",
+        "<i class='fa fa-envelope'></i>",
         "<i class='flaticon-right-arrow'></i>"
     ],
 }
