@@ -13,8 +13,8 @@ const options = {
     smartSpeed: 400,
     items: 1,
     navText: [
-        "<i class='fa fa-envelope'></i>",
-        "<i class='flaticon-right-arrow'></i>"
+        "<i class='fa fa-angle-left'></i>",
+        "<i class='fa fa-angle-right'></i>"
     ],
 }
 
@@ -22,6 +22,7 @@ class MainBanner extends Component {
     _isMounted = false;
     state = {
         display: false,
+
     }
     componentDidMount(){ 
         this._isMounted = true;
@@ -50,7 +51,7 @@ class MainBanner extends Component {
                                                         isVisible ? "sub-title animated fadeInUp opacityOne" : 'opacityZero'
                                                     }
                                                 >
-                                                    Valentine's Day Special!
+                                                   <i className="fa fa-heart"></i> Valentine's Day Special!
                                                 </span>
                                                 <h1
                                                     className={

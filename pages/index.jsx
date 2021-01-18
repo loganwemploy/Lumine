@@ -42,6 +42,8 @@ import BubbleCategories from '../components/BubbleCategories';
 import GradientTry from '../components/GradientTry';
 import MainBanner from '../components/MainBanner';
 import CategoriesBanner from '../components/CategoriesBanner';
+import OfferStyleOne from '../components/OfferStyleOne';
+// import AstroCards from '../components/AstroCards';
 
 
 
@@ -58,7 +60,7 @@ export default function Home() {
     <Head>
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
     </Head>
-    <div style={{width:'100%',paddingTop:'18vh'}}>
+    <div style={{width:'100%',paddingTop:'14vh'}}>
 {/* <OverlayModal /> */}
       {/* <Catalog /> */}
       {/* {productDetailWithBreadCrumbs} */}
@@ -97,20 +99,21 @@ export default function Home() {
 
       <Footer /> */}
       <MainBanner />
+      {/* <AstroCards /> */}
       <CategoriesBanner />
+      <OfferStyleOne />
       {/* </div> */}
       {/* <SuggestProduct /> */}
-   {/* <Slider /> */}
+   <Slider />
+     {/* <Gooey /> */}
      {/* <Countdown /> */}
      {/* <div style={{display:'flex',flexDirection:'column',height:'auto', marginTop:'-150vh',width:'100%',maxWidth:'100vw',boxSizing:'border-box',}}>
-       <div style={{position:'relative'}}>
-       <Gooey />
+     <div style={{position:'relative'}}>
        </div>
       
 
      </div> */}
       {/* <Catalog /> */}
-      {/* <AstroCards /> */}
       {/* <AdCopy /> */}
       {/* <Alt /> */}
   {/* {thankYouForOrder} */}

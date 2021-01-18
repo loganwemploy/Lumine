@@ -1392,7 +1392,7 @@ Main Banner CSS
 }
 @media screen and (max-width: 800px){
   .main-banner {
-  height: 88vh;
+  height: 75vh !important;
   position: relative;
   z-index: 1;
   background-position: top center;
