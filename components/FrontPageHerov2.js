@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import styled from 'styled-components';
 
 const StyledFrontPageHerov2 = styled.div`
- margin: auto;
+ margin: 4.2em auto 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -357,13 +357,15 @@ const FrontPageHerov2 = () => {
           
     <header> 
     <div style={{width: '100%',height: '10vh',background:'transparent'}}></div>
-      <h5 style={{margin:'1em 0 0 0.12em'}}>Hi, Welcome Sabrina</h5>
+      {/* <h5 style={{margin:'1em 0 0 0.12em'}}>Hi, Welcome Sabrina</h5> */}
+      <br/>
       <div className="toggle"></div>
     </header> 
     {/* <video src="https://dl3.pushbulletusercontent.com/dOVziYjxRCagDI1hZAJ2fbjnmUP2f3hC/production%20ID_4127839.mp4" muted loop autoplay></video>  */}
 
     {/* <video id="background-video" loop autoPlay> */}
-                <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/139161256_401661237611576_4042659441680050870_n.jpg?_nc_cat=107&ccb=2&_nc_sid=ae9488&_nc_ohc=qqLT1UEJFckAX82x7GE&_nc_oc=AQmuHF9rj93xv4sgiXSwuh26joX0gKsmzIa02P7EuT5GZaoAXu1Q9Qsye4zIlYWZez4&_nc_ht=scontent.ford4-1.fna&oh=a4e1420f0511eb9d9250c24972717378&oe=60267F8E"  />
+                <img style={{transform:"contrast(110%)"}} src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fil9.picdn.net%2Fshutterstock%2Fvideos%2F8703328%2Fthumb%2F1.jpg&f=1&nofb=1"  />
+                {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/139161256_401661237611576_4042659441680050870_n.jpg?_nc_cat=107&ccb=2&_nc_sid=ae9488&_nc_ohc=qqLT1UEJFckAX82x7GE&_nc_oc=AQmuHF9rj93xv4sgiXSwuh26joX0gKsmzIa02P7EuT5GZaoAXu1Q9Qsye4zIlYWZez4&_nc_ht=scontent.ford4-1.fna&oh=a4e1420f0511eb9d9250c24972717378&oe=60267F8E"  /> */}
                 {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/123663810_3430637943721289_2567445918402708699_n.jpg?_nc_cat=106&ccb=2&_nc_sid=ae9488&_nc_ohc=FZXG8zCpQ6UAX_YhDWN&_nc_ht=scontent.ford4-1.fna&oh=0d018f77349f3968bad309cd6415d34d&oe=6026559C"  /> */}
                 {/* <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/138843953_247805586718448_8273137570015003973_n.jpg?_nc_cat=102&ccb=2&_nc_sid=ae9488&_nc_ohc=9hKauIaMFeAAX_a3uwd&_nc_ht=scontent.ford4-1.fna&oh=b412f1d2539079a3241a58fd8b1a1415&oe=602774E9"  /> */}
             

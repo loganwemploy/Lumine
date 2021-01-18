@@ -39,6 +39,9 @@ import SubHero from '../components/SubHero';
 import QuickLinks from '../components/QuickLinks';
 import Coupon from '../components/Coupon';
 import BubbleCategories from '../components/BubbleCategories';
+import GradientTry from '../components/GradientTry';
+import MainBanner from '../components/MainBanner';
+import CategoriesBanner from '../components/CategoriesBanner';
 
 
 
@@ -59,79 +62,41 @@ export default function Home() {
       {/* <Catalog /> */}
       {/* {productDetailWithBreadCrumbs} */}
       {/* <Gooey /> */}
-      <Hero />
-      <SubHero />
-      <BubbleCategories />
+      {/* <Hero />
+      <SubHero /> */}
+      {/* <GradientTry /> */}
+      {/* <BubbleCategories /> */}
+      
       {/*  */}
-      <div className="jumbotron" id="home" style={{marginTop:'20vh',color:'#222'}}>
-  <h1>Hello!<br/>We are Lumi Candle Boutique.</h1>
-  <p style={{width:'50vw',textAlign:'left',color:'#222'}}>Perfectly handcrafted soy wax candles with essential oil scents for every mood! Local business based in Chicago, 
-  Hey everyone, I've been super excited to share my journey of starting my own small business with you all and can't wait to continue to do so!</p>
+      {/* <div className="jumbotron" id="home" style={{marginTop:'20vh',color:'#222',height:'100%',minHeight:'44vh',backgroundImage:"url('https://www.toptal.com/designers/subtlepatterns/patterns/watercolor.png)')",backgroundPosition:'center',maxWidth:'100vw',overflow:'hidden', margin:'auto',padding:'0 0 12em 0'}}>
+  <h1 style={{color:'#efefef',background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",padding:'5px 7px',maxWidth:'32vw'}}>Champagne Rose</h1>
+  <p style={{width:'50vw',textAlign:'left',color:'#efefef',background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",padding:'5px 7px',width:'44vw'}}>Perfectly handcrafted soy wax candle with your Valentine in mind.</p>
+  <div><h3 style={{background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",width: "14vw",padding:'5px 7px', color: 'gold',fontSize:'22px'}}>NEW</h3>
+  
+  </div>
+  <img className="champrose" style={{width:'18vw',position:'absolute',transform:'translate3d(52vw,-12em,0)',borderRadius:'0.88em'}} src="https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg" alt=""/>
   <ul className="list-inline" style={{display:'flex'}}>
-    <li><a className="btn btn-default btn-lg" href="https://www.facebook.com/mtrifunovski" title="Me on Facebook" target="_blank"><i className="fa fa-facebook"></i></a></li>
-    <li><a className="btn btn-default btn-lg" href="https://twitter.com/" title="Me on Twitter" target="_blank"><i className="fa fa-twitter"></i></a></li>
-    <li><a className="btn btn-default btn-lg" href="https://github.com/Matko95" title="Me on GitHub" target="_blank"><i className="fa fa-github"></i></a></li>
-    <li><a className="btn btn-default btn-lg" href="https://www.freecodecamp.com/matko95" title="Me on FreeCodeCamp" target="_blank"><i className="fa fa-fire"></i></a></li>
+  <button className="btn btn-danger">See this candle</button>
+  <div style={{width:'20px',}}></div>
+  <button className="btn btn-danger">See all candles</button>
   </ul>
-</div>
+  
+</div> */}
 
       {/* <SubSubSectionv2 /> */}
-      <div style={{width:"100%"}}></div>
+      {/* <div style={{width:"100%"}}></div>
       <div className="site-wrap" >
-  <header className="site-header active cf">
-    <div className="site-header-left">
-      <nav className="site-nav">
-        <ul>
-          <li><a style={{borderRadius:'1.32em'}} href="#">Home</a></li>
-         
-        </ul>
-      </nav>
-    </div>
-    <div className="site-header-right">
-      <h1 className="logo-mb">Logan<br/>Wilson</h1>
-    </div>
-  </header>
-  <section className="site-content-wrap">
-    
-      <div className="project" >
-        <div className="site-content-left" style={{marginTop:'-21vh'}}>
-          <span className="vertical-datestamp">2021</span>
-          <h1>Lumi Candle Boutique</h1>
-          <h2>Handpoured Handcrafted Candles</h2>
-          <ul className="project-meta">
-            <li><strong>Insta:</strong>@lumicandleboutique</li>
-            <li><strong>FBLink:</strong> <a href="#">www.facebook.com/lumicandleboutique</a></li>
-          </ul>
-          <p>Hey everyone, I've been super excited to share my journey of starting my own small business with you all and can't wait to continue to do so!</p>
-          <ul className="project-tags">
-            <li>#small business</li>
-            <li>#support small business</li>
-            <li>#women owned business</li>
-            <li>#latina owned business</li>
-            <li>#chicago business</li>
-            <li>#all natural</li>
-          </ul>
-        </div>
-        <div className="site-content-right">
-          <div className="project-devices">
-            
-          
-            
-          </div>
-        </div>
-      </div>
-    
-    
-    
-    
-  </section>
+ 
+
   <footer className="site-footer">
     
   </footer>
   
 </div>
 
-      <Footer />
+      <Footer /> */}
+      <MainBanner />
+      <CategoriesBanner />
       {/* </div> */}
       {/* <SuggestProduct /> */}
    {/* <Slider /> */}
@@ -216,7 +181,12 @@ export default function Home() {
 
         }
 
-
+        .champrose {
+          transform: scale(1);
+        }
+        .champrose:hover {
+          transform: scale(1.1);
+        }
 
 
 .site-header { background-color:#5a9abf;border-bottom:solid 5px #444; }
