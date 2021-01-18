@@ -43,6 +43,8 @@ import GradientTry from '../components/GradientTry';
 import MainBanner from '../components/MainBanner';
 import CategoriesBanner from '../components/CategoriesBanner';
 import OfferStyleOne from '../components/OfferStyleOne';
+import TopHeader from '../components/TopHeader';
+import OptionsTable from '../components/OptionsTable';
 // import AstroCards from '../components/AstroCards';
 
 
@@ -60,7 +62,8 @@ export default function Home() {
     <Head>
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
     </Head>
-    <div style={{width:'100%',paddingTop:'14vh'}}>
+    <div style={{width:'100%',paddingTop:'14.25vh'}}>
+    <TopHeader />
 {/* <OverlayModal /> */}
       {/* <Catalog /> */}
       {/* {productDetailWithBreadCrumbs} */}
@@ -68,34 +71,19 @@ export default function Home() {
       {/* <Hero />
       <SubHero /> */}
       {/* <GradientTry /> */}
-      {/* <BubbleCategories /> */}
       
       {/*  */}
-      {/* <div className="jumbotron" id="home" style={{marginTop:'20vh',color:'#222',height:'100%',minHeight:'44vh',backgroundImage:"url('https://www.toptal.com/designers/subtlepatterns/patterns/watercolor.png)')",backgroundPosition:'center',maxWidth:'100vw',overflow:'hidden', margin:'auto',padding:'0 0 12em 0'}}>
-  <h1 style={{color:'#efefef',background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",padding:'5px 7px',maxWidth:'32vw'}}>Champagne Rose</h1>
-  <p style={{width:'50vw',textAlign:'left',color:'#efefef',background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",padding:'5px 7px',width:'44vw'}}>Perfectly handcrafted soy wax candle with your Valentine in mind.</p>
-  <div><h3 style={{background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",width: "14vw",padding:'5px 7px', color: 'gold',fontSize:'22px'}}>NEW</h3>
-  
-  </div>
-  <img className="champrose" style={{width:'18vw',position:'absolute',transform:'translate3d(52vw,-12em,0)',borderRadius:'0.88em'}} src="https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg" alt=""/>
-  <ul className="list-inline" style={{display:'flex'}}>
-  <button className="btn btn-danger">See this candle</button>
-  <div style={{width:'20px',}}></div>
-  <button className="btn btn-danger">See all candles</button>
-  </ul>
-  
-</div> */}
-
-      {/* <SubSubSectionv2 /> */}
+{/* 
+      <SubSubSectionv2 /> */}
       {/* <div style={{width:"100%"}}></div>
       <div className="site-wrap" >
- 
+      
 
   <footer className="site-footer">
-    
+  
   </footer>
   
-</div>
+  </div>
 
       <Footer /> */}
       <MainBanner />
@@ -105,6 +93,9 @@ export default function Home() {
       {/* </div> */}
       {/* <SuggestProduct /> */}
    <Slider />
+     <BubbleCategories />
+      <OptionsTable />
+      {/* <Footer /> */}
      {/* <Gooey /> */}
      {/* <Countdown /> */}
      {/* <div style={{display:'flex',flexDirection:'column',height:'auto', marginTop:'-150vh',width:'100%',maxWidth:'100vw',boxSizing:'border-box',}}>
@@ -122,6 +113,20 @@ export default function Home() {
   {/* <Gooey /> */}
   {/* <button style={{position:'absolute',top:'150vh',left:'23vw',zIndex:'999999999'}} onClick={()=>{setIsProductPage(!isProductPage)}}>toggle pages</button> */}
 
+  <div className="jumbotron" id="home" style={{marginTop:'20vh',color:'#222',height:'100%',minHeight:'44vh',backgroundImage:"url('https://www.toptal.com/designers/subtlepatterns/patterns/watercolor.png)')",backgroundPosition:'center',maxWidth:'100vw',overflow:'hidden', margin:'auto',padding:'0 0 12em 0'}}>
+  <h1 style={{color:'#efefef',background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",padding:'5px 7px',maxWidth:'32vw'}}>Champagne Rose</h1>
+  <p style={{width:'50vw',textAlign:'left',color:'#efefef',background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",padding:'5px 7px',width:'44vw'}}>Perfectly handcrafted soy wax candle with your Valentine in mind.</p>
+  <div><h3 style={{background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",width: "14vw",padding:'5px 7px', color: 'gold',fontSize:'22px'}}>NEW</h3>
+  
+  </div>
+  <img className="champrose" style={{width:'18vw',position:'absolute',transform:'translate3d(52vw,-12em,0)',borderRadius:'0.88em'}} src="https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg" alt=""/>
+  <ul className="list-inline" style={{display:'flex'}}>
+  <button className="btn btn-danger">See this candle</button>
+  <div style={{width:'20px',}}></div>
+  <button className="btn btn-danger">See all candles</button>
+  </ul>
+  
+  </div>
 
 
 
