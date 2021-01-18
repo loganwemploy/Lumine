@@ -58,6 +58,7 @@ export default function Home() {
     <Head>
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
     </Head>
+    <div style={{width:'100%',height:'10vh'}}></div>
 {/* <OverlayModal /> */}
       {/* <Catalog /> */}
       {/* {productDetailWithBreadCrumbs} */}
