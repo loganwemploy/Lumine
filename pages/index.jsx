@@ -1,4 +1,6 @@
-import  { useState, useEffect } from 'react';
+import  { useState, useEffect,useContext } from 'react';
+
+
 import Head from "next/head";
 // import Hero from "../components/Hero";
 import BreadCrumbs from "../components/BreadCrumbs";
@@ -46,6 +48,7 @@ import OfferStyleOne from '../components/OfferStyleOne';
 import TopHeader from '../components/TopHeader';
 import OptionsTable from '../components/OptionsTable';
 import PopModal from '../components/PopModal';
+import { UserContext } from '../UserContext';
 // import AstroCards from '../components/AstroCards';
 
 
@@ -66,7 +69,10 @@ export default function Home() {
  const popModalToggle = () => {
    setIsPopModal(!isPopModal)
  }
+
+const users = useContext(UserContext);
   return (
+
     <div className="body">
     <Head>
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
@@ -95,6 +101,7 @@ export default function Home() {
   </div>
 
       <Footer /> */}
+      <div>{users.map((m,index)=>(<h3>welcome {m.name}</h3>))}</div>
       <MainBanner />
       {isPopModal ? <PopModal popModalToggle={ popModalToggle }/> : null }
       {/* <AstroCards /> */}

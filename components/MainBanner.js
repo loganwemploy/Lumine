@@ -79,7 +79,7 @@ class MainBanner extends Component {
                                                         </a>
                                                     </Link>
 
-                                                    <Link href="/products-right-sidebar">
+                                                    <Link href="/shop">
                                                         <a 
                                                             className={
                                                                 `optional-btn ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
@@ -247,7 +247,7 @@ class MainBanner extends Component {
                                                     sale 15% OFF 02/2021 - 05/2021 
                                                 </p>
                                                 
-                                                <div className="btn-box">
+                                                <div className="btn-box" style={{borderRadius:"1.23em"}}>
                                                     <Link href="/products-left-sidebar">
                                                         <a 
                                                             className={

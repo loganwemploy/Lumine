@@ -21,6 +21,7 @@ const StyledPopModal = styled.div`
   background: linear-gradient(to right, #f49 10%, #99e2f3 68%);
   z-index: 999999;
   filter: brightness(1.32);
+  
 
 .card {
   align-items: center;

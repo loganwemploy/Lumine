@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{ useContext } from 'react'
 import styled from 'styled-components';
 import Head from 'next/head'
+import { UserContext } from '../UserContext'
 
 const StyledPLP = styled.div`
+
+
   @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 *,
 *:before,
@@ -492,7 +495,8 @@ main {
         }
 
 `;
-const PLP = () => {
+const PLP = (props) => {
+  const users = useContext(UserContext);
     return (
         <StyledPLP>
             <Head>
@@ -530,23 +534,25 @@ const PLP = () => {
   </div>
   </div> */}
 <main>
-	<div className="responsive-container">
+	<div className="responsive-container" style={{marginTop:'-5em'}}>
 		<div className="grid">
-			<div className="grid-column">
-								<a className="product" href="#">
+			<div className="grid" style={{display:'flex', marginTop:'-1.9em'}}>
+      {/* <div>{users.map((m,index)=>(<h3>welcome {m.name}</h3>))}</div> */}
+							{users.map((m,index)=>(	
+              <a className="product" href="#" style={{minWidth:'23vw'}}>
 					<div className="product-image">
 						<img src="https://assets.codepen.io/285131/cosmonaut.jpg" />
 					</div>
 					<div className="product-content">
 						<div className="product-info">
-							<h2 className="product-title">Cosmonaut</h2>
-							<p className="product-price">$ 10</p>
+							<h2 className="product-title">{m.name}</h2>
+							<p className="product-price">${m.age}</p>
 						</div>
-						<button className="product-action"><i className="material-icons-outlined">favorite_border</i></button>
+						<button className="product-action"><i className="material-icons-outlined">{m.id} is id number</i></button>
 					</div>
-				</a>
+				</a>))}
 
-				<a className="product" href="#">
+				{/* <a className="product" href="#">
 					<div className="product-image">
 						<img src="https://assets.codepen.io/285131/hand-drawn-monster-milkshake.jpg" />
 					</div>
@@ -633,7 +639,7 @@ const PLP = () => {
 						</div>
 						<button className="product-action"><i className="material-icons-outlined">favorite_border</i></button>
 					</div>
-				</a>
+				</a> */}
 			</div>
 		</div>
 	</div>
