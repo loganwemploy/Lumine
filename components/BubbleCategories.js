@@ -531,15 +531,15 @@ const BubbleCategories = () => {
       <br/>
       <ul className="scroll-view overflowing scroller">
         <li className="candles-scroller-item">
-          <img width="76" height="76" src="https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e15/c108.295.501.501a/s150x150/136156754_749114445707836_3445262598425093892_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rSWfcLtwySgAX9f4lSJ&tp=1&oh=9a99be87b60e5da3713df6c896d059cb&oe=60008011" className="candles-scroller-item-img" style={{color:"#003A80",backgroundImage:"url('https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e15/c108.295.501.501a/s150x150/136156754_749114445707836_3445262598425093892_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rSWfcLtwySgAX9f4lSJ&tp=1&oh=9a99be87b60e5da3713df6c896d059cb&oe=60008011')"}}/>
+          <img width="76" height="76" src="https://placehold.it/300x300.jpg" className="candles-scroller-item-img" style={{color:"#003A80",backgroundImage:"url('https://placehold.it/300x300.jpg')"}}/>
           <span className="candles-scroller-label" style={{fontWeight:'bold'}}>Floral🌷</span>
         </li>
         <li className="candles-scroller-item">
-          <img width="76" height="76" src="https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e15/c190.513.368.368a/s150x150/133726559_992690507919020_8546259111030935261_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=2HFtkCzwWjwAX8DqiKX&tp=1&oh=14040df1fbb0ad2254b30328b00fefe6&oe=600099B9" className="candles-scroller-item-img" style={{color:'#C8E3D9',backgroundImage:"url('https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e15/c190.513.368.368a/s150x150/133726559_992690507919020_8546259111030935261_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=2HFtkCzwWjwAX8DqiKX&tp=1&oh=14040df1fbb0ad2254b30328b00fefe6&oe=600099B9')"}}/>
+          <img width="76" height="76" src="https://placehold.it/300x300.jpg" className="candles-scroller-item-img" style={{color:'#C8E3D9',backgroundImage:"url('https://placehold.it/300x300.jpg')"}}/>
           <span className="candles-scroller-label">Winter</span>
         </li>
         <li className="candles-scroller-item">
-          <img width="76" height="76" src="https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/s150x150/133913325_821073181798604_788126432030632948_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_ohc=VQC9WYYewxsAX8Ncsum&tp=1&oh=7de1a6f605dd3d2c99abc29ce3e7f42d&oe=602788BB" className="candles-scroller-item-img" style={{color:"#FF0040",backgroundImage:"url(https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/s150x150/133913325_821073181798604_788126432030632948_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_ohc=VQC9WYYewxsAX8Ncsum&tp=1&oh=7de1a6f605dd3d2c99abc29ce3e7f42d&oe=602788BB')"}}/>
+          <img width="76" height="76" src="https://placehold.it/300x300.jpg" className="candles-scroller-item-img" style={{color:"#FF0040",backgroundImage:"url(https://placehold.it/300x300.jpg')"}}/>
           <span className="candles-scroller-label">Classic✨</span>
         </li>
         <li className="candles-scroller-item">
@@ -547,7 +547,7 @@ const BubbleCategories = () => {
           <span className="candles-scroller-label">HOLIDAY🎄</span>
         </li>
         <li className="candles-scroller-item">
-          <img width="76" height="76" src="https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e35/c222.488.390.390a/s150x150/133874519_130906585423123_5729245378527867555_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=iAlTJg8pWeQAX-NJxNu&tp=1&oh=59dcf003a319c7c3769cd1025629005a&oe=6000930B" className="candles-scroller-item-img" style={{color:"#121416",backgroundImage:"url('https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e35/c222.488.390.390a/s150x150/133874519_130906585423123_5729245378527867555_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=iAlTJg8pWeQAX-NJxNu&tp=1&oh=59dcf003a319c7c3769cd1025629005a&oe=6000930B')"}}/>
+          <img width="76" height="76" src="https://instagram.ford4-1.fna.fbcdn.net/v/t51.2885-15/e35/c222.488.390.390a/s150x150/133874519_130906585423123_5729245378527867555_n.jpg?_nc_ht=instagram.ford4-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=iAlTJg8pWeQAX-NJxNu&tp=1&oh=59dcf003a319c7c3769cd1025629005a&oe=6000930B" className="candles-scroller-item-img" style={{color:"#121416",backgroundImage:"url('https://placehold.it/300x300.jpg')"}}/>
           <span className="candles-scroller-label">New</span>
         </li>
       </ul>

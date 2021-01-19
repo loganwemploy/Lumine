@@ -105,25 +105,28 @@ class MainBanner extends Component {
                                         {({ isVisible }) => (
                                             <div className="main-banner-content">
                                                 <span
+                                                style={{color:'#ddd'}}
                                                     className={
                                                         isVisible ? "sub-title animated fadeInUp slow opacityOne" : 'opacityZero'
                                                     }
                                                 >
-                                                    Exclusive Offer!
+                                                    Exclusive Candle DUO of the Month!
                                                 </span>
                                                 <h1
                                                     className={
                                                         isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'
                                                     }
+                                                    style={{color:'#222'}}
                                                 >
-                                                    com Collection!
+                                                    Champagne Rose&nbsp;&amp;&nbsp;SweetHeart!
                                                 </h1>
                                                 <p
+                                                style={{color:'#efefef'}}
                                                     className={
                                                         isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'
                                                     }
                                                 >
-                                                    sale 15% OFF 02/2021 - 05/2021 
+                                                   available until 1/30/2021
                                                 </p>
                                                 
                                                 <div className="btn-box">
@@ -220,6 +223,7 @@ class MainBanner extends Component {
                                         {({ isVisible }) => (
                                             <div className="main-banner-content">
                                                 <span
+                                                style={{color:'#efefef'}}
                                                     className={
                                                         isVisible ? "sub-title animated fadeInUp slow opacityOne" : 'opacityZero'
                                                     }
@@ -227,6 +231,7 @@ class MainBanner extends Component {
                                                     Exclusive Offer!
                                                 </span>
                                                 <h1
+                                                style={{color:'hotpink'}}
                                                     className={
                                                         isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'
                                                     }
@@ -234,6 +239,7 @@ class MainBanner extends Component {
                                                     Classic Collection!
                                                 </h1>
                                                 <p
+                                                style={{color:'#efefef'}}
                                                     className={
                                                         isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'
                                                     }

@@ -4,7 +4,7 @@ const StyledFooter = styled.div`
   /* Mini reset */
  position: absolute;
  z-index: 99999999;
-bottom: 0;
+bottom: -420%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;

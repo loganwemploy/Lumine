@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import  { useState, useEffect } from 'react';
 import Head from "next/head";
 // import Hero from "../components/Hero";
 import BreadCrumbs from "../components/BreadCrumbs";
@@ -45,6 +45,7 @@ import CategoriesBanner from '../components/CategoriesBanner';
 import OfferStyleOne from '../components/OfferStyleOne';
 import TopHeader from '../components/TopHeader';
 import OptionsTable from '../components/OptionsTable';
+import PopModal from '../components/PopModal';
 // import AstroCards from '../components/AstroCards';
 
 
@@ -56,13 +57,21 @@ import OptionsTable from '../components/OptionsTable';
 export default function Home() {
 
  const [isProductPage, setIsProductPage] = useState(false)
+ const [isPopModal, setIsPopModal] = useState(false)
+
+ useEffect(() => {
+   setTimeout(popModalToggle, 7000)
+ }, [])
  
+ const popModalToggle = () => {
+   setIsPopModal(!isPopModal)
+ }
   return (
     <div className="body">
     <Head>
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
     </Head>
-    <div style={{width:'100%',paddingTop:'14.25vh'}}>
+    <div style={{width:'100%',paddingTop:'14.05vh'}}>
     <TopHeader />
 {/* <OverlayModal /> */}
       {/* <Catalog /> */}
@@ -87,6 +96,7 @@ export default function Home() {
 
       <Footer /> */}
       <MainBanner />
+      {isPopModal ? <PopModal popModalToggle={ popModalToggle }/> : null }
       {/* <AstroCards /> */}
       <CategoriesBanner />
       <OfferStyleOne />
@@ -95,6 +105,7 @@ export default function Home() {
    <Slider />
      <BubbleCategories />
       <OptionsTable />
+      <Footer />
       {/* <Footer /> */}
      {/* <Gooey /> */}
      {/* <Countdown /> */}
@@ -113,7 +124,7 @@ export default function Home() {
   {/* <Gooey /> */}
   {/* <button style={{position:'absolute',top:'150vh',left:'23vw',zIndex:'999999999'}} onClick={()=>{setIsProductPage(!isProductPage)}}>toggle pages</button> */}
 
-  <div className="jumbotron" id="home" style={{marginTop:'20vh',color:'#222',height:'100%',minHeight:'44vh',backgroundImage:"url('https://www.toptal.com/designers/subtlepatterns/patterns/watercolor.png)')",backgroundPosition:'center',maxWidth:'100vw',overflow:'hidden', margin:'auto',padding:'0 0 12em 0'}}>
+  {/* <div className="jumbotron" id="home" style={{marginTop:'20vh',color:'#222',height:'100%',minHeight:'44vh',backgroundImage:"url('https://www.toptal.com/designers/subtlepatterns/patterns/watercolor.png)')",backgroundPosition:'center',maxWidth:'100vw',overflow:'hidden', margin:'auto',padding:'2em 2em 12em 2em'}}>
   <h1 style={{color:'#efefef',background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",padding:'5px 7px',maxWidth:'32vw'}}>Champagne Rose</h1>
   <p style={{width:'50vw',textAlign:'left',color:'#efefef',background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",padding:'5px 7px',width:'44vw'}}>Perfectly handcrafted soy wax candle with your Valentine in mind.</p>
   <div><h3 style={{background: "linear-gradient(to right, #c62a2a 32%, #f3a899 68%)",width: "14vw",padding:'5px 7px', color: 'gold',fontSize:'22px'}}>NEW</h3>
@@ -126,7 +137,7 @@ export default function Home() {
   <button className="btn btn-danger">See all candles</button>
   </ul>
   
-  </div>
+  </div> */}
 
 
 
