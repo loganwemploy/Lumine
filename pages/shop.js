@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import Catalog from '../components/Catalog';
 import PLP from '../components/PLP';
 
 const StyledShop = styled.div`
@@ -9,6 +10,7 @@ const StyledShop = styled.div`
 const Shop = () => {
     return (
         <StyledShop>
+            {/* <Catalog /> */}
             <PLP />
         </StyledShop>
     )

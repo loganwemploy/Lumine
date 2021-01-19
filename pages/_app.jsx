@@ -10,7 +10,20 @@ const MyApp =(props)=> {
  
     const { Component,pageProps } = props;
     
-  const [value, setValue] = useState([{name:'roger',id:1,age:9},{name:'lyra',id:2,age:8}]);
+  const [value, setValue] = useState([{name:'eucalyptus mint',
+image:'https://placehold.it/200x200.jpg',
+brand:"lumi candle boutique",
+category: "classic",
+description: "a crisp and delicious eucalyptus mint candle to promote relaxation and a whole center",
+price:1499,
+countInStock:4},{name:'lavender bliss',
+image:'https://placehold.it/200x200.jpg',
+brand:"lumi candle boutique",
+category: "floral",
+description: "a floral lavender candle to promote good circulation and good vibes",
+price:1499,
+countInStock:3}
+]);
 
     return (
       <UserContext.Provider value={value}>

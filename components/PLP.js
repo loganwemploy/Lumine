@@ -541,12 +541,20 @@ const PLP = (props) => {
 							{users.map((m,index)=>(	
               <a className="product" href="#" style={{minWidth:'23vw'}}>
 					<div className="product-image">
-						<img src="https://assets.codepen.io/285131/cosmonaut.jpg" />
+						<img style={{minWidth:'100%'}} src={m.image} />
 					</div>
 					<div className="product-content">
 						<div className="product-info">
 							<h2 className="product-title">{m.name}</h2>
-							<p className="product-price">${m.age}</p>
+							<p className="product-price">${`${m.price*0.01}`}</p>
+							<p className="product-price">{m.description}</p>
+							<p className="product-price" style={{color:'#04f'}}>{m.category} collection</p>
+              
+{/* brand:"lumi candle boutique",
+category: "classic",
+description: "a crisp and delicious eucalyptus mint candle to promote relaxation and a whole center",
+price:1499,
+countInStock:4} */}
 						</div>
 						<button className="product-action"><i className="material-icons-outlined">{m.id} is id number</i></button>
 					</div>
