@@ -125,7 +125,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin-top: 7em;
+  margin-top: 2.3em;
 }
 
 .grid-column {
@@ -492,6 +492,10 @@ main {
             .case-study-images li .hero-number-back{
                 font-size: 32vw;
             } 
+
+            .grid a {
+              width: 33vw;
+              }
         }
 
 `;
@@ -534,9 +538,9 @@ const PLP = (props) => {
   </div>
   </div> */}
 <main>
-	<div className="responsive-container" style={{marginTop:'-5em'}}>
-		<div className="grid">
-			<div className="grid" style={{display:'flex', marginTop:'-1.9em'}}>
+	<div className="responsive-container" style={{marginTop:'0.23em'}}>
+		<div className="grid" style={{width:'90vw',margin:'auto'}}>
+			<div className="grid" style={{width:'88vw',margin:'auto'}}>
       {/* <div>{users.map((m,index)=>(<h3>welcome {m.name}</h3>))}</div> */}
 							{users.map((m,index)=>(	
               <a className="product" href="#" style={{minWidth:'23vw'}}>
@@ -549,6 +553,8 @@ const PLP = (props) => {
 							<p className="product-price">${`${m.price*0.01}`}</p>
 							<p className="product-price">{m.description}</p>
 							<p className="product-price" style={{color:'#04f'}}>{m.category} collection</p>
+              <button className="product-price" style={{borderRadius:'1.23em',backgroundColor:'#222',color: '#efefef'}}><i className="material-icons-outlined">shopping_cart</i>&nbsp;Add&nbsp;To&nbsp;Cart</button>
+              </div>
               
 {/* brand:"lumi candle boutique",
 category: "classic",
@@ -556,8 +562,6 @@ description: "a crisp and delicious eucalyptus mint candle to promote relaxation
 price:1499,
 countInStock:4} */}
 						</div>
-						<button className="product-action"><i className="material-icons-outlined">{m.id} is id number</i></button>
-					</div>
 				</a>))}
 
 				{/* <a className="product" href="#">

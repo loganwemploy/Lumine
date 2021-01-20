@@ -79,6 +79,7 @@ const users = useContext(UserContext);
     </Head>
     <div style={{width:'100%',paddingTop:'14.05vh'}}>
     <TopHeader />
+    
 {/* <OverlayModal /> */}
       {/* <Catalog /> */}
       {/* {productDetailWithBreadCrumbs} */}
@@ -101,7 +102,7 @@ const users = useContext(UserContext);
   </div>
 
       <Footer /> */}
-      <div>{users.map((m,index)=>(<h3>welcome {m.name}</h3>))}</div>
+      {/* <div>{users.map((m,index)=>(<h3>welcome {m.name}</h3>))}</div> */}
       <MainBanner />
       {isPopModal ? <PopModal popModalToggle={ popModalToggle }/> : null }
       {/* <AstroCards /> */}
