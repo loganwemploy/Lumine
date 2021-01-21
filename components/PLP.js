@@ -1,7 +1,9 @@
 import React,{ useContext } from 'react'
-import styled from 'styled-components';
+// import { useRouter } from 'next/router'
+import styled from 'styled-components'
 import Head from 'next/head'
 import { UserContext } from '../UserContext'
+import Products from '../components/Products'
 
 const StyledPLP = styled.div`
 
@@ -501,6 +503,17 @@ main {
 `;
 const PLP = (props) => {
   const users = useContext(UserContext);
+  let useIt = null;
+  // const router = useRouter();
+  // const { pid } = router.query;
+  function extractID(m){
+console.log('yay');
+console.log('e logged', m)
+console.log('')
+ useIt = m.id;
+ console.log(useIt);
+//  router.push(`/products/${useIt}`);
+  }
     return (
         <StyledPLP>
             <Head>
@@ -543,26 +556,10 @@ const PLP = (props) => {
 			<div className="grid" style={{width:'88vw',margin:'auto'}}>
       {/* <div>{users.map((m,index)=>(<h3>welcome {m.name}</h3>))}</div> */}
 							{users.map((m,index)=>(	
-              <a className="product" href="#" style={{minWidth:'23vw'}}>
-					<div className="product-image">
-						<img style={{minWidth:'100%'}} src={m.image} />
-					</div>
-					<div className="product-content">
-						<div className="product-info">
-							<h2 className="product-title">{m.name}</h2>
-							<p className="product-price">${`${m.price*0.01}`}</p>
-							<p className="product-price">{m.description}</p>
-							<p className="product-price" style={{color:'#04f'}}>{m.category} collection</p>
-              <button className="product-price" style={{borderRadius:'1.23em',backgroundColor:'#222',color: '#efefef'}}><i className="material-icons-outlined">shopping_cart</i>&nbsp;Add&nbsp;To&nbsp;Cart</button>
-              </div>
-              
-{/* brand:"lumi candle boutique",
-category: "classic",
-description: "a crisp and delicious eucalyptus mint candle to promote relaxation and a whole center",
-price:1499,
-countInStock:4} */}
-						</div>
-				</a>))}
+                
+               <Products key={index} extractID={extractID} m={m} />
+             
+        ))}
 
 				{/* <a className="product" href="#">
 					<div className="product-image">

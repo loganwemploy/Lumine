@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 import BreadCrumbs from "./BreadCrumbs";
 
-const ProductDetailAltv2 = () => {
+const ProductDetailAltv2 = ({filtered}) => {
   const [isChecked, setIsChecked] = useState(true);
+  console.log('props',filtered)
   return (
     <>
          {/* <BreadCrumbs /> */}
@@ -11,7 +12,8 @@ const ProductDetailAltv2 = () => {
         <div className="section">
           <div className="info-wrap mob-margin">
             <p className="title-up">Branded Corporate Tshirt</p>
-            <h2>Gildan Comfort Tee {isChecked}</h2>
+            {/* <h2>Gildan Comfort Tee {isChecked}</h2> */}
+            <h2 style={{color: '#efefef'}}>{filtered[0].name}</h2>
             <h4>
               $24 <span>$37</span>
             </h4>
@@ -24,6 +26,7 @@ const ProductDetailAltv2 = () => {
                 checked
               />
               <label for="desc-1">Description</label>
+              
               <input
                 className="desc-btn"
                 type="radio"
@@ -136,12 +139,12 @@ const ProductDetailAltv2 = () => {
 	      	<div className="back-color tshirt-5"></div>	
 	      	<div className="back-color tshirt-6"></div>	 */}
 
-          <a href="https://imsretail.com" className="logo" target="_blank">
+          {/* <a href="https://imsretail.com" className="logo" target="_blank">
             <img
               src="https://www.imsretail.com/wp-content/uploads/2020/01/Intergated_Merchandising_Solutions_Dark-1.png"
               alt=""
             />
-          </a>
+          </a> */}
         </div>
       </div>
       <style jsx>{`
@@ -151,9 +154,9 @@ const ProductDetailAltv2 = () => {
           font-size: 15px;
           line-height: 1.7;
           color: #fff;
-          background-color: #1f2029;
+          background-image: linear-gradient(196deg, #dcdcdc, #5f7991);
           min-height: 100vh;
-          margin: 5.75em 0 0 0;
+          margin: 0.5em 0 0 0;
           padding: 0;
           overflow-y: hidden;
         }
@@ -161,7 +164,7 @@ const ProductDetailAltv2 = () => {
           font-family: "Poppins", sans-serif;
           font-weight: 400;
           font-size: 16px;
-          line-height: 1.7;
+          line-height: 1.32;
           color: #fff;
           margin: 0;
         }
@@ -217,7 +220,7 @@ const ProductDetailAltv2 = () => {
         }
         label.first-color {
           margin-left: 500px;
-          background-image: url("https://dl3.pushbulletusercontent.com/6ETQ6jj36yRyMkk1hJEa48ZjoeEh567e/mat1.jpg");
+          background-image: url("https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg");
         }
         label.colorswatch-2 {
           background-image: url("https://dl3.pushbulletusercontent.com/YF4fP8qncIl7mkKfooYfRua5u9ZIZcly/mat2.jpg");
@@ -326,14 +329,14 @@ const ProductDetailAltv2 = () => {
         }
         .back-color.tshirt-2 {
           background-image: linear-gradient(196deg, #f1a9a9, #e66767);
-          background-image: linear-gradient(196deg, #4c4c4c, #262626);
+          background-image: linear-gradient(196deg, #dcdcdc, #999);
           opacity: 0;
         }
         .for-colorswatch-2:checked ~ .back-color.tshirt-2 {
           opacity: 1;
         }
         .back-color.tshirt-3 {
-          background-image: linear-gradient(196deg, #8a9fb2, #5f7991);
+          background-image: linear-gradient(196deg, #dcdcdc, #5f7991);
           opacity: 0;
         }
         .for-colorswatch-3:checked ~ .back-color.tshirt-3 {
@@ -376,8 +379,8 @@ const ProductDetailAltv2 = () => {
           font-size: 13px;
           line-height: 1.2;
           color: #fff;
-          margin-top: 0;
-          margin-bottom: 10px;
+          margin-top: -1.5em;
+          margin-bottom: 5px;
         }
         h2 {
           font-family: "Poppins", sans-serif;
