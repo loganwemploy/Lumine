@@ -248,7 +248,7 @@ const ProductDetailAltv2 = ({filtered}) => {
           z-index: 9;
           transition: all 550ms linear;
           transition-delay: 100ms;
-          background-position: center top;
+          background-position: center bottom;
           background-size: 100%;
           background-repeat: no-repeat;
           background-image: url("https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg");
