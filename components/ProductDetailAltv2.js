@@ -251,7 +251,7 @@ const ProductDetailAltv2 = ({filtered}) => {
           background-position: center top;
           background-size: 100%;
           background-repeat: no-repeat;
-          background-image: url("https://tshirt2u.com.my/wp-content/uploads/2018/08/Heather-Cardinal.png");
+          background-image: url("https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg");
           opacity: 0;
         }
         .for-colorswatch-1:checked ~ .img-wrap.tshirt-1 {

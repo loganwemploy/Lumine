@@ -23,8 +23,8 @@ countInStock:4},
 // 
 {
 id:'2',
-name:'lavender bliss',
-image:'https://placehold.it/200x200.jpg',
+name:'champagne rose',
+image:'https://dl3.pushbulletusercontent.com/vuhMsr91md9WjwAN7rXjt4bzr2I0iVGs/137578364_1538381899693720_2086790160106281551_n.jpg',
 brand:"lumi candle boutique",
 category: "floral",
 description: "a floral lavender candle to promote good circulation and good vibes",
