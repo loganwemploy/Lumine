@@ -13,7 +13,7 @@ const pid = (props) => {
   
   const matchProduct = (product) => {
   // return product.id === users[0].id
-  return product.id === users.id
+  return product.id === users[0].id
 }
   let filtered = users.filter(matchProduct);
   console.log('filtered',filtered)
