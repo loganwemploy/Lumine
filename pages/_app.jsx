@@ -34,7 +34,7 @@ countInStock:3},
 {
 id:'3',
 name:'Limoncello',
-image:'https://placehold.it/200x200.jpg',
+image:'https://placehold.it/202x200.jpg',
 brand:"lumi candle boutique",
 category: "floral",
 description: "a fresh lemon candle to promote good circulation and good vibes",

@@ -126,8 +126,8 @@ const ProductDetailAltv2 = ({filtered}) => {
               <i className="uil uil-shopping-cart icon"></i> Add To Cart
             </a>
           </div>
-          <div className="img-wrap tshirt-1"></div>
-          <div className="img-wrap tshirt-2"></div>
+          <div className="img-wrap tshirt-1" style={{backgroundImage:`url(${filtered[0].image})`}}></div>
+          {/* <div className="img-wrap tshirt-2"></div> */}
           {/* <div className="img-wrap tshirt-3"></div>
 	      	<div className="img-wrap tshirt-4"></div>
 	      	<div className="img-wrap tshirt-5"></div>
@@ -260,7 +260,7 @@ const ProductDetailAltv2 = ({filtered}) => {
           background-position: 0 -100px;
         }
         .img-wrap.tshirt-2 {
-          background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftshirt2u.com.my%2Fwp-content%2Fuploads%2F2017%2F03%2F63V00-5-1.png&f=1&nofb=1");
+          background-image: url("https://placehold.it/200X200.jpg");
           background-position: 0 -10px;
         }
         .for-colorswatch-2:checked ~ .img-wrap.tshirt-2 {
