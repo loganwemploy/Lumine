@@ -12,7 +12,7 @@ const Products = ({m,extractID}) => {
     return (
         <StyledProducts>
              <Link as={`/${m.category}/${m.id}`} href="/[products]/[pid]">
-              <button onClick={()=>{extractID(m)}}  className="product" href="#" style={{minWidth:'23vw',width:'100%'}}>
+              <button onClick={()=>{extractID(m)}}  className="product" style={{minWidth:'23vw',width:'100%'}}>
 					<div className="product-image">
 						<img style={{minWidth:'100%'}} src={m.image} />
 					</div>
