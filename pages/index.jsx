@@ -331,6 +331,14 @@ const users = useContext(UserContext);
 
   
 }
+font-family: "Corporate-s", Helvetica, sans-serif;
+
+h1 {
+  font-size: 6rem;
+  font-weight: 400;
+  font-family: "Corporate-a", Georgia, serif;
+  color: #222;
+}
 
 
 
