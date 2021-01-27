@@ -111,9 +111,9 @@ const users = useContext(UserContext);
       {/* </div> */}
       {/* <SuggestProduct /> */}
    <Slider />
-     <BubbleCategories />
+     {/* <BubbleCategories />
       <OptionsTable />
-      <Footer />
+      <Footer /> */}
       {/* <Footer /> */}
      {/* <Gooey /> */}
      {/* <Countdown /> */}
