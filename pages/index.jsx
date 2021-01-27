@@ -104,7 +104,7 @@ const users = useContext(UserContext);
       <Footer /> */}
       {/* <div>{users.map((m,index)=>(<h3>welcome {m.name}</h3>))}</div> */}
       <MainBanner />
-      {isPopModal ? <PopModal popModalToggle={ popModalToggle }/> : null }
+      {/* {isPopModal ? <PopModal popModalToggle={ popModalToggle }/> : null } */}
       {/* <AstroCards /> */}
       <CategoriesBanner />
       <OfferStyleOne />
