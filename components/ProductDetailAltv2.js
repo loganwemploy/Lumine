@@ -4,8 +4,8 @@ import BreadCrumbs from "./BreadCrumbs";
 
 const ProductDetailAltv2 = ({filtered,routeID}) => {
   const [isChecked, setIsChecked] = useState(true);
-  console.log('props',filtered);
-  console.log('routeId',routeID);
+  // console.log('props',filtered);
+  // console.log('routeId',routeID);
   return (
     <>
          {/* <BreadCrumbs /> */}

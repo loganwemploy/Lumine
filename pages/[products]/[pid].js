@@ -6,11 +6,11 @@ import ProductDetailAltv2 from '../../components/ProductDetailAltv2';
 
 const pid = (props) => {
   const router = useRouter();
-  console.log('rtrqry',router.query);
+  // console.log('rtrqry',router.query);
   let routeID = router.query.pid;
-  console.log('routeid',routeID);
+  // console.log('routeid',routeID);
   const users = useContext(UserContext);
-  console.log('usersss',users);
+  // console.log('usersss',users);
   
   
   const matchProduct = (product,routeID) => {
@@ -18,7 +18,7 @@ const pid = (props) => {
   return product.id === users[routeID].id
 }
   let filtered = users.filter(matchProduct);
-  console.log('filtered',filtered)
+  // console.log('filtered',filtered)
 
     return (
       
