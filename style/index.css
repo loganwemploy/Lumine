@@ -12063,9 +12063,9 @@ Products Details Area CSS
     display: none;
   }
   .main-banner {
-    height: auto;
-    padding-top: 160px;
-    padding-bottom: 160px;
+        height: auto;
+        padding-top: 24vh;
+        padding-bottom: 20vh;
   }
   .main-banner.banner-bg2 {
     background-position: top left;

@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 import BreadCrumbs from "./BreadCrumbs";
 
-const ProductDetailAltv2 = ({filtered}) => {
+const ProductDetailAltv2 = ({filtered,routeID}) => {
   const [isChecked, setIsChecked] = useState(true);
-  console.log('props',filtered)
+  console.log('props',filtered);
+  console.log('routeId',routeID);
   return (
     <>
          {/* <BreadCrumbs /> */}
@@ -13,7 +14,7 @@ const ProductDetailAltv2 = ({filtered}) => {
           <div className="info-wrap mob-margin">
             <p className="title-up">Branded Corporate Tshirt</p>
             {/* <h2>Gildan Comfort Tee {isChecked}</h2> */}
-            <h2 style={{color: '#efefef'}}>{filtered[0].name}</h2>
+            <h2 style={{color: '#efefef'}}>{filtered[routeID-1].name}</h2>
             <h4>
               $24 <span>$37</span>
             </h4>
@@ -126,7 +127,7 @@ const ProductDetailAltv2 = ({filtered}) => {
               <i className="uil uil-shopping-cart icon"></i> Add To Cart
             </a>
           </div>
-          <div className="img-wrap tshirt-1" style={{backgroundImage:`url(${filtered[0].image})`}}></div>
+          <div className="img-wrap tshirt-1" style={{backgroundImage:`url(${filtered[routeID-1].image})`}}></div>
           {/* <div className="img-wrap tshirt-2"></div> */}
           {/* <div className="img-wrap tshirt-3"></div>
 	      	<div className="img-wrap tshirt-4"></div>

@@ -7,12 +7,12 @@ const StyledProducts = styled.div`
   
 `;
 
-const Products = ({m,extractID}) => {
+const Products = ({m,extractID,useIt}) => {
     const users = useContext(UserContext);
     return (
         <StyledProducts>
              <Link as={`/${m.category}/${m.id}`} href="/[products]/[pid]">
-              <button onClick={()=>{extractID(m)}}  className="product" style={{minWidth:'23vw',width:'100%'}}>
+              <button onClick={()=>{extractID(m,useIt)}}  className="product" style={{minWidth:'23vw',width:'100%'}}>
 					<div className="product-image">
 						<img style={{minWidth:'100%'}} src={m.image} />
 					</div>
