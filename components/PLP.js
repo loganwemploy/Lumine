@@ -503,13 +503,12 @@ main {
 `;
 const PLP = (props) => {
   const users = useContext(UserContext);
-  let useIt = null;
+  let useIt;
   // const router = useRouter();
   // const { pid } = router.query;
   function extractID(m){
-console.log('yay');
-console.log('e logged', m)
-console.log('')
+e.preventDefault;
+
  useIt = m.id;
  console.log(useIt);
 //  router.push(`/products/${useIt}`);
@@ -557,7 +556,7 @@ console.log('')
       {/* <div>{users.map((m,index)=>(<h3>welcome {m.name}</h3>))}</div> */}
 							{users.map((m,index)=>(	
                 
-               <Products key={index} extractID={extractID} m={m} useIt={useIt} />
+               <Products key={index} extractID={extractID} m={m} />
              
         ))}
 
