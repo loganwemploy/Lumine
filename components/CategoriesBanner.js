@@ -47,7 +47,7 @@ class CategoriesBanner extends Component {
 
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="single-categories-box">
-                                <img src="https://images.pexels.com/photos/811575/pexels-photo-811575.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="image" />
+                                <img src="https://scontent.ford4-1.fna.fbcdn.net/v/t1.15752-9/143870587_336062087562463_6205092068656424463_n.jpg?_nc_cat=102&ccb=2&_nc_sid=ae9488&_nc_ohc=PRhFBZIvnbEAX8OmCpd&_nc_ht=scontent.ford4-1.fna&oh=b3f1df9908128f3cab3dcb3503fff46d&oe=6038B652" alt="image" />
 
                                 <div className="content">
                                     <span>Your Looks</span>

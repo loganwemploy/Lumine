@@ -49,6 +49,7 @@ import TopHeader from '../components/TopHeader';
 import OptionsTable from '../components/OptionsTable';
 import PopModal from '../components/PopModal';
 import { UserContext } from '../UserContext';
+import ComicBook from '../components/ComicBook';
 // import AstroCards from '../components/AstroCards';
 
 
@@ -159,6 +160,15 @@ const users = useContext(UserContext);
 <div className="foot">
 <ProductDetailAltv2 />
 </div> */}
+
+
+
+<ComicBook />
+
+<Footer />
+
+
+
       {/* -unhighlight the component and its corresponding import located at top of page*/}
      
       {/* ### ProductDetail Component containing a mock up of the Product Detail Page. ### */}

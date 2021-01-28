@@ -4833,13 +4833,15 @@ Products Details CSS
 Offer CSS
 =================================================*/
 .offer-area {
+  background-color: mistyrose;
   position: relative;
   z-index: 1;
   background-position: 100% 10%;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-image: url('https://scontent.ford4-1.fna.fbcdn.net/v/t1.0-9/s1080x2048/133889969_110385647616521_4874927093369998931_o.jpg?_nc_cat=103&ccb=2&_nc_sid=a26aad&_nc_ohc=EOYc0KtTgvEAX98PShy&_nc_ht=scontent.ford4-1.fna&tp=7&oh=7518eca19c7e72e0f2b91686a919649f&oe=602D147E');
-  filter: contrast(112%) brightness(120%);
+  background-image: url('https://scontent.ford4-1.fna.fbcdn.net/v/t1.0-9/142514795_120491476605938_6542932390101172954_n.jpg?_nc_cat=101&ccb=2&_nc_sid=8bfeb9&_nc_ohc=f6uK-QJy_JwAX-qvUJh&_nc_ht=scontent.ford4-1.fna&oh=108ee375729d93b80c671783c2b2652c&oe=60364C6C');
+  /* background-image: url('https://scontent.ford4-1.fna.fbcdn.net/v/t1.0-9/142514795_120491476605938_6542932390101172954_n.jpg?_nc_cat=101&ccb=2&_nc_sid=8bfeb9&_nc_ohc=f6uK-QJy_JwAX-qvUJh&_nc_ht=scontent.ford4-1.fna&oh=108ee375729d93b80c671783c2b2652c&oe=60364C6C'); */
+  /* filter: contrast(112%) brightness(120%); */
 }
 
 /* .offer-area.bg-image1 {

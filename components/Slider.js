@@ -285,8 +285,8 @@ const Slider = () => {
              <section>
       <div className="card card--fill">
         <div className="card-body">
-          <h2>Champagne Rose</h2>
-          <p className="card-description">Champagne rose is a all around favorite, and this month's candle of the month. Living room, kitchen, bathroom, any room can be a floral crisp trip to the garden.</p>
+          <h2>100% Natural &amp; Vegan</h2>
+          <p className="card-description">Organic Soy Wax candles made witbh you in mind.</p>
           <button style={{backgroundColor:'#222',color:'white'}} type="submit" className="btn btn--primary">Browse All Collections</button>
         </div>
       </div>

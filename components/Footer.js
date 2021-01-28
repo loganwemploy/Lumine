@@ -1,262 +1,318 @@
 import React from 'react'
 import styled from 'styled-components';
+
 const StyledFooter = styled.div`
-  /* Mini reset */
- position: absolute;
- z-index: 99999999;
-bottom: -420%;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  width: 100%;
-  max-width: 100vw;
-  overflow-x: hidden;
-  transform: translate3d(0,32vh,0);
+  height: 100%;
 
 
-/* Layout debug */
-.lo-debug *,
-.lo-debug *:before,
-.lo-debug *:after {
-  outline: 1px solid rgba(255, 0, 255, 0.5);
-}
-
-/* MQ Debug*/
-.mq-debug:before {
-  content: "Up to 449px";
-  display: block;
-  text-align: center;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 2.5;
-  font-family: "SFMono-Regular", Consolas, "Lucida Console", Courier, monospace;
-  white-space: nowrap;
-  color: #3A3934;
-  background-color: #FFF8DD;
-  border-bottom: 1px solid #E6E0C9;
-}
-@media (min-width: 450px) and (max-width: 767px) {
-  .mq-debug:before {
-    content: "from 450px, up to 767px";
-  }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  .mq-debug:before {
-    content: "from 768px, up to 1023px";
-  }
-}
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .mq-debug:before {
-    content: "from 1024px, up to 1279px";
-  }
-}
-@media (min-width: 1280px) and (max-width: 1919px) {
-  .mq-debug:before {
-    content: "from 1280px, up to 1919px";
-  }
-}
-@media (min-width: 1920px) {
-  .mq-debug:before {
-    content: "from 1920px and up";
-  }
-}
-
-/* Set fonts */
-@font-face {
-  font-family: "Proxima Nova";
-  font-style: normal;
-  font-weight: 400;
-  src: local("ProximaNova-Book");
-}
-@font-face {
-  font-family: "Proxima Nova";
-  font-style: normal;
-  font-weight: 500;
-  src: local("ProximaNova-Semibold");
-}
-/* System */
-@font-face {
-  font-family: system;
-  font-style: normal;
-  font-weight: 300;
-  src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Ubuntu Regular"), local("Segoe UI"), local("Roboto"), local("DroidSans"), local("Tahoma");
-}
-/* Page styles */
-html {
-  background: #F4F4F4;
-  color: #121416;
-  font: normal 400 1em/1.5 "Proxima Nova", system, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-/* Main Grid */
-.page-grid {
-  display: grid;
-  grid-template-rows: 81px 1fr auto;
-}
-
-/* Header */
-.global-header {
+  font: 11px "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto;
   display: flex;
+  flex-flow: column nowrap;
   justify-content: space-between;
-  align-items: center;
-  height: 3.75rem;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  background-color: #fff;
-}
-@media (min-width : 768px) {
-  .global-header {
-    height: 5.0625rem;
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
-  }
-}
 
-/* Footer */
-.global-footer {
-  color: #fff;
-  background: #121416;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 18px;
-  padding: 0 18px;
-}
-@media (min-width : 768px) {
-  .global-footer {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
 
-/* Footer nav */
-.footer-nav {
+ul {
   list-style: none;
-  padding-top: 40px;
-  margin-bottom: 18px;
 }
 
-.footer-nav-item__title {
-  font-weight: 800;
-  text-transform: uppercase;
-  font-size: 0.6875em;
-  letter-spacing: 0.03125em;
-  margin: 0 0 0.75em;
-  padding: 0;
-}
-
-.footer-nav-item__link {
-  font-size: 0.8125em;
-  color: #fff;
+a {
   text-decoration: none;
 }
-.footer-nav-item__link:hover {
-  text-decoration: underline;
+
+.generic-anchor {
+  color: papayawhip;
+}
+.generic-anchor:visited {
+  color: papayawhip;
+}
+.generic-anchor:hover {
+  color: #ccc;
 }
 
-/* Copyright */
-.copyright {
-  grid-column: 1/span 4;
-  margin-bottom: 18px;
-  font-size: 0.6875em;
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
 }
 
-/* Icons */
-.icon {
-  display: inline-block;
-  vertical-align: middle;
-  width: 1em;
-  height: 1em;
-  position: relative;
-  font-size: 16px;
+main {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 10em "Oswald", sans-serif;
+  color: #9b9b9b;
   line-height: 1;
+}
+
+footer {
+  background: #222;
+  padding: 7vh 0 5vh 0;
+  width: 100%;
+  
+}
+
+.footer-list-top {
+  width: 33.333%;
+}
+
+.footer-list-top > li {
   text-align: center;
-  pointer-events: none;
-  fill: inherit;
+  padding-bottom: 10px;
 }
 
-.bump-right {
-  margin-left: 0.375rem;
+.footer-list-header {
+  padding: 10px 0 5px 0;
+  color: #fff;
+  font: 2.3vw "Oswald", sans-serif;
 }
 
-.bump-left {
-  margin-right: 0.375rem;
+.footer-list-anchor {
+  font: 1.3em "Open Sans", sans-serif;
 }
 
-.icon--tiny {
-  font-size: 0.5rem;
+.footer-social-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
 }
 
-.icon--small {
-  font-size: 0.75rem;
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 1px solid #ccc;
+  width: calc(100% - 20px);
 }
 
-.icon--medium {
-  font-size: 1.5rem;
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: #222;
+  padding: 0 20px;
 }
 
-.icon--large {
-  font-size: 2rem;
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 3.5em "Oswald", sans-serif;
+  color: #fff;
 }
 
-/* Helpers */
-.hide-mobile {
-  display: none !important;
+.footer-social-small {
+  font-size: 0.6em;
+  padding: 0px 20px;
 }
-@media (min-width : 768px) {
-  .hide-mobile {
-    display: inherit !important;
+
+.footer-social-overlap > a {
+  font-size: 3em;
+}
+
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em;
+}
+
+.footer-bottom-section {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.footer-bottom-section > div:first-child {
+  margin-right: auto;
+}
+
+.footer-bottom-wrapper {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.footer-address {
+  display: inline;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-list-header {
+    font-size: 2em;
+  }
+
+  .footer-list-anchor {
+    font-size: 1.1em;
+  }
+
+  .footer-social-connect {
+    font-size: 2.5em;
+  }
+
+  .footer-social-overlap > a {
+    font-size: 2.24em;
+  }
+
+  .footer-bottom-wrapper {
+    font-size: 1.3em;
   }
 }
+@media only screen and (max-width: 568px) {
+  main {
+    font-size: 5em;
+  }
 
-.hide-desktop {
-  display: inherit !important;
+  .footer-list-top {
+    width: 100%;
+  }
+
+  .footer-list-header {
+    font-size: 3em;
+  }
+
+  .footer-list-anchor {
+    font-size: 1.5em;
+  }
+
+  .footer-social-section {
+    justify-content: center;
+  }
+
+  .footer-social-section::after {
+    top: 25%;
+  }
+
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 20px;
+  }
+
+  .footer-bottom-section {
+    padding: 0 5px 10px 5px;
+  }
+
+  .footer-bottom-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
 }
-@media (min-width : 768px) {
-  .hide-desktop {
-    display: none !important;
+@media only screen and (max-width: 480px) {
+  .footer-social-overlap > a {
+    margin: auto;
+  }
+
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .footer-bottom-rights {
+    display: block;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-list-header {
+    font-size: 2.2em;
+  }
+
+  .footer-list-anchor {
+    font-size: 1.2em;
+  }
+
+  .footer-social-connect {
+    font-size: 2.4em;
+  }
+
+  .footer-social-overlap > a {
+    font-size: 2.24em;
+  }
+
+  .footer-bottom-wrapper {
+    font-size: 1.3em;
   }
 }
 `;
 
 const Footer = () => {
-    return (
-        <StyledFooter>
-       <div style={{height:'100vh',width:'100%',backgroundColor:'transparent'}}></div>     
+  return (
+    <StyledFooter>
+<footer className="flex-rw">
+  
+  <ul className="footer-list-top">
+    <li>
+      <h4 className="footer-list-header">About Lumi</h4></li>
+    <li><a href='/shop/about-mission' className="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
+    <li><a href='/promos.html' className="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
+    <li><a href='/retailers/new-retailers.html' className="generic-anchor footer-list-anchor" itemprop="significantLink">BECOME A RETAILER</a></li>
 
-<footer className="global-footer" role="contentinfo">
-  <ul className="footer-nav">
-    <li className="footer-nav-item"><span className="footer-nav-item__title">The Company</span></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">About Us</a></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">The Team</a></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">In The News</a></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Our App</a></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Newsletter</a></li>
+    <li><a href='/job-openings.html' itemprop="significantLink" className="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
+
+    <li><a href='/shop/about-show-schedule' className="generic-anchor footer-list-anchor" itemprop="significantLink">EVENTS</a></li>
   </ul>
-  <ul className="footer-nav">
-    <li className="footer-nav-item"><span className="footer-nav-item__title">Contact Us</span></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Get in Touch</a></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Advertise</a></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Careers</a></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Become a contributor</a></li>
+  <ul className="footer-list-top">
+    <li>
+      <h4 className="footer-list-header">The Gift Selection</h4></li>
+
+
+    <li><a href='/Angels/cat/id/70' className="generic-anchor footer-list-anchor">Candle of the Month</a></li>
+    <li><a href='/Home-Decor/cat/id/64' className="generic-anchor footer-list-anchor">Floral Collection</a></li>
+    <li><a href='/Mugs/cat/id/32' className="generic-anchor footer-list-anchor">Classic Collection</a></li>
+    <li><a href='/Pet-Lover/cat/id/108' className="generic-anchor footer-list-anchor">On Sale</a></li>
+    <li><a href='/Ladies-Accessories/cat/id/117' className="generic-anchor footer-list-anchor" target="_blank">Customize a Candle</a></li>
   </ul>
-  <ul className="footer-nav">
-    <li className="footer-nav-item"><span className="footer-nav-item__title">Legal</span></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Privacy Policy</a></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Terms of Use</a></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Cookie Policy</a></li>
-    <li className="footer-nav-item"><a href="" title="" className="footer-nav-item__link">Open Source Licenses</a></li>
+  <ul className="footer-list-top">
+    <li id='help'>
+      <h4 className="footer-list-header">Please Help Me</h4></li>
+    <li><a href='/shop/about-contact' className="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
+    <li><a href='/faq.html' className="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
+    <li id='find-a-store'><a href='/shop/store-locator' className="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
+    <li id='user-registration'><a href='/shop/user-registration?URL=' className="generic-anchor footer-list-anchor" itemprop="significantLink">NEW USERS</a></li>
+    <li id='order-tracking'><a href='/shop/order-status' itemprop="significantLink" className="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
   </ul>
-  <ul className="footer-nav">
-    <li className="footer-nav-item"><span className="footer-nav-item__title">Follow Us</span></li>
-   
-  </ul>
-  <div className="copyright">
+  <section className="footer-social-section flex-rw">
+      <span className="footer-social-overlap footer-social-connect">
+      Let's Get Social <span className="footer-social-small"></span> 
+      </span>
+      <span className="footer-social-overlap footer-social-icons-wrapper">
+      <a href="https://www.pinterest.com/paviliongift/" className="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i className="fa fa-pinterest"></i></a>
+      <a href="https://www.facebook.com/paviliongift" className="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i className="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/PavilionGiftCo" className="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i className="fa fa-twitter"></i></a>
+      <a href="http://instagram.com/paviliongiftcompany" className="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i className="fa fa-instagram"></i></a>
+      <a href="https://www.youtube.com/channel/UCYgUODvd0qXbu_LkUWpTVEg" className="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i className="fa fa-youtube"></i></a>
+      <a href="https://plus.google.com/+Paviliongift/posts" className="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i className="fa fa-google-plus"></i></a>
+      </span>
+  </section>
+  <section className="footer-bottom-section flex-rw">
+<div className="footer-bottom-wrapper">   
+<i className="fa fa-copyright" role="copyright">
  
-    <a href="" title="" className="nav-link"><svg className="" viewBox="0 0 135 40" width="135" height="40"></svg></a>
-     <span id="js-time">2021</span> Lumi Candle Boutique
-  </div>
+</i> 2020 Lumi Candle Boutique in <address className="footer-address" role="company address">Chicago, IL</address><span className="footer-bottom-rights"> -  - </span>
+    </div>
+    <div className="footer-bottom-wrapper">
+    <a href="/terms-of-use.html" className="generic-anchor" rel="nofollow">Terms</a> | <a href="/privacy-policy.html" className="generic-anchor" rel="nofollow">Privacy</a>
+      </div>
+  </section>
 </footer>
-        </StyledFooter>
-    )
+    </StyledFooter>
+  )
 }
 
 export default Footer
